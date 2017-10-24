@@ -1,5 +1,16 @@
+table {
+  border-collapse: collapse;
+}
+
+tr {
+  border: 1px #5B5B5B solid;
+}
+
 td {
   color: white;
+}
+
+td:nth-child(1) {
   border: 1px #5B5B5B solid;
 }
 
@@ -18,4 +29,16 @@ td.randomizeButton {
 
 body {
   background-color: #0b0b0b;
+}
+
+button {
+  background-color: gray;
+  border: 3px white solid;
+  padding: 15px 32px;
+  text-alight: center;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
 }
