@@ -1228,121 +1228,121 @@ Array.prototype.randomElement = function () {
         ]);
         
         // Killer Perks
-        CreateItem("A Nurse's Calling", "Assets/SurvivorPerks/A_Nurse's_Calling.png", "Perk", [
+        CreateItem("A Nurse's Calling", "Assets/KillerPerks/A_Nurse's_Calling.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Agitation", "Assets/SurvivorPerks/Agitation.png", "Perk", [
+        CreateItem("Agitation", "Assets/KillerPerks/Agitation.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Barbecue And Chili", "Assets/SurvivorPerks/Barbecue_And_Chili.png", "Perk", [
+        CreateItem("Barbecue And Chili", "Assets/KillerPerks/Barbecue_And_Chili.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Beast Of Prey", "Assets/SurvivorPerks/Beast_Of_Prey.png", "Perk", [
+        CreateItem("Beast Of Prey", "Assets/KillerPerks/Beast_Of_Prey.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Bitter Murmur", "Assets/SurvivorPerks/Bitter_Murmur.png", "Perk", [
+        CreateItem("Bitter Murmur", "Assets/KillerPerks/Bitter_Murmur.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Bloodhound", "Assets/SurvivorPerks/Bloodhound.png", "Perk", [
+        CreateItem("Bloodhound", "Assets/KillerPerks/Bloodhound.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Brutal Strength", "Assets/SurvivorPerks/Brutal_Strength.png", "Perk", [
+        CreateItem("Brutal Strength", "Assets/KillerPerks/Brutal_Strength.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Deerstalker", "Assets/SurvivorPerks/Deerstalker.png", "Perk", [
+        CreateItem("Deerstalker", "Assets/KillerPerks/Deerstalker.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Distressing", "Assets/SurvivorPerks/Distressing.png", "Perk", [
+        CreateItem("Distressing", "Assets/KillerPerks/Distressing.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Dying Light", "Assets/SurvivorPerks/Dying_Light.png", "Perk", [
+        CreateItem("Dying Light", "Assets/KillerPerks/Dying_Light.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Enduring", "Assets/SurvivorPerks/Enduring.png", "Perk", [
+        CreateItem("Enduring", "Assets/KillerPerks/Enduring.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Franklin's Demise", "Assets/SurvivorPerks/Franklin's_Demise.png", "Perk", [
+        CreateItem("Franklin's Demise", "Assets/KillerPerks/Franklin's_Demise.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Hex - Devour Hope", "Assets/SurvivorPerks/Hex_-_Devour_Hope.png", "Perk", [
+        CreateItem("Hex - Devour Hope", "Assets/KillerPerks/Hex_-_Devour_Hope.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Hex - Huntress Lullaby", "Assets/SurvivorPerks/Hex_-_Huntess_Lullaby.png", "Perk", [
+        CreateItem("Hex - Huntress Lullaby", "Assets/KillerPerks/Hex_-_Huntess_Lullaby.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Hex - No One Escapes Death", "Assets/SurvivorPerks/Hex_-No_One_Escapes_Death.png", "Perk", [
+        CreateItem("Hex - No One Escapes Death", "Assets/KillerPerks/Hex_-No_One_Escapes_Death.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Hex - Ruin", "Assets/SurvivorPerks/Hex_-_Ruin.png", "Perk", [
+        CreateItem("Hex - Ruin", "Assets/KillerPerks/Hex_-_Ruin.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Hex - The Third Seal", "Assets/SurvivorPerks/Hex_-_The_Third_Seal.png", "Perk", [
+        CreateItem("Hex - The Third Seal", "Assets/KillerPerks/Hex_-_The_Third_Seal.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Hex - Thrill Of The Hunt", "Assets/SurvivorPerks/Hex_-_Thrill Of The Hunt.png", "Perk", [
+        CreateItem("Hex - Thrill Of The Hunt", "Assets/KillerPerks/Hex_-_Thrill Of The Hunt.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Insidious", "Assets/SurvivorPerks/Insidious.png", "Perk", [
+        CreateItem("Insidious", "Assets/KillerPerks/Insidious.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Iron Grasp", "Assets/SurvivorPerks/Iron_Grasp.png", "Perk", [
+        CreateItem("Iron Grasp", "Assets/KillerPerks/Iron_Grasp.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Knock Out", "Assets/SurvivorPerks/Knock_Out.png", "Perk", [
+        CreateItem("Knock Out", "Assets/KillerPerks/Knock_Out.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Lightborn", "Assets/SurvivorPerks/Lightborn.png", "Perk", [
+        CreateItem("Lightborn", "Assets/KillerPerks/Lightborn.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Monior And Abuse", "Assets/SurvivorPerks/Monior_And_Abuse.png", "Perk", [
+        CreateItem("Monior And Abuse", "Assets/KillerPerks/Monior_And_Abuse.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Monstrous Shrine", "Assets/SurvivorPerks/Monstrous_Shrine.png", "Perk", [
+        CreateItem("Monstrous Shrine", "Assets/KillerPerks/Monstrous_Shrine.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Overcharge", "Assets/SurvivorPerks/Overcharge.png", "Perk", [
+        CreateItem("Overcharge", "Assets/KillerPerks/Overcharge.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Overwhelming Presence", "Assets/SurvivorPerks/Overwhelming_Presence.png", "Perk", [
+        CreateItem("Overwhelming Presence", "Assets/KillerPerks/Overwhelming_Presence.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Play With Your Food", "Assets/SurvivorPerks/Play_With_Your_Food.png", "Perk", [
+        CreateItem("Play With Your Food", "Assets/KillerPerks/Play_With_Your_Food.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Predator", "Assets/SurvivorPerks/Predator.png", "Perk", [
+        CreateItem("Predator", "Assets/KillerPerks/Predator.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Save The Best For Last", "Assets/SurvivorPerks/Save_Best_For_Last.png", "Perk", [
+        CreateItem("Save The Best For Last", "Assets/KillerPerks/Save_Best_For_Last.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Shadowborn", "Assets/SurvivorPerks/Shadowborn.png", "Perk", [
+        CreateItem("Shadowborn", "Assets/KillerPerks/Shadowborn.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Sloppy Butcher", "Assets/SurvivorPerks/Sloppy_Butcher.png", "Perk", [
+        CreateItem("Sloppy Butcher", "Assets/KillerPerks/Sloppy_Butcher.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Spies From The Shadows", "Assets/SurvivorPerks/Spies_From_The_Shadows.png", "Perk", [
+        CreateItem("Spies From The Shadows", "Assets/KillerPerks/Spies_From_The_Shadows.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Stridor", "Assets/SurvivorPerks/Stridor.png", "Perk", [
+        CreateItem("Stridor", "Assets/KillerPerks/Stridor.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Territorial Imperitive", "Assets/SurvivorPerks/Territorial_Imperitive.png", "Perk", [
+        CreateItem("Territorial Imperitive", "Assets/KillerPerks/Territorial_Imperitive.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Thanatophobia", "Assets/SurvivorPerks/Thanatophobia.png", "Perk", [
+        CreateItem("Thanatophobia", "Assets/KillerPerks/Thanatophobia.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Tinkerer", "Assets/SurvivorPerks/Tinkerer.png", "Perk", [
+        CreateItem("Tinkerer", "Assets/KillerPerks/Tinkerer.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Unnerving Presence", "Assets/SurvivorPerks/Unnerving_Presence.png", "Perk", [
+        CreateItem("Unnerving Presence", "Assets/KillerPerks/Unnerving_Presence.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Unrelenting", "Assets/SurvivorPerks/Unrelenting.png", "Perk", [
+        CreateItem("Unrelenting", "Assets/KillerPerks/Unrelenting.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Whispers", "Assets/SurvivorPerks/Whispers.png", "Perk", [
+        CreateItem("Whispers", "Assets/KillerPerks/Whispers.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
       }

@@ -1,23 +1,25 @@
 <html>
 <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
-    <script src="randomizer.js"></script>
+  <link rel="stylesheet" href="randomizer.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+  <script src="randomizer.js"></script>
 </head>
-<body ng-app="randomizerApp">
+<body ng-app="randomizerApp" bgcolor="black">
   <div ng-controller="randomizer as r">
-    Role: {{r.showState["Role"]}}<br />
-    Character: {{r.showState["Character"]}}<br />
-    Item/Weapon: {{r.showState["Item"]}}<br />
-    AddOn: {{r.showState["AddOn"][0]}}<br />
-    AddOn: {{r.showState["AddOn"][1]}}<br />
-    Offering: {{r.showState["Offering"]}}<br />
-    Perk: {{r.showState["Perk"][0]}}<br />
-    Perk: {{r.showState["Perk"][1]}}<br />
-    Perk: {{r.showState["Perk"][2]}}<br />
-    Perk: {{r.showState["Perk"][3]}}<br /><br />
-    
-    <button ng-click="r.Randomize()">Randomize</button>
+  <table>
+    <tr><td class="type">Role:</td><td class="typeImage"><img src="{{r.currentSelections['Role'].image}}" /></td><td class="typeValue">{{r.showState["Role"]}}</td></tr>
+    <tr><td class="type">Character:</td><td class="typeImage"><img src="{{r.currentSelections['Character'].image}}" /><td class="typeValue">{{r.showState["Character"]}}</td></tr>
+    <tr><td class="type">Item/Weapon:</td><td class="typeImage"><img src="{{r.currentSelections['Item'].image}}" /><td class="typeValue">{{r.showState["Item"]}}</td></tr>
+    <tr><td class="type">Add On:</td><td class="typeImage"><img src="{{r.currentSelections['AddOn'][0].image}}" /><td class="typeValue">{{r.showState["AddOn"][0]}}</td></tr>
+    <tr><td class="type">Add On:</td><td class="typeImage"><img src="{{r.currentSelections['AddOn'][1].image}}" /><td class="typeValue">{{r.showState["AddOn"][1]}}</td></tr>
+    <tr><td class="type">Offering:</td><td class="typeImage"><img src="{{r.currentSelections['Offering'].image}}" /><td class="typeValue">{{r.showState["Offering"]}}</td></tr>
+    <tr><td class="type">Perk:</td><td class="typeImage"><img src="{{r.currentSelections['Perk'][0].image}}" /><td class="typeValue">{{r.showState["Perk"][0]}}</td></tr>
+    <tr><td class="type">Perk:</td><td class="typeImage"><img src="{{r.currentSelections['Perk'][1].image}}" /><td class="typeValue">{{r.showState["Perk"][1]}}</td></tr>
+    <tr><td class="type">Perk:</td><td class="typeImage"><img src="{{r.currentSelections['Perk'][2].image}}" /><td class="typeValue">{{r.showState["Perk"][2]}}</td></tr>
+    <tr><td class="type">Perk:</td><td class="typeImage"><img src="{{r.currentSelections['Perk'][3].image}}" /><td class="typeValue">{{r.showState["Perk"][3]}}</td></tr>
+    <tr><td class="randomizeButton" colspan="3"><button ng-click="r.Randomize()">Randomize</button></td></tr>
+  </table>
   </div>
 </body>
 </html>

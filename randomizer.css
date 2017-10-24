@@ -1,0 +1,17 @@
+td {
+  color: white;
+  border: 1px white solid;
+}
+
+td.type {
+  font-weight: bold;
+  text-align: right;
+}
+
+td.typeImage {
+  text-align: center;
+}
+
+td.randomizeButton {
+  text-align: center;
+}
