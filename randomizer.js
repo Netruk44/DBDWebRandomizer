@@ -1169,7 +1169,7 @@ Array.prototype.randomElement = function () {
         CreateItem("No One Left Behind", "Assets/SurvivorPerks/No_One_Left_Behind.png", "Perk", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Object of Obsession", "Assets/SurvivorPerks/Object_of_Obsession.png", "Perk", [
+        CreateItem("Object of Obsession", "Assets/SurvivorPerks/Object_Of_Obsession.png", "Perk", [
           CreateRequirement("Role", ["Survivor"])
         ]);
         CreateItem("Open Handed", "Assets/SurvivorPerks/Open_Handed.png", "Perk", [
