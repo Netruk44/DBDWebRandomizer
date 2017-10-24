@@ -213,9 +213,9 @@ Array.prototype.randomElement = function () {
           CreateRequirement("Role", ["Survivor"])
         ]);
         
-        /*CreateItem("No Item", "", "Item", [
+        CreateItem("No Item", "", "Item", [
           CreateRequirement("Role", ["Survivor"])
-        ]);*/
+        ]);
         
         // Add-Ons (hoo boy, hope you're ready for this)
         // Trapper addons
@@ -891,8 +891,8 @@ Array.prototype.randomElement = function () {
           CreateRequirement("Item", ["Worn Out Tools", "Toolbox", "Mechanic's Toolbox", "Commodious Toolbox", "Engineer's Toolbox", "Alex's Toolbox"])
         ]);
         
-        //CreateItem("No Add-On", "", "AddOn", []);
-        //CreateItem("No Add-On ", "", "AddOn", []);
+        CreateItem("No Add-On", "", "AddOn", []);
+        CreateItem("No Add-On ", "", "AddOn", []);
         
         // Survivor Offerings
         CreateItem("Bog Laurel Sachet", "Assets/Offerings/BogLaurelSachet.png", "Offering", [
@@ -1068,9 +1068,9 @@ Array.prototype.randomElement = function () {
         CreateItem("Quarter Moon Bouquet", "Assets/Offerings/QuarterMoonBouquet.png", "Offering", []);
         CreateItem("Full Moon Bouquet", "Assets/Offerings/FullMoonBouquet.png", "Offering", []);
         
-        CreateItem("MacMillan Ledger Page", "Assets/Offerings/MacmillanLedgerPage.png", "Offering", []);
+        CreateItem("MacMillan Ledger Page", "Assets/Offerings/MacMillanLedgerPage.png", "Offering", []);
         CreateItem("Signed Ledger Page", "Assets/Offerings/SignedLedgerPage.png", "Offering", []);
-        CreateItem("MacMillan's Phalanx Bone", "Assets/Offerings/MacmillansPhalanxBone.png", "Offering", []);
+        CreateItem("MacMillan's Phalanx Bone", "Assets/Offerings/MacMillansPhalanxBone.png", "Offering", []);
         
         CreateItem("Shredded Plate", "Assets/Offerings/ShreddedPlate.png", "Offering", []);
         CreateItem("Virginia Plate", "Assets/Offerings/VirginiaPlate.png", "Offering", []);
@@ -1184,7 +1184,7 @@ Array.prototype.randomElement = function () {
         CreateItem("Prove Thyself", "Assets/SurvivorPerks/Prove_Thyself.png", "Perk", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Quick and Quiet", "Assets/SurvivorPerks/Quick_and_Quiet.png", "Perk", [
+        CreateItem("Quick and Quiet", "Assets/SurvivorPerks/Quick_And_Quiet.png", "Perk", [
           CreateRequirement("Role", ["Survivor"])
         ]);
         CreateItem("Resilience", "Assets/SurvivorPerks/Resilience.png", "Perk", [
@@ -1355,10 +1355,10 @@ Array.prototype.randomElement = function () {
           CreateRequirement("Role", ["Killer"])
         ]);
         
-        /*CreateItem("No Perk", "", "Perk", []);
+        CreateItem("No Perk", "", "Perk", []);
         CreateItem("No Perk ", "", "Perk", []);
         CreateItem("No Perk  ", "", "Perk", []);
-        CreateItem("No Perk   ", "", "Perk", []);*/
+        CreateItem("No Perk   ", "", "Perk", []);
       }
 
       vm.Clear = function() {
