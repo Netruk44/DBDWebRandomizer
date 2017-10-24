@@ -213,6 +213,10 @@ Array.prototype.randomElement = function () {
           CreateRequirement("Role", ["Survivor"])
         ]);
         
+        CreateItem("No Item", "", "Item", [
+          CreateRequirement("Role", ["Survivor"])
+        ]);
+        
         // Add-Ons (hoo boy, hope you're ready for this)
         // Trapper addons
         CreateItem("Trapper Gloves", "Assets/KillerAddons/Trapper_TrapperGloves.png", "AddOn", [
@@ -887,6 +891,9 @@ Array.prototype.randomElement = function () {
           CreateRequirement("Item", ["Worn Out Tools", "Toolbox", "Mechanic's Toolbox", "Commodious Toolbox", "Engineer's Toolbox", "Alex's Toolbox"])
         ]);
         
+        CreateItem("No Add-On", "", "AddOn", []);
+        CreateItem("No Add-On ", "", "AddOn", []);
+        
         // Survivor Offerings
         CreateItem("Bog Laurel Sachet", "Assets/Unknown_Offering.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
@@ -1092,6 +1099,8 @@ Array.prototype.randomElement = function () {
         CreateItem("Painted River Rock", "Assets/Unknown_Offering.png", "Offering", []);
         CreateItem("Children's Book", "Assets/Unknown_Offering.png", "Offering", []);
         CreateItem("The Last Mask", "Assets/Unknown_Offering.png", "Offering", []);
+        
+        CreateItem("No Offering", "", "Offering", []);
         
         // Survivor Perks
         CreateItem("Ace In The Hole", "Assets/SurvivorPerks/Ace_In_The_Hole.png", "Perk", [
@@ -1345,6 +1354,11 @@ Array.prototype.randomElement = function () {
         CreateItem("Whispers", "Assets/KillerPerks/Whispers.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
+        
+        CreateItem("No Perk", "", "Perk", []);
+        CreateItem("No Perk ", "", "Perk", []);
+        CreateItem("No Perk  ", "", "Perk", []);
+        CreateItem("No Perk   ", "", "Perk", []);
       }
 
       vm.Clear = function() {
