@@ -49,97 +49,97 @@ Array.prototype.randomElement = function () {
         CreateItem("Killer", "Assets/Killers.png", "Role", []);
         
         // Characters
-        CreateItem("Dwight", "Assets/Unknown_Person.png", "Character", [
+        CreateItem("Dwight", "Assets/Survivor/Dwight.jpg", "Character", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Meg", "Assets/Unknown_Person.png", "Character", [
+        CreateItem("Meg", "Assets/Survivor/Meg.jpg", "Character", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Claudette", "Assets/Unknown_Person.png", "Character", [
+        CreateItem("Claudette", "Assets/Survivor/Claudette.jpg", "Character", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Jake", "Assets/Unknown_Person.png", "Character", [
+        CreateItem("Jake", "Assets/Survivor/Jake.jpg", "Character", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Nea", "Assets/Unknown_Person.png", "Character", [
+        CreateItem("Nea", "Assets/Survivor/Nea.jpg", "Character", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Laurie", "Assets/Unknown_Person.png", "Character", [
+        CreateItem("Laurie", "Assets/Survivor/Laurie.jpg", "Character", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Ace", "Assets/Unknown_Person.png", "Character", [
+        CreateItem("Ace", "Assets/Survivor/Ace.jpg", "Character", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Bill", "Assets/Unknown_Person.png", "Character", [
+        CreateItem("Bill", "Assets/Survivor/Bill.jpg", "Character", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Feng", "Assets/Unknown_Person.png", "Character", [
+        CreateItem("Feng", "Assets/Survivor/Feng.jpg", "Character", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("David", "Assets/Unknown_Person.png", "Character", [
+        CreateItem("David", "Assets/Survivor/David.jpg", "Character", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        /*CreateItem("Kate", "Assets/Unknown_Person.png", "Character", [
+        /*CreateItem("Kate", "Assets/Survivor/Kate.jpg", "Character", [
           CreateRequirement("Role", ["Survivor"])
         ]);*/
         
-        CreateItem("Trapper", "Assets/Unknown_Person.png", "Character", [
+        CreateItem("Trapper", "Assets/Killer/Trapper.jpg", "Character", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Wraith", "Assets/Unknown_Person.png", "Character", [
+        CreateItem("Wraith", "Assets/Killer/Wraith.jpg", "Character", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Hillbilly", "Assets/Unknown_Person.png", "Character", [
+        CreateItem("Hillbilly", "Assets/Killer/Hillbilly.jpg", "Character", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Nurse", "Assets/Unknown_Person.png", "Character", [
+        CreateItem("Nurse", "Assets/Killer/Nurse.jpg", "Character", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Shape", "Assets/Unknown_Person.png", "Character", [
+        CreateItem("Shape", "Assets/Killer/Shape.jpg", "Character", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Hag", "Assets/Unknown_Person.png", "Character", [
+        CreateItem("Hag", "Assets/Killer/Hag.jpg", "Character", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Doctor", "Assets/Unknown_Person.png", "Character", [
+        CreateItem("Doctor", "Assets/Killer/Doctor.jpg", "Character", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Huntress", "Assets/Unknown_Person.png", "Character", [
+        CreateItem("Huntress", "Assets/Killer/Huntress.jpg", "Character", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Cannibal", "Assets/Unknown_Person.png", "Character", [
+        CreateItem("Cannibal", "Assets/Killer/Cannibal.jpg", "Character", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        /*CreateItem("Sandman", "Assets/Unknown_Person.png", "Character", [
+        /*CreateItem("Sandman", "Assets/Killer/Sandman.jpg", "Character", [
           CreateRequirement("Role", ["Killer"])
         ]);*/
         
         // Killer items (weapons)
-        CreateItem("Cleaver", "Assets/Unknown_Weapon.png", "Item", [
+        CreateItem("Trap", "Assets/KillerItems/Trap.png", "Item", [
           CreateRequirement("Character", ["Trapper"])
         ]);
-        CreateItem("Azarov's Skull", "Assets/Unknown_Weapon.png", "Item", [
+        CreateItem("Bell", "Assets/KillerItems/Bell.png", "Item", [
           CreateRequirement("Character", ["Wraith"])
         ]);
-        CreateItem("Hammer", "Assets/Unknown_Weapon.png", "Item", [
+        CreateItem("Hillbilly's Chainsaw", "Assets/KillerItems/Billy_Saw.png", "Item", [
           CreateRequirement("Character", ["Hillbilly"])
         ]);
-        CreateItem("Bonesaw", "Assets/Unknown_Weapon.png", "Item", [
+        CreateItem("Teleport", "Assets/KillerItems/Breath.png", "Item", [
           CreateRequirement("Character", ["Nurse"])
         ]);
-        CreateItem("Kitchen Knife", "Assets/Unknown_Weapon.png", "Item", [
+        CreateItem("Evil Within", "Assets/KillerItems/Evil.png", "Item", [
           CreateRequirement("Character", ["Shape"])
         ]);
-        CreateItem("Claws", "Assets/Unknown_Weapon.png", "Item", [
+        CreateItem("Hex", "Assets/KillerItems/Hex.png", "Item", [
           CreateRequirement("Character", ["Hag"])
         ]);
-        CreateItem("Stick", "Assets/Unknown_Weapon.png", "Item", [
+        CreateItem("Shock Therapy", "Assets/KillerItems/Spark.png", "Item", [
           CreateRequirement("Character", ["Doctor"])
         ]);
-        CreateItem("Broad Axe", "Assets/Unknown_Weapon.png", "Item", [
+        CreateItem("Hatchet", "Assets/KillerItems/Axe.png", "Item", [
           CreateRequirement("Character", ["Huntress"])
         ]);
-        CreateItem("Sledge", "Assets/Unknown_Weapon.png", "Item", [
+        CreateItem("Cannibal's Chainsaw", "Assets/KillerItems/Cannibal_Saw.png", "Item", [
           CreateRequirement("Character", ["Cannibal"])
         ]);
         
@@ -216,503 +216,503 @@ Array.prototype.randomElement = function () {
         // Add-Ons (hoo boy, hope you're ready for this)
         // Trapper addons
         CreateItem("Trapper Gloves", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Cleaver"])
+          CreateRequirement("Item", ["Trap"])
         ]);
         CreateItem("Strong Coil Spring", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Cleaver"])
+          CreateRequirement("Item", ["Trap"])
         ]);
         CreateItem("Serrated Jaws", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Cleaver"])
+          CreateRequirement("Item", ["Trap"])
         ]);
         CreateItem("Wax Brick", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Cleaver"])
+          CreateRequirement("Item", ["Trap"])
         ]);
         CreateItem("Trapper Bag", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Cleaver"])
+          CreateRequirement("Item", ["Trap"])
         ]);
         CreateItem("Trap Setters", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Cleaver"])
+          CreateRequirement("Item", ["Trap"])
         ]);
         CreateItem("Secondary Coil", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Cleaver"])
+          CreateRequirement("Item", ["Trap"])
         ]);
         CreateItem("Logwood Dye", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Cleaver"])
+          CreateRequirement("Item", ["Trap"])
         ]);
         CreateItem("4-Coil Spring Kit", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Cleaver"])
+          CreateRequirement("Item", ["Trap"])
         ]);
         CreateItem("Tar Bottle", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Cleaver"])
+          CreateRequirement("Item", ["Trap"])
         ]);
         CreateItem("Setting tools", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Cleaver"])
+          CreateRequirement("Item", ["Trap"])
         ]);
         CreateItem("Rusted Jaws", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Cleaver"])
+          CreateRequirement("Item", ["Trap"])
         ]);
         CreateItem("Oily Coil", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Cleaver"])
+          CreateRequirement("Item", ["Trap"])
         ]);
         CreateItem("Fastening Tools", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Cleaver"])
+          CreateRequirement("Item", ["Trap"])
         ]);
         CreateItem("Stitched Bag", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Cleaver"])
+          CreateRequirement("Item", ["Trap"])
         ]);
         CreateItem("Honing Stone", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Cleaver"])
+          CreateRequirement("Item", ["Trap"])
         ]);
         CreateItem("Bloody Coil", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Cleaver"])
+          CreateRequirement("Item", ["Trap"])
         ]);
         CreateItem("Diamond Stone", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Cleaver"])
+          CreateRequirement("Item", ["Trap"])
         ]);
         
         // Wraith addons
         CreateItem("Bone Clapper", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Azarov's Skull"])
+          CreateRequirement("Item", ["Bell"])
         ]);
         CreateItem("Swift Hunt - Soot", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Azarov's Skull"])
+          CreateRequirement("Item", ["Bell"])
         ]);
         CreateItem("Blink - Soot", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Azarov's Skull"])
+          CreateRequirement("Item", ["Bell"])
         ]);
         CreateItem("Blind warrior - Soot", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Azarov's Skull"])
+          CreateRequirement("Item", ["Bell"])
         ]);
         CreateItem("Coxcombed Clapper", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Azarov's Skull"])
+          CreateRequirement("Item", ["Bell"])
         ]);
         CreateItem("Windstorm - Soot", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Azarov's Skull"])
+          CreateRequirement("Item", ["Bell"])
         ]);
         CreateItem("Swift Hunt - Mud", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Azarov's Skull"])
+          CreateRequirement("Item", ["Bell"])
         ]);
         CreateItem("Blind Warrior - Mud", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Azarov's Skull"])
+          CreateRequirement("Item", ["Bell"])
         ]);
         CreateItem("All Seeing - Mud", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Azarov's Skull"])
+          CreateRequirement("Item", ["Bell"])
         ]);
         CreateItem("Windstorm - Mud", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Azarov's Skull"])
+          CreateRequirement("Item", ["Bell"])
         ]);
         CreateItem("The Ghost - Soot", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Azarov's Skull"])
+          CreateRequirement("Item", ["Bell"])
         ]);
         CreateItem("Swift Hunt - White", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Azarov's Skull"])
+          CreateRequirement("Item", ["Bell"])
         ]);
         CreateItem("Blind Warrior - White", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Azarov's Skull"])
+          CreateRequirement("Item", ["Bell"])
         ]);
         CreateItem("All Seeing - White", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Azarov's Skull"])
+          CreateRequirement("Item", ["Bell"])
         ]);
         CreateItem("Windstorm - Blood", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Azarov's Skull"])
+          CreateRequirement("Item", ["Bell"])
         ]);
         CreateItem("Blind Warrior - Blood", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Azarov's Skull"])
+          CreateRequirement("Item", ["Bell"])
         ]);
         CreateItem("All Seeing - Blood", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Azarov's Skull"])
+          CreateRequirement("Item", ["Bell"])
         ]);
         CreateItem("Blind Warrior - Spirit", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Azarov's Skull"])
+          CreateRequirement("Item", ["Bell"])
         ]);
         CreateItem("All Seeing - Spirit", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Azarov's Skull"])
+          CreateRequirement("Item", ["Bell"])
         ]);
         
         // Hillbilly addons (and also some Cannibal)
         CreateItem("Vegetable Oil", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Hammer", "Sledge"])
+          CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
         CreateItem("Spark Plug", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Hammer", "Sledge"])
+          CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
         CreateItem("Chainsaw File", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Hammer", "Sledge"])
+          CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
         CreateItem("Spiked Boots", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Hammer"])
+          CreateRequirement("Item", ["Hillbilly's Chainsaw"])
         ]);
         CreateItem("Speed Limiter", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Hammer", "Sledge"])
+          CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
         CreateItem("Shop Lubricant", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Hammer", "Sledge"])
+          CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
         CreateItem("Primer Bulb", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Hammer", "Sledge"])
+          CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
         CreateItem("Long Guide Bar", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Hammer", "Sledge"])
+          CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
         CreateItem("Homemade Muffler", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Hammer", "Sledge"])
+          CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
         CreateItem("Grisly Chains", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Hammer", "Sledge"])
+          CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
         CreateItem("Depth Gauge Rake", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Hammer", "Sledge"])
+          CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
         CreateItem("Death Engravings", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Hammer"])
+          CreateRequirement("Item", ["Hillbilly's Chainsaw"])
         ]);
         CreateItem("The Thompson's Mix", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Hammer"])
+          CreateRequirement("Item", ["Hillbilly's Chainsaw"])
         ]);
         CreateItem("Rusted Chains", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Hammer", "Sledge"])
+          CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
         CreateItem("Light Chassis", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Hammer", "Sledge"])
+          CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
         CreateItem("Doom Engravings", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Hammer"])
+          CreateRequirement("Item", ["Hillbilly's Chainsaw"])
         ]);
         CreateItem("Carburetor Tuning Guide", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Hammer", "Sledge"])
+          CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
         CreateItem("Thompson's Moonshine", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Hammer"])
+          CreateRequirement("Item", ["Hillbilly's Chainsaw"])
         ]);
         CreateItem("Begrimed Chains", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Hammer", "Sledge"])
+          CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
         
         // Nurse addons
         CreateItem("Wooden Horse", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Bonesaw"])
+          CreateRequirement("Item", ["Teleport"])
         ]);
         CreateItem("White Nit Comb", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Bonesaw"])
+          CreateRequirement("Item", ["Teleport"])
         ]);
         CreateItem("Torn Bookmark", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Bonesaw"])
+          CreateRequirement("Item", ["Teleport"])
         ]);
         CreateItem("Metal Spoon", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Bonesaw"])
+          CreateRequirement("Item", ["Teleport"])
         ]);
         CreateItem("Matchbox", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Bonesaw"])
+          CreateRequirement("Item", ["Teleport"])
         ]);
         CreateItem("Bad Man Keepsake", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Bonesaw"])
+          CreateRequirement("Item", ["Teleport"])
         ]);
         CreateItem("Pocket Watch", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Bonesaw"])
+          CreateRequirement("Item", ["Teleport"])
         ]);
         CreateItem("Dull Bracelet", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Bonesaw"])
+          CreateRequirement("Item", ["Teleport"])
         ]);
         CreateItem("Dark Cincture", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Bonesaw"])
+          CreateRequirement("Item", ["Teleport"])
         ]);
         CreateItem("Catatonic Boy's Treasure", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Bonesaw"])
+          CreateRequirement("Item", ["Teleport"])
         ]);
         CreateItem("Spasmodic Breath", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Bonesaw"])
+          CreateRequirement("Item", ["Teleport"])
         ]);
         CreateItem("Heavy Panting", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Bonesaw"])
+          CreateRequirement("Item", ["Teleport"])
         ]);
         CreateItem("Fragile Wheeze", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Bonesaw"])
+          CreateRequirement("Item", ["Teleport"])
         ]);
         CreateItem("Ataxic Respiration", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Bonesaw"])
+          CreateRequirement("Item", ["Teleport"])
         ]);
         CreateItem("Anxious Gasp", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Bonesaw"])
+          CreateRequirement("Item", ["Teleport"])
         ]);
         CreateItem("Plaid Flannel", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Bonesaw"])
+          CreateRequirement("Item", ["Teleport"])
         ]);
         CreateItem("Kavanagh's Last Breath", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Bonesaw"])
+          CreateRequirement("Item", ["Teleport"])
         ]);
         CreateItem("Jenner's Last Breath", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Bonesaw"])
+          CreateRequirement("Item", ["Teleport"])
         ]);
         CreateItem("Campbell's Last Breath", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Bonesaw"])
+          CreateRequirement("Item", ["Teleport"])
         ]);
         CreateItem("Bad Man's Last Breath", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Bonesaw"])
+          CreateRequirement("Item", ["Teleport"])
         ]);
         
         // Shape addons
         CreateItem("Tacky Earrings", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Kitchen Knife"])
+          CreateRequirement("Item", ["Evil Within"])
         ]);
         CreateItem("Boyfriend's Memo", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Kitchen Knife"])
+          CreateRequirement("Item", ["Evil Within"])
         ]);
         CreateItem("Blond Hair", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Kitchen Knife"])
+          CreateRequirement("Item", ["Evil Within"])
         ]);
         CreateItem("Reflective Fragment", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Kitchen Knife"])
+          CreateRequirement("Item", ["Evil Within"])
         ]);
         CreateItem("Memorial Flower", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Kitchen Knife"])
+          CreateRequirement("Item", ["Evil Within"])
         ]);
         CreateItem("Jewelry", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Kitchen Knife"])
+          CreateRequirement("Item", ["Evil Within"])
         ]);
         CreateItem("Hair Brush", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Kitchen Knife"])
+          CreateRequirement("Item", ["Evil Within"])
         ]);
         CreateItem("Glass Fragment", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Kitchen Knife"])
+          CreateRequirement("Item", ["Evil Within"])
         ]);
         CreateItem("Dead Rabbit", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Kitchen Knife"])
+          CreateRequirement("Item", ["Evil Within"])
         ]);
         CreateItem("Mirror Shard", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Kitchen Knife"])
+          CreateRequirement("Item", ["Evil Within"])
         ]);
         CreateItem("Judith's Journal", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Kitchen Knife"])
+          CreateRequirement("Item", ["Evil Within"])
         ]);
         CreateItem("Jewelry Box", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Kitchen Knife"])
+          CreateRequirement("Item", ["Evil Within"])
         ]);
         CreateItem("J. Meyers Memorial", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Kitchen Knife"])
+          CreateRequirement("Item", ["Evil Within"])
         ]);
         CreateItem("Hair Bow", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Kitchen Knife"])
+          CreateRequirement("Item", ["Evil Within"])
         ]);
         CreateItem("Vanity Mirror", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Kitchen Knife"])
+          CreateRequirement("Item", ["Evil Within"])
         ]);
         CreateItem("Tombstone Piece", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Kitchen Knife"])
+          CreateRequirement("Item", ["Evil Within"])
         ]);
         CreateItem("Scratched Mirror", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Kitchen Knife"])
+          CreateRequirement("Item", ["Evil Within"])
         ]);
         CreateItem("Lock of Hair", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Kitchen Knife"])
+          CreateRequirement("Item", ["Evil Within"])
         ]);
         CreateItem("Judith's Tombstone", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Kitchen Knife"])
+          CreateRequirement("Item", ["Evil Within"])
         ]);
         CreateItem("Fragrant Tuft of Hair", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Kitchen Knife"])
+          CreateRequirement("Item", ["Evil Within"])
         ]);
         
         // Hag addons
         CreateItem("Rope Necklet", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Claws"])
+          CreateRequirement("Item", ["Hex"])
         ]);
         CreateItem("Powdered Eggshell", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Claws"])
+          CreateRequirement("Item", ["Hex"])
         ]);
         CreateItem("Dead Fly Mud", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Claws"])
+          CreateRequirement("Item", ["Hex"])
         ]);
         CreateItem("Bog Water", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Claws"])
+          CreateRequirement("Item", ["Hex"])
         ]);
         CreateItem("Pussy Willow Catkins", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Claws"])
+          CreateRequirement("Item", ["Hex"])
         ]);
         CreateItem("Half Eggshell", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Claws"])
+          CreateRequirement("Item", ["Hex"])
         ]);
         CreateItem("Dragonfly Wings", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Claws"])
+          CreateRequirement("Item", ["Hex"])
         ]);
         CreateItem("Cypress Necklet", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Claws"])
+          CreateRequirement("Item", ["Hex"])
         ]);
         CreateItem("Bloodied Water", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Claws"])
+          CreateRequirement("Item", ["Hex"])
         ]);
         CreateItem("Willow Wreath", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Claws"])
+          CreateRequirement("Item", ["Hex"])
         ]);
         CreateItem("Swamp Orchid Necklet", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Claws"])
+          CreateRequirement("Item", ["Hex"])
         ]);
         CreateItem("Dried Cicada", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Claws"])
+          CreateRequirement("Item", ["Hex"])
         ]);
         CreateItem("Cracked Turtle Egg", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Claws"])
+          CreateRequirement("Item", ["Hex"])
         ]);
         CreateItem("Bloodied Mud", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Claws"])
+          CreateRequirement("Item", ["Hex"])
         ]);
         CreateItem("Scarred Hand", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Claws"])
+          CreateRequirement("Item", ["Hex"])
         ]);
         CreateItem("Rusty Shackles", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Claws"])
+          CreateRequirement("Item", ["Hex"])
         ]);
         CreateItem("Granma's Heart", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Claws"])
+          CreateRequirement("Item", ["Hex"])
         ]);
         CreateItem("Disfigured Ear", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Claws"])
+          CreateRequirement("Item", ["Hex"])
         ]);
         CreateItem("Waterlogged Show", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Claws"])
+          CreateRequirement("Item", ["Hex"])
         ]);
         CreateItem("Mint Rag", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Claws"])
+          CreateRequirement("Item", ["Hex"])
         ]);
         
         // Doctor addons
         CreateItem("Moldy Electrode", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Stick"])
+          CreateRequirement("Item", ["Shock Therapy"])
         ]);
         CreateItem("Maple Knight", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Stick"])
+          CreateRequirement("Item", ["Shock Therapy"])
         ]);
         CreateItem("Order - Class I", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Stick"])
+          CreateRequirement("Item", ["Shock Therapy"])
         ]);
         CreateItem("Calm - Class I", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Stick"])
+          CreateRequirement("Item", ["Shock Therapy"])
         ]);
         CreateItem("Scrapped Tape", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Stick"])
+          CreateRequirement("Item", ["Shock Therapy"])
         ]);
         CreateItem("Polished Electrode", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Stick"])
+          CreateRequirement("Item", ["Shock Therapy"])
         ]);
         CreateItem("Interview Tape", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Stick"])
+          CreateRequirement("Item", ["Shock Therapy"])
         ]);
         CreateItem("Retraint - Class II", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Stick"])
+          CreateRequirement("Item", ["Shock Therapy"])
         ]);
         CreateItem("Order - Class II", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Stick"])
+          CreateRequirement("Item", ["Shock Therapy"])
         ]);
         CreateItem("Discipline - Class II", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Stick"])
+          CreateRequirement("Item", ["Shock Therapy"])
         ]);
         CreateItem("Calm - Class II", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Stick"])
+          CreateRequirement("Item", ["Shock Therapy"])
         ]);
         CreateItem("High Stimulus Electrode", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Stick"])
+          CreateRequirement("Item", ["Shock Therapy"])
         ]);
         CreateItem("Restraint - Class III", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Stick"])
+          CreateRequirement("Item", ["Shock Therapy"])
         ]);
         CreateItem("Discipline - Class III", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Stick"])
+          CreateRequirement("Item", ["Shock Therapy"])
         ]);
         CreateItem("Restraint - Carter's Notes", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Stick"])
+          CreateRequirement("Item", ["Shock Therapy"])
         ]);
         CreateItem("Order - Carter's Notes", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Stick"])
+          CreateRequirement("Item", ["Shock Therapy"])
         ]);
         CreateItem("Obedience - Carter's Notes", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Stick"])
+          CreateRequirement("Item", ["Shock Therapy"])
         ]);
         CreateItem("Discipline - Carter's Notes", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Stick"])
+          CreateRequirement("Item", ["Shock Therapy"])
         ]);
         CreateItem("Calm - Carter's Notes", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Stick"])
+          CreateRequirement("Item", ["Shock Therapy"])
         ]);
         CreateItem("Iridescent King", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Stick"])
+          CreateRequirement("Item", ["Shock Therapy"])
         ]);
         
         // Huntress Addons
         CreateItem("Coarse Stone", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Broad Axe"])
+          CreateRequirement("Item", ["Hatchet"])
         ]);
         CreateItem("Berus Toxin", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Broad Axe"])
+          CreateRequirement("Item", ["Hatchet"])
         ]);
         CreateItem("Bandaged Haft", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Broad Axe"])
+          CreateRequirement("Item", ["Hatchet"])
         ]);
         CreateItem("Amanita Toxin", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Broad Axe"])
+          CreateRequirement("Item", ["Hatchet"])
         ]);
         CreateItem("Yew Seed Brew", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Broad Axe"])
+          CreateRequirement("Item", ["Hatchet"])
         ]);
         CreateItem("Shiny Pin", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Broad Axe"])
+          CreateRequirement("Item", ["Hatchet"])
         ]);
         CreateItem("Oak Haft", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Broad Axe"])
+          CreateRequirement("Item", ["Hatchet"])
         ]);
         CreateItem("Manna Grass Braid", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Broad Axe"])
+          CreateRequirement("Item", ["Hatchet"])
         ]);
         CreateItem("Leather Loop", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Broad Axe"])
+          CreateRequirement("Item", ["Hatchet"])
         ]);
         CreateItem("Fine Stone", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Broad Axe"])
+          CreateRequirement("Item", ["Hatchet"])
         ]);
         CreateItem("Deerskin Gloves", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Broad Axe"])
+          CreateRequirement("Item", ["Hatchet"])
         ]);
         CreateItem("Yew Seed Concoction", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Broad Axe"])
+          CreateRequirement("Item", ["Hatchet"])
         ]);
         CreateItem("Venemous Concoction", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Broad Axe"])
+          CreateRequirement("Item", ["Hatchet"])
         ]);
         CreateItem("Rusty Head", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Broad Axe"])
+          CreateRequirement("Item", ["Hatchet"])
         ]);
         CreateItem("Pungent Fiale", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Broad Axe"])
+          CreateRequirement("Item", ["Hatchet"])
         ]);
         CreateItem("Flower Babushka", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Broad Axe"])
+          CreateRequirement("Item", ["Hatchet"])
         ]);
         CreateItem("Infantry Belt", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Broad Axe"])
+          CreateRequirement("Item", ["Hatchet"])
         ]);
         CreateItem("Glowing Concoction", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Broad Axe"])
+          CreateRequirement("Item", ["Hatchet"])
         ]);
         CreateItem("Begrimed Head", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Broad Axe"])
+          CreateRequirement("Item", ["Hatchet"])
         ]);
         CreateItem("Iridescent Head", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Broad Axe"])
+          CreateRequirement("Item", ["Hatchet"])
         ]);
         
         // Cannibal Addons
         CreateItem("Knife Scratches", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Sledge"])
+          CreateRequirement("Item", ["Cannibal's Chainsaw"])
         ]);
         CreateItem("Chili", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Sledge"])
+          CreateRequirement("Item", ["Cannibal's Chainsaw"])
         ]);
         CreateItem("The Grease", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Sledge"])
+          CreateRequirement("Item", ["Cannibal's Chainsaw"])
         ]);
         CreateItem("The Beast's Marks", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Sledge"])
+          CreateRequirement("Item", ["Cannibal's Chainsaw"])
         ]);
         CreateItem("Award-winning Chili", "Assets/Unknown_AddOn.png", "AddOn", [
-          CreateRequirement("Item", ["Sledge"])
+          CreateRequirement("Item", ["Cannibal's Chainsaw"])
         ]);
         
         // Flashlight Addons
@@ -903,7 +903,7 @@ Array.prototype.randomElement = function () {
         CreateItem("Fresh Crispleaf Amaranth", "Assets/Unknown_Offering.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Fragrant Crispleaft Amaranth", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Fragrant Crispleaf Amaranth", "Assets/Unknown_Offering.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
         CreateItem("Primrose Blossom Sachet", "Assets/Unknown_Offering.png", "Offering", [
@@ -1267,7 +1267,7 @@ Array.prototype.randomElement = function () {
         CreateItem("Hex - Devour Hope", "Assets/KillerPerks/Hex_-_Devour_Hope.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Hex - Huntress Lullaby", "Assets/KillerPerks/Hex_-_Huntess_Lullaby.png", "Perk", [
+        CreateItem("Hex - Huntress Lullaby", "Assets/KillerPerks/Hex_-_Huntress_Lullaby.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
         CreateItem("Hex - No One Escapes Death", "Assets/KillerPerks/Hex_-No_One_Escapes_Death.png", "Perk", [
@@ -1279,7 +1279,7 @@ Array.prototype.randomElement = function () {
         CreateItem("Hex - The Third Seal", "Assets/KillerPerks/Hex_-_The_Third_Seal.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Hex - Thrill Of The Hunt", "Assets/KillerPerks/Hex_-_Thrill Of The Hunt.png", "Perk", [
+        CreateItem("Hex - Thrill Of The Hunt", "Assets/KillerPerks/Hex_-_Thrill_Of_The_Hunt.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
         CreateItem("Insidious", "Assets/KillerPerks/Insidious.png", "Perk", [
@@ -1312,7 +1312,7 @@ Array.prototype.randomElement = function () {
         CreateItem("Predator", "Assets/KillerPerks/Predator.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Save The Best For Last", "Assets/KillerPerks/Save_Best_For_Last.png", "Perk", [
+        CreateItem("Save The Best For Last", "Assets/KillerPerks/Save_The_Best_For_Last.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
         CreateItem("Shadowborn", "Assets/KillerPerks/Shadowborn.png", "Perk", [
@@ -1527,7 +1527,7 @@ Array.prototype.randomElement = function () {
 
         // Item examples
         {
-          name: "Cleaver",
+          name: "Trap",
           image: "http://www.foo.bar/image.png",
           type: "Item",
           requirements: [
