@@ -213,9 +213,9 @@ Array.prototype.randomElement = function () {
           CreateRequirement("Role", ["Survivor"])
         ]);
         
-        CreateItem("No Item", "", "Item", [
+        /*CreateItem("No Item", "", "Item", [
           CreateRequirement("Role", ["Survivor"])
-        ]);
+        ]);*/
         
         // Add-Ons (hoo boy, hope you're ready for this)
         // Trapper addons
@@ -491,7 +491,7 @@ Array.prototype.randomElement = function () {
         CreateItem("Jewelry Box", "Assets/KillerAddons/Shape_JewelryBox.png", "AddOn", [
           CreateRequirement("Item", ["Evil Within"])
         ]);
-        CreateItem("J. Meyers Memorial", "Assets/KillerAddons/Shape_JMeyersMemorial.png", "AddOn", [
+        CreateItem("J. Myers Memorial", "Assets/KillerAddons/Shape_JMyersMemorial.png", "AddOn", [
           CreateRequirement("Item", ["Evil Within"])
         ]);
         CreateItem("Hair Bow", "Assets/KillerAddons/Shape_HairBow.png", "AddOn", [
@@ -720,387 +720,387 @@ Array.prototype.randomElement = function () {
         ]);
         
         // Flashlight Addons
-        CreateItem("Wide Lens", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Wide Lens", "Assets/SurvivorAddons/Flashlight_WideLens.png", "AddOn", [
           CreateRequirement("Item", ["Flashlight", "Will O' Wisp", "Sport Flashlight", "Utility Flashlight"])
         ]);
-        CreateItem("Power Bulb", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Power Bulb", "Assets/SurvivorAddons/Flashlight_PowerBulb.png", "AddOn", [
           CreateRequirement("Item", ["Flashlight", "Will O' Wisp", "Sport Flashlight", "Utility Flashlight"])
         ]);
-        CreateItem("Leather Grip", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Leather Grip", "Assets/SurvivorAddons/Flashlight_LeatherGrip.png", "AddOn", [
           CreateRequirement("Item", ["Flashlight", "Will O' Wisp", "Sport Flashlight", "Utility Flashlight"])
         ]);
-        CreateItem("Battery", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Battery", "Assets/SurvivorAddons/Flashlight_Battery.png", "AddOn", [
           CreateRequirement("Item", ["Flashlight", "Will O' Wisp", "Sport Flashlight", "Utility Flashlight"])
         ]);
-        CreateItem("Tir Optic", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Tir Optic", "Assets/SurvivorAddons/Flashlight_TirOptic.png", "AddOn", [
           CreateRequirement("Item", ["Flashlight", "Will O' Wisp", "Sport Flashlight", "Utility Flashlight"])
         ]);
-        CreateItem("Rubber Grip", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Rubber Grip", "Assets/SurvivorAddons/Flashlight_RubberGrip.png", "AddOn", [
           CreateRequirement("Item", ["Flashlight", "Will O' Wisp", "Sport Flashlight", "Utility Flashlight"])
         ]);
-        CreateItem("Low Amp Filament", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Low Amp Filament", "Assets/SurvivorAddons/Flashlight_LowAmpFilament.png", "AddOn", [
           CreateRequirement("Item", ["Flashlight", "Will O' Wisp", "Sport Flashlight", "Utility Flashlight"])
         ]);
-        CreateItem("Heavy Duty Battery", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Heavy Duty Battery", "Assets/SurvivorAddons/Flashlight_HeavyDutyBattery.png", "AddOn", [
           CreateRequirement("Item", ["Flashlight", "Will O' Wisp", "Sport Flashlight", "Utility Flashlight"])
         ]);
-        CreateItem("Focus Lens", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Focus Lens", "Assets/SurvivorAddons/Flashlight_FocusLens.png", "AddOn", [
           CreateRequirement("Item", ["Flashlight", "Will O' Wisp", "Sport Flashlight", "Utility Flashlight"])
         ]);
-        CreateItem("Long Life Battery", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Long Life Battery", "Assets/SurvivorAddons/Flashlight_LongLifeBattery.png", "AddOn", [
           CreateRequirement("Item", ["Flashlight", "Will O' Wisp", "Sport Flashlight", "Utility Flashlight"])
         ]);
-        CreateItem("Intense Halogen", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Intense Halogen", "Assets/SurvivorAddons/Flashlight_IntenseHalogen.png", "AddOn", [
           CreateRequirement("Item", ["Flashlight", "Will O' Wisp", "Sport Flashlight", "Utility Flashlight"])
         ]);
-        CreateItem("High-End Sapphire Lens", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("High-End Sapphire Lens", "Assets/SurvivorAddons/Flashlight_HighEndSapphireLens.png", "AddOn", [
           CreateRequirement("Item", ["Flashlight", "Will O' Wisp", "Sport Flashlight", "Utility Flashlight"])
         ]);
-        CreateItem("Odd Bulb", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Odd Bulb", "Assets/SurvivorAddons/Flashlight_OddBulb.png", "AddOn", [
           CreateRequirement("Item", ["Flashlight", "Will O' Wisp", "Sport Flashlight", "Utility Flashlight"])
         ]);
         
         // Key Addons
-        CreateItem("Prayer Rope", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Prayer Rope", "Assets/SurvivorAddons/Key_PrayerRope.png", "AddOn", [
           CreateRequirement("Item", ["Broken Key", "Dull Key", "Skeleton Key"])
         ]);
-        CreateItem("Scratched Pearl", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Scratched Pearl", "Assets/SurvivorAddons/Key_ScratchedPearl.png", "AddOn", [
           CreateRequirement("Item", ["Broken Key", "Dull Key", "Skeleton Key"])
         ]);
-        CreateItem("Prayer Beads", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Prayer Beads", "Assets/SurvivorAddons/Key_PrayerBeads.png", "AddOn", [
           CreateRequirement("Item", ["Broken Key", "Dull Key", "Skeleton Key"])
         ]);
-        CreateItem("Eroded Token", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Eroded Token", "Assets/SurvivorAddons/Key_ErodedToken.png", "AddOn", [
           CreateRequirement("Item", ["Broken Key", "Dull Key", "Skeleton Key"])
         ]);
-        CreateItem("Gold Token", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Gold Token", "Assets/SurvivorAddons/Key_GoldToken.png", "AddOn", [
           CreateRequirement("Item", ["Broken Key", "Dull Key", "Skeleton Key"])
         ]);
-        CreateItem("Weaved Ring", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Weaved Ring", "Assets/SurvivorAddons/Key_WeavedRing.png", "AddOn", [
           CreateRequirement("Item", ["Broken Key", "Dull Key", "Skeleton Key"])
         ]);
-        CreateItem("Milky Glass", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Milky Glass", "Assets/SurvivorAddons/Key_MilkyGlass.png", "AddOn", [
           CreateRequirement("Item", ["Broken Key", "Dull Key", "Skeleton Key"])
         ]);
-        CreateItem("Blood Amber", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Blood Amber", "Assets/SurvivorAddons/Key_BloodAmber.png", "AddOn", [
           CreateRequirement("Item", ["Broken Key", "Dull Key", "Skeleton Key"])
         ]);
         
         // Map Addons
-        CreateItem("Map Addendum", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Map Addendum", "Assets/SurvivorAddons/Map_MapAddendum.png", "AddOn", [
           CreateRequirement("Item", ["Map", "Rainbow Map"])
         ]);
-        CreateItem("Yellow Wire", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Yellow Wire", "Assets/SurvivorAddons/Map_YellowWire.png", "AddOn", [
           CreateRequirement("Item", ["Map", "Rainbow Map"])
         ]);
-        CreateItem("Unusual Stamp", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Unusual Stamp", "Assets/SurvivorAddons/Map_UnusualStamp.png", "AddOn", [
           CreateRequirement("Item", ["Map", "Rainbow Map"])
         ]);
-        CreateItem("Retardant Jelly", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Retardant Jelly", "Assets/SurvivorAddons/Map_RetardantJelly.png", "AddOn", [
           CreateRequirement("Item", ["Map", "Rainbow Map"])
         ]);
-        CreateItem("Red Twine", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Red Twine", "Assets/SurvivorAddons/Map_RedTwine.png", "AddOn", [
           CreateRequirement("Item", ["Map", "Rainbow Map"])
         ]);
-        CreateItem("Glass Bead", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Glass Bead", "Assets/SurvivorAddons/Map_GlassBead.png", "AddOn", [
           CreateRequirement("Item", ["Map", "Rainbow Map"])
         ]);
-        CreateItem("Odd Stamp", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Odd Stamp", "Assets/SurvivorAddons/Map_OddStamp.png", "AddOn", [
           CreateRequirement("Item", ["Map", "Rainbow Map"])
         ]);
-        CreateItem("Black Silk Cord", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Black Silk Cord", "Assets/SurvivorAddons/Map_BlackSilkCord.png", "AddOn", [
           CreateRequirement("Item", ["Map", "Rainbow Map"])
         ]);
-        CreateItem("Crystal Bead", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Crystal Bead", "Assets/SurvivorAddons/Map_CrystalBead.png", "AddOn", [
           CreateRequirement("Item", ["Map", "Rainbow Map"])
         ]);
         
         // Med Kit addons
-        CreateItem("Rubber Gloves", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Rubber Gloves", "Assets/SurvivorAddons/FirstAid_RubberGloves.png", "AddOn", [
           CreateRequirement("Item", ["Camping Aid Kit", "All Hallows' Eve Lunchbox", "First Aid Kit", "Emergency Med-Kit", "Ranger Med-Kit"])
         ]);
-        CreateItem("Butterfly Tape", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Butterfly Tape", "Assets/SurvivorAddons/FirstAid_ButterflyTape.png", "AddOn", [
           CreateRequirement("Item", ["Camping Aid Kit", "All Hallows' Eve Lunchbox", "First Aid Kit", "Emergency Med-Kit", "Ranger Med-Kit"])
         ]);
-        CreateItem("Bandages", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Bandages", "Assets/SurvivorAddons/FirstAid_Bandages.png", "AddOn", [
           CreateRequirement("Item", ["Camping Aid Kit", "All Hallows' Eve Lunchbox", "First Aid Kit", "Emergency Med-Kit", "Ranger Med-Kit"])
         ]);
-        CreateItem("Sponge", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Sponge", "Assets/SurvivorAddons/FirstAid_Sponge.png", "AddOn", [
           CreateRequirement("Item", ["Camping Aid Kit", "All Hallows' Eve Lunchbox", "First Aid Kit", "Emergency Med-Kit", "Ranger Med-Kit"])
         ]);
-        CreateItem("Self Adherent Wrap", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Self Adherent Wrap", "Assets/SurvivorAddons/FirstAid_SelfAdherentWrap.png", "AddOn", [
           CreateRequirement("Item", ["Camping Aid Kit", "All Hallows' Eve Lunchbox", "First Aid Kit", "Emergency Med-Kit", "Ranger Med-Kit"])
         ]);
-        CreateItem("Needle and Thread", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Needle And Thread", "Assets/SurvivorAddons/FirstAid_NeedleAndThread.png", "AddOn", [
           CreateRequirement("Item", ["Camping Aid Kit", "All Hallows' Eve Lunchbox", "First Aid Kit", "Emergency Med-Kit", "Ranger Med-Kit"])
         ]);
-        CreateItem("Medical Scissors", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Medical Scissors", "Assets/SurvivorAddons/FirstAid_MedicalScissors.png", "AddOn", [
           CreateRequirement("Item", ["Camping Aid Kit", "All Hallows' Eve Lunchbox", "First Aid Kit", "Emergency Med-Kit", "Ranger Med-Kit"])
         ]);
-        CreateItem("Gauze Roll", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Gauze Roll", "Assets/SurvivorAddons/FirstAid_GauzeRoll.png", "AddOn", [
           CreateRequirement("Item", ["Camping Aid Kit", "All Hallows' Eve Lunchbox", "First Aid Kit", "Emergency Med-Kit", "Ranger Med-Kit"])
         ]);
-        CreateItem("Surgical Suture", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Surgical Suture", "Assets/SurvivorAddons/FirstAid_SurgicalSuture.png", "AddOn", [
           CreateRequirement("Item", ["Camping Aid Kit", "All Hallows' Eve Lunchbox", "First Aid Kit", "Emergency Med-Kit", "Ranger Med-Kit"])
         ]);
-        CreateItem("Styptic Agent", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Styptic Agent", "Assets/SurvivorAddons/FirstAid_StypticAgent.png", "AddOn", [
           CreateRequirement("Item", ["Camping Aid Kit", "All Hallows' Eve Lunchbox", "First Aid Kit", "Emergency Med-Kit", "Ranger Med-Kit"])
         ]);
-        CreateItem("Gel Dressings", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Gel Dressings", "Assets/SurvivorAddons/FirstAid_GelDressings.png", "AddOn", [
           CreateRequirement("Item", ["Camping Aid Kit", "All Hallows' Eve Lunchbox", "First Aid Kit", "Emergency Med-Kit", "Ranger Med-Kit"])
         ]);
-        CreateItem("Abdominal Dressing", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Abdominal Dressing", "Assets/SurvivorAddons/FirstAid_AbdominalDressing.png", "AddOn", [
           CreateRequirement("Item", ["Camping Aid Kit", "All Hallows' Eve Lunchbox", "First Aid Kit", "Emergency Med-Kit", "Ranger Med-Kit"])
         ]);
-        CreateItem("Anti-Hemorrhagic Syringe", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Anti-Hemorrhagic Syringe", "Assets/SurvivorAddons/FirstAid_AntiHemorrhagicSyringe.png", "AddOn", [
           CreateRequirement("Item", ["Camping Aid Kit", "All Hallows' Eve Lunchbox", "First Aid Kit", "Emergency Med-Kit", "Ranger Med-Kit"])
         ]);
         
         // Toolbox Addons
-        CreateItem("Spring Clamp", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Spring Clamp", "Assets/SurvivorAddons/Toolbox_SpringClamp.png", "AddOn", [
           CreateRequirement("Item", ["Worn Out Tools", "Toolbox", "Mechanic's Toolbox", "Commodious Toolbox", "Engineer's Toolbox", "Alex's Toolbox"])
         ]);
-        CreateItem("Scraps", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Scraps", "Assets/SurvivorAddons/Toolbox_Scraps.png", "AddOn", [
           CreateRequirement("Item", ["Worn Out Tools", "Toolbox", "Mechanic's Toolbox", "Commodious Toolbox", "Engineer's Toolbox", "Alex's Toolbox"])
         ]);
-        CreateItem("Clean Rag", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Clean Rag", "Assets/SurvivorAddons/Toolbox_CleanRag.png", "AddOn", [
           CreateRequirement("Item", ["Worn Out Tools", "Toolbox", "Mechanic's Toolbox", "Commodious Toolbox", "Engineer's Toolbox", "Alex's Toolbox"])
         ]);
-        CreateItem("Wire Spool", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Wire Spool", "Assets/SurvivorAddons/Toolbox_WireSpool.png", "AddOn", [
           CreateRequirement("Item", ["Worn Out Tools", "Toolbox", "Mechanic's Toolbox", "Commodious Toolbox", "Engineer's Toolbox", "Alex's Toolbox"])
         ]);
-        CreateItem("Socket Swivels", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Socket Swivels", "Assets/SurvivorAddons/Toolbox_SocketSwivels.png", "AddOn", [
           CreateRequirement("Item", ["Worn Out Tools", "Toolbox", "Mechanic's Toolbox", "Commodious Toolbox", "Engineer's Toolbox", "Alex's Toolbox"])
         ]);
-        CreateItem("Protective Gloves", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Protective Gloves", "Assets/SurvivorAddons/Toolbox_ProtectiveGloves.png", "AddOn", [
           CreateRequirement("Item", ["Worn Out Tools", "Toolbox", "Mechanic's Toolbox", "Commodious Toolbox", "Engineer's Toolbox", "Alex's Toolbox"])
         ]);
-        CreateItem("Instructions", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Instructions", "Assets/SurvivorAddons/Toolbox_Instructions.png", "AddOn", [
           CreateRequirement("Item", ["Worn Out Tools", "Toolbox", "Mechanic's Toolbox", "Commodious Toolbox", "Engineer's Toolbox", "Alex's Toolbox"])
         ]);
-        CreateItem("Grip Wrench", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Grip Wrench", "Assets/SurvivorAddons/Toolbox_GripWrench.png", "AddOn", [
           CreateRequirement("Item", ["Worn Out Tools", "Toolbox", "Mechanic's Toolbox", "Commodious Toolbox", "Engineer's Toolbox", "Alex's Toolbox"])
         ]);
-        CreateItem("Cutting Wire", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Cutting Wire", "Assets/SurvivorAddons/Toolbox_CuttingWire.png", "AddOn", [
           CreateRequirement("Item", ["Worn Out Tools", "Toolbox", "Mechanic's Toolbox", "Commodious Toolbox", "Engineer's Toolbox", "Alex's Toolbox"])
         ]);
-        CreateItem("Hacksaw", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Hacksaw", "Assets/SurvivorAddons/Toolbox_Hacksaw.png", "AddOn", [
           CreateRequirement("Item", ["Worn Out Tools", "Toolbox", "Mechanic's Toolbox", "Commodious Toolbox", "Engineer's Toolbox", "Alex's Toolbox"])
         ]);
-        CreateItem("Brand New Part", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Brand New Part", "Assets/SurvivorAddons/Toolbox_BrandNewPart.png", "AddOn", [
           CreateRequirement("Item", ["Worn Out Tools", "Toolbox", "Mechanic's Toolbox", "Commodious Toolbox", "Engineer's Toolbox", "Alex's Toolbox"])
         ]);
         
-        CreateItem("No Add-On", "", "AddOn", []);
-        CreateItem("No Add-On ", "", "AddOn", []);
+        //CreateItem("No Add-On", "", "AddOn", []);
+        //CreateItem("No Add-On ", "", "AddOn", []);
         
         // Survivor Offerings
-        CreateItem("Bog Laurel Sachet", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Bog Laurel Sachet", "Assets/Offerings/BogLaurelSachet.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Fresh Bog Laurel", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Fresh Bog Laurel", "Assets/Offerings/FreshBogLaurel.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Fragrant Bog Laurel", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Fragrant Bog Laurel", "Assets/Offerings/FragrantBogLaurel.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Crispleaf Amaranth Sachet", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Crispleaf Amaranth Sachet", "Assets/Offerings/CrispleafAmaranthSachet.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Fresh Crispleaf Amaranth", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Fresh Crispleaf Amaranth", "Assets/Offerings/FreshCrispleafAmaranth.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Fragrant Crispleaf Amaranth", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Fragrant Crispleaf Amaranth", "Assets/Offerings/FragrantCrispleafAmaranth.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Primrose Blossom Sachet", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Primrose Blossom Sachet", "Assets/Offerings/PrimroseBlossomSachet.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Fresh Primrose Blossom", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Fresh Primrose Blossom", "Assets/Offerings/FreshPrimroseBlossom.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Fragrant Primrose Blossom", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Fragrant Primrose Blossom", "Assets/Offerings/FragrantPrimroseBlossom.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Sweet William Sachet", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Sweet William Sachet", "Assets/Offerings/SweetWilliamSachet.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Fresh Sweet William", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Fresh Sweet William", "Assets/Offerings/FreshSweetWilliam.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Fragrant Sweet William", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Fragrant Sweet William", "Assets/Offerings/FragrantSweetWilliam.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Bound Envelope", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Bound Envelope", "Assets/Offerings/BoundEnvelope.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Sealed Envelope", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Sealed Envelope", "Assets/Offerings/SealedEnvelope.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Escape Cake", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Escape Cake", "Assets/Offerings/EscapeCake.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Chalk Pouch", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Chalk Pouch", "Assets/Offerings/ChalkPouch.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Cream Chalk Pouch", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Cream Chalk Pouch", "Assets/Offerings/CreamChalkPouch.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Ivory Chalk Pouch", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Ivory Chalk Pouch", "Assets/Offerings/IvoryChalkPouch.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Salt Pouch", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Salt Pouch", "Assets/Offerings/SaltPouch.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Black Salt Statuette", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Black Salt Statuette", "Assets/Offerings/BlackSaltStatuette.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Vigo's Jar of Salty Lips", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Vigo's Jar of Salty Lips", "Assets/Offerings/VigosJarOfSaltyLips.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Tarnished Coin", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Tarnished Coin", "Assets/Offerings/TarnishedCoin.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Shiny Coin", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Shiny Coin", "Assets/Offerings/ShinyCoin.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Shroud of Union", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Shroud of Union", "Assets/Offerings/ShroudOfUnion.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Vigo's Shroud", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Vigo's Shroud", "Assets/Offerings/VigosShroud.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Shroud of Binding", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Shroud of Binding", "Assets/Offerings/ShroudOfBinding.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
         
-        CreateItem("Petrified Oak", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Petrified Oak", "Assets/Offerings/PetrifiedOak.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("White Ward", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("White Ward", "Assets/Offerings/WhiteWard.png", "Offering", [
           CreateRequirement("Role", ["Survivor"])
         ]);
         
         // Killer Offerings
-        CreateItem("Tanager Wreath", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Tanager Wreath", "Assets/Offerings/TanagerWreath.png", "Offering", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Devout Tanager Wreath", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Devout Tanager Wreath", "Assets/Offerings/DevoutTanagerWreath.png", "Offering", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Ardent Tanager Wreath", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Ardent Tanager Wreath", "Assets/Offerings/ArdentTanagerWreath.png", "Offering", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Raven Wreath", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Raven Wreath", "Assets/Offerings/RavenWreath.png", "Offering", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Devout Raven Wreath", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Devout Raven Wreath", "Assets/Offerings/DevoutRavenWreath.png", "Offering", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Ardent Raven Wreath", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Ardent Raven Wreath", "Assets/Offerings/ArdentRavenWreath.png", "Offering", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Spotted Owl Wreath", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Spotted Owl Wreath", "Assets/Offerings/SpottedOwlWreath.png", "Offering", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Devout Spotted Owl Wreath", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Devout Spotted Owl Wreath", "Assets/Offerings/DevoutSpottedOwlWreath.png", "Offering", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Ardent Spotted Owl Wreath", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Ardent Spotted Owl Wreath", "Assets/Offerings/ArdentSpottedOwlWreath.png", "Offering", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Shrike Wreath", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Shrike Wreath", "Assets/Offerings/ShrikeWreath.png", "Offering", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Devout Shrike Wreath", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Devout Shrike Wreath", "Assets/Offerings/DevoutShrikeWreath.png", "Offering", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Ardent Shrike Wreath", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Ardent Shrike Wreath", "Assets/Offerings/ArdentShrikeWreath.png", "Offering", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Hollow Shell", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Hollow Shell", "Assets/Offerings/HollowShell.png", "Offering", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Survivor Pudding", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Survivor Pudding", "Assets/Offerings/SurvivorPudding.png", "Offering", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Scratched Coin", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Scratched Coin", "Assets/Offerings/ScratchedCoin.png", "Offering", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Cut Coin", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Cut Coin", "Assets/Offerings/CutCoin.png", "Offering", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Moldy Oak", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Moldy Oak", "Assets/Offerings/MoldyOak.png", "Offering", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Rotten Oak", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Rotten Oak", "Assets/Offerings/RottenOak.png", "Offering", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Putrid Oak", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Putrid Oak", "Assets/Offerings/PutridOak.png", "Offering", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Cypress Memento Mori", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Cypress Memento Mori", "Assets/Offerings/CypressMementoMori.png", "Offering", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Ivory Memento Mori", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Ivory Memento Mori", "Assets/Offerings/IvoryMementoMori.png", "Offering", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Ebony Memento Mori", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Ebony Memento Mori", "Assets/Offerings/EbonyMementoMori.png", "Offering", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Shroud of Separation", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Shroud of Separation", "Assets/Offerings/ShroudOfSeparation.png", "Offering", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Black Ward", "Assets/Unknown_Offering.png", "Offering", [
+        CreateItem("Black Ward", "Assets/Offerings/BlackWard.png", "Offering", [
           CreateRequirement("Role", ["Killer"])
         ]);
         
         // All Player Offerings
-        CreateItem("Bloody Party Streamers", "Assets/Unknown_Offering.png", "Offering", []);
+        CreateItem("Bloody Party Streamers", "Assets/Offerings/BloodyPartyStreamers.png", "Offering", []);
         
-        CreateItem("Clear Reagent", "Assets/Unknown_Offering.png", "Offering", []);
-        CreateItem("Faint Reagent", "Assets/Unknown_Offering.png", "Offering", []);
-        CreateItem("Hazy Reagent", "Assets/Unknown_Offering.png", "Offering", []);
-        CreateItem("Murky Reagent", "Assets/Unknown_Offering.png", "Offering", []);
+        CreateItem("Clear Reagent", "Assets/Offerings/ClearReagent.png", "Offering", []);
+        CreateItem("Faint Reagent", "Assets/Offerings/FaintReagent.png", "Offering", []);
+        CreateItem("Hazy Reagent", "Assets/Offerings/HazyReagent.png", "Offering", []);
+        CreateItem("Murky Reagent", "Assets/Offerings/MurkyReagent.png", "Offering", []);
         
-        CreateItem("New Moon Bouquet", "Assets/Unknown_Offering.png", "Offering", []);
-        CreateItem("Crescent Bouquet", "Assets/Unknown_Offering.png", "Offering", []);
-        CreateItem("Quarter Moon Bouquet", "Assets/Unknown_Offering.png", "Offering", []);
-        CreateItem("Full Moon Bouquet", "Assets/Unknown_Offering.png", "Offering", []);
+        CreateItem("New Moon Bouquet", "Assets/Offerings/NewMoonBouquet.png", "Offering", []);
+        CreateItem("Crescent Moon Bouquet", "Assets/Offerings/CrescentMoonBouquet.png", "Offering", []);
+        CreateItem("Quarter Moon Bouquet", "Assets/Offerings/QuarterMoonBouquet.png", "Offering", []);
+        CreateItem("Full Moon Bouquet", "Assets/Offerings/FullMoonBouquet.png", "Offering", []);
         
-        CreateItem("MacMillan Ledger Page", "Assets/Unknown_Offering.png", "Offering", []);
-        CreateItem("Signed Ledger Page", "Assets/Unknown_Offering.png", "Offering", []);
-        CreateItem("MacMillan's Phalanx Bone", "Assets/Unknown_Offering.png", "Offering", []);
+        CreateItem("MacMillan Ledger Page", "Assets/Offerings/MacmillanLedgerPage.png", "Offering", []);
+        CreateItem("Signed Ledger Page", "Assets/Offerings/SignedLedgerPage.png", "Offering", []);
+        CreateItem("MacMillan's Phalanx Bone", "Assets/Offerings/MacmillansPhalanxBone.png", "Offering", []);
         
-        CreateItem("Shredded Plate", "Assets/Unknown_Offering.png", "Offering", []);
-        CreateItem("Virginia Plate", "Assets/Unknown_Offering.png", "Offering", []);
-        CreateItem("Azarov's Key", "Assets/Unknown_Offering.png", "Offering", []);
+        CreateItem("Shredded Plate", "Assets/Offerings/ShreddedPlate.png", "Offering", []);
+        CreateItem("Virginia Plate", "Assets/Offerings/VirginiaPlate.png", "Offering", []);
+        CreateItem("Azarov's Key", "Assets/Offerings/AzarovsKey.png", "Offering", []);
         
-        CreateItem("Cattle Tag 28", "Assets/Unknown_Offering.png", "Offering", []);
-        CreateItem("Cattle Tag 81", "Assets/Unknown_Offering.png", "Offering", []);
-        CreateItem("Heart Locket", "Assets/Unknown_Offering.png", "Offering", []);
+        CreateItem("Cattle Tag 28", "Assets/Offerings/CattleTag28.png", "Offering", []);
+        CreateItem("Cattle Tag 81", "Assets/Offerings/CattleTag81.png", "Offering", []);
+        CreateItem("Heart Locket", "Assets/Offerings/HeartLocket.png", "Offering", []);
         
-        CreateItem("Lunacy Ticket", "Assets/Unknown_Offering.png", "Offering", []);
-        CreateItem("P. Elliot Lunacy Ticket", "Assets/Unknown_Offering.png", "Offering", []);
-        CreateItem("Charred Wedding Photograph", "Assets/Unknown_Offering.png", "Offering", []);
+        CreateItem("Lunacy Ticket", "Assets/Offerings/LunacyTicket.png", "Offering", []);
+        CreateItem("P. Elliot Lunacy Ticket", "Assets/Offerings/PElliotLunacyTicket.png", "Offering", []);
+        CreateItem("Charred Wedding Photograph", "Assets/Offerings/CharredWeddingPhotograph.png", "Offering", []);
         
-        CreateItem("Harvest Festival Leaflet", "Assets/Unknown_Offering.png", "Offering", []);
-        CreateItem("Decrepit Clapboard", "Assets/Unknown_Offering.png", "Offering", []);
-        CreateItem("Strode Realty Key", "Assets/Unknown_Offering.png", "Offering", []);
+        CreateItem("Harvest Festival Leaflet", "Assets/Offerings/HarvestFestivalLeaflet.png", "Offering", []);
+        CreateItem("Decrepit Clapboard", "Assets/Offerings/DecrepitClapboard.png", "Offering", []);
+        CreateItem("Strode Realty Key", "Assets/Offerings/StrodeRealtyKey.png", "Offering", []);
         
-        CreateItem("Fuming Cordage", "Assets/Unknown_Offering.png", "Offering", []);
-        CreateItem("Fuming Welcome Sign", "Assets/Unknown_Offering.png", "Offering", []);
-        CreateItem("Granma's Cookboox", "Assets/Unknown_Offering.png", "Offering", []);
+        CreateItem("Fuming Cordage", "Assets/Offerings/FumingCordage.png", "Offering", []);
+        CreateItem("Fuming Welcome Sign", "Assets/Offerings/FumingWelcomeSign.png", "Offering", []);
+        CreateItem("Granma's Cookbook", "Assets/Offerings/GranmasCookbook.png", "Offering", []);
         
-        CreateItem("Emergency Certificate", "Assets/Unknown_Offering.png", "Offering", []);
-        CreateItem("Psychiatric Assessment Report", "Assets/Unknown_Offering.png", "Offering", []);
-        CreateItem("Shattered Glasses", "Assets/Unknown_Offering.png", "Offering", []);
+        CreateItem("Emergency Certificate", "Assets/Offerings/EmergencyCertificate.png", "Offering", []);
+        CreateItem("Psychiatric Assessment Report", "Assets/Offerings/PsychiatricAssessmentReport.png", "Offering", []);
+        CreateItem("Shattered Glasses", "Assets/Offerings/ShatteredGlasses.png", "Offering", []);
         
-        CreateItem("Painted River Rock", "Assets/Unknown_Offering.png", "Offering", []);
-        CreateItem("Children's Book", "Assets/Unknown_Offering.png", "Offering", []);
-        CreateItem("The Last Mask", "Assets/Unknown_Offering.png", "Offering", []);
+        CreateItem("Painted River Rock", "Assets/Offerings/PaintedRiverRock.png", "Offering", []);
+        CreateItem("Children's Book", "Assets/Offerings/ChildrensBook.png", "Offering", []);
+        CreateItem("The Last Mask", "Assets/Offerings/TheLastMask.png", "Offering", []);
         
-        CreateItem("No Offering", "", "Offering", []);
+        //CreateItem("No Offering", "", "Offering", []);
         
         // Survivor Perks
         CreateItem("Ace In The Hole", "Assets/SurvivorPerks/Ace_In_The_Hole.png", "Perk", [
@@ -1355,10 +1355,10 @@ Array.prototype.randomElement = function () {
           CreateRequirement("Role", ["Killer"])
         ]);
         
-        CreateItem("No Perk", "", "Perk", []);
+        /*CreateItem("No Perk", "", "Perk", []);
         CreateItem("No Perk ", "", "Perk", []);
         CreateItem("No Perk  ", "", "Perk", []);
-        CreateItem("No Perk   ", "", "Perk", []);
+        CreateItem("No Perk   ", "", "Perk", []);*/
       }
 
       vm.Clear = function() {
