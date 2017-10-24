@@ -1,1 +1,23 @@
-hello 
+<html>
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+    <script src="randomizer.js"></script>
+</head>
+<body ng-app="randomizerApp">
+  <div ng-controller="randomizer as r">
+    Role: {{r.showState["Role"]}}<br />
+    Character: {{r.showState["Character"]}}<br />
+    Item/Weapon: {{r.showState["Item"]}}<br />
+    AddOn: {{r.showState["AddOn"][0]}}<br />
+    AddOn: {{r.showState["AddOn"][1]}}<br />
+    Offering: {{r.showState["Offering"]}}<br />
+    Perk: {{r.showState["Perk"][0]}}<br />
+    Perk: {{r.showState["Perk"][1]}}<br />
+    Perk: {{r.showState["Perk"][2]}}<br />
+    Perk: {{r.showState["Perk"][3]}}<br /><br />
+    
+    <button ng-click="r.Randomize()">Randomize</button>
+  </div>
+</body>
+</html>
