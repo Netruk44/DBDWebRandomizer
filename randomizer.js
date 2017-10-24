@@ -213,7 +213,7 @@ Array.prototype.randomElement = function () {
           CreateRequirement("Role", ["Survivor"])
         ]);
         
-        CreateItem("No Item", "", "Item", [
+        CreateItem("No Item", "Assets/None.png", "Item", [
           CreateRequirement("Role", ["Survivor"])
         ]);
         
@@ -891,8 +891,8 @@ Array.prototype.randomElement = function () {
           CreateRequirement("Item", ["Worn Out Tools", "Toolbox", "Mechanic's Toolbox", "Commodious Toolbox", "Engineer's Toolbox", "Alex's Toolbox"])
         ]);
         
-        CreateItem("No Add-On", "", "AddOn", []);
-        CreateItem("No Add-On ", "", "AddOn", []);
+        CreateItem("No Add-On", "Assets/None.png", "AddOn", []);
+        CreateItem("No Add-On ", "Assets/None.png", "AddOn", []);
         
         // Survivor Offerings
         CreateItem("Bog Laurel Sachet", "Assets/Offerings/BogLaurelSachet.png", "Offering", [
@@ -1100,7 +1100,7 @@ Array.prototype.randomElement = function () {
         CreateItem("Children's Book", "Assets/Offerings/ChildrensBook.png", "Offering", []);
         CreateItem("The Last Mask", "Assets/Offerings/TheLastMask.png", "Offering", []);
         
-        //CreateItem("No Offering", "", "Offering", []);
+        CreateItem("No Offering", "Assets/None.png", "Offering", []);
         
         // Survivor Perks
         CreateItem("Ace In The Hole", "Assets/SurvivorPerks/Ace_In_The_Hole.png", "Perk", [
@@ -1355,10 +1355,10 @@ Array.prototype.randomElement = function () {
           CreateRequirement("Role", ["Killer"])
         ]);
         
-        CreateItem("No Perk", "", "Perk", []);
-        CreateItem("No Perk ", "", "Perk", []);
-        CreateItem("No Perk  ", "", "Perk", []);
-        CreateItem("No Perk   ", "", "Perk", []);
+        CreateItem("No Perk", "Assets/None.png", "Perk", []);
+        CreateItem("No Perk ", "Assets/None.png", "Perk", []);
+        CreateItem("No Perk  ", "Assets/None.png", "Perk", []);
+        CreateItem("No Perk   ", "Assets/None.png", "Perk", []);
       }
 
       vm.Clear = function() {
