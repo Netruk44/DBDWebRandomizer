@@ -144,574 +144,574 @@ Array.prototype.randomElement = function () {
         ]);
         
         // Survivor Items
-        CreateItem("Chinese Firecracker", "Assets/Unknown_Item.png", "Item", [
+        CreateItem("Chinese Firecracker", "Assets/SurvivorItems/ChineseFirecracker.png", "Item", [
           CreateRequirement("Role", ["Survivor"])
         ]);
         
-        CreateItem("Flashlight", "Assets/Unknown_Item.png", "Item", [
+        CreateItem("Flashlight", "Assets/SurvivorItems/Flashlight.png", "Item", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Will O' Wisp", "Assets/Unknown_Item.png", "Item", [
+        CreateItem("Will O' Wisp", "Assets/SurvivorItems/Flashlight_WillOWisp.png", "Item", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Sport Flashlight", "Assets/Unknown_Item.png", "Item", [
+        CreateItem("Sport Flashlight", "Assets/SurvivorItems/Flashlight_Sport.png", "Item", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Utility Flashlight", "Assets/Unknown_Item.png", "Item", [
-          CreateRequirement("Role", ["Survivor"])
-        ]);
-        
-        CreateItem("Broken Key", "Assets/Unknown_Item.png", "Item", [
-          CreateRequirement("Role", ["Survivor"])
-        ]);
-        CreateItem("Dull Key", "Assets/Unknown_Item.png", "Item", [
-          CreateRequirement("Role", ["Survivor"])
-        ]);
-        CreateItem("Skeleton Key", "Assets/Unknown_Item.png", "Item", [
+        CreateItem("Utility Flashlight", "Assets/SurvivorItems/Flashlight_Utility.png", "Item", [
           CreateRequirement("Role", ["Survivor"])
         ]);
         
-        CreateItem("Map", "Assets/Unknown_Item.png", "Item", [
+        CreateItem("Broken Key", "Assets/SurvivorItems/Key_Broken.png", "Item", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Rainbow Map", "Assets/Unknown_Item.png", "Item", [
+        CreateItem("Dull Key", "Assets/SurvivorItems/Key_Dull.png", "Item", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        
-        CreateItem("Camping Aid Kit", "Assets/Unknown_Item.png", "Item", [
-          CreateRequirement("Role", ["Survivor"])
-        ]);
-        CreateItem("All Hallows' Eve Lunchbox", "Assets/Unknown_Item.png", "Item", [
-          CreateRequirement("Role", ["Survivor"])
-        ]);
-        CreateItem("First Aid Kit", "Assets/Unknown_Item.png", "Item", [
-          CreateRequirement("Role", ["Survivor"])
-        ]);
-        CreateItem("Emergency Med-Kit", "Assets/Unknown_Item.png", "Item", [
-          CreateRequirement("Role", ["Survivor"])
-        ]);
-        CreateItem("Ranger Med-Kit", "Assets/Unknown_Item.png", "Item", [
+        CreateItem("Skeleton Key", "Assets/SurvivorItems/Key_Skeleton.png", "Item", [
           CreateRequirement("Role", ["Survivor"])
         ]);
         
-        CreateItem("Worn Out Tools", "Assets/Unknown_Item.png", "Item", [
+        CreateItem("Map", "Assets/SurvivorItems/Map.png", "Item", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Toolbox", "Assets/Unknown_Item.png", "Item", [
+        CreateItem("Rainbow Map", "Assets/SurvivorItems/Map_Rainbow.png", "Item", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Mechanic's Toolbox", "Assets/Unknown_Item.png", "Item", [
+        
+        CreateItem("Camping Aid Kit", "Assets/SurvivorItems/FirstAid_Camping.png", "Item", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Commodious Toolbox", "Assets/Unknown_Item.png", "Item", [
+        CreateItem("All Hallows' Eve Lunchbox", "Assets/SurvivorItems/FirstAid_Spooky.png", "Item", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Engineer's Toolbox", "Assets/Unknown_Item.png", "Item", [
+        CreateItem("First Aid Kit", "Assets/SurvivorItems/FirstAid.png", "Item", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        CreateItem("Alex's Toolbox", "Assets/Unknown_Item.png", "Item", [
+        CreateItem("Emergency Med-Kit", "Assets/SurvivorItems/FirstAid_Emergency.png", "Item", [
+          CreateRequirement("Role", ["Survivor"])
+        ]);
+        CreateItem("Ranger Med-Kit", "Assets/SurvivorItems/FirstAid_Ranger.png", "Item", [
+          CreateRequirement("Role", ["Survivor"])
+        ]);
+        
+        CreateItem("Worn Out Tools", "Assets/SurvivorItems/Toolbox_Worn.png", "Item", [
+          CreateRequirement("Role", ["Survivor"])
+        ]);
+        CreateItem("Toolbox", "Assets/SurvivorItems/Toolbox.png", "Item", [
+          CreateRequirement("Role", ["Survivor"])
+        ]);
+        CreateItem("Mechanic's Toolbox", "Assets/SurvivorItems/Toolbox_Mechanic.png", "Item", [
+          CreateRequirement("Role", ["Survivor"])
+        ]);
+        CreateItem("Commodious Toolbox", "Assets/SurvivorItems/Toolbox_Commodious.png", "Item", [
+          CreateRequirement("Role", ["Survivor"])
+        ]);
+        CreateItem("Engineer's Toolbox", "Assets/SurvivorItems/Toolbox_Engineer.png", "Item", [
+          CreateRequirement("Role", ["Survivor"])
+        ]);
+        CreateItem("Alex's Toolbox", "Assets/SurvivorItems/Toolbox_Alex.png", "Item", [
           CreateRequirement("Role", ["Survivor"])
         ]);
         
         // Add-Ons (hoo boy, hope you're ready for this)
         // Trapper addons
-        CreateItem("Trapper Gloves", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Trapper Gloves", "Assets/KillerAddons/Trapper_TrapperGloves.png", "AddOn", [
           CreateRequirement("Item", ["Trap"])
         ]);
-        CreateItem("Strong Coil Spring", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Strong Coil Spring", "Assets/KillerAddons/Trapper_StrongCoilSpring.png", "AddOn", [
           CreateRequirement("Item", ["Trap"])
         ]);
-        CreateItem("Serrated Jaws", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Serrated Jaws", "Assets/KillerAddons/Trapper_SerratedJaws.png", "AddOn", [
           CreateRequirement("Item", ["Trap"])
         ]);
-        CreateItem("Wax Brick", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Wax Brick", "Assets/KillerAddons/Trapper_WaxBrick.png", "AddOn", [
           CreateRequirement("Item", ["Trap"])
         ]);
-        CreateItem("Trapper Bag", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Trapper Bag", "Assets/KillerAddons/Trapper_TrapperBag.png", "AddOn", [
           CreateRequirement("Item", ["Trap"])
         ]);
-        CreateItem("Trap Setters", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Trap Setters", "Assets/KillerAddons/Trapper_TrapSetters.png", "AddOn", [
           CreateRequirement("Item", ["Trap"])
         ]);
-        CreateItem("Secondary Coil", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Secondary Coil", "Assets/KillerAddons/Trapper_SecondaryCoil.png", "AddOn", [
           CreateRequirement("Item", ["Trap"])
         ]);
-        CreateItem("Logwood Dye", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Logwood Dye", "Assets/KillerAddons/Trapper_LogwoodDye.png", "AddOn", [
           CreateRequirement("Item", ["Trap"])
         ]);
-        CreateItem("4-Coil Spring Kit", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("4-Coil Spring Kit", "Assets/KillerAddons/Trapper_CoilSpringKit.png", "AddOn", [
           CreateRequirement("Item", ["Trap"])
         ]);
-        CreateItem("Tar Bottle", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Tar Bottle", "Assets/KillerAddons/Trapper_TarBottle.png", "AddOn", [
           CreateRequirement("Item", ["Trap"])
         ]);
-        CreateItem("Setting tools", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Setting Tools", "Assets/KillerAddons/Trapper_SettingTools.png", "AddOn", [
           CreateRequirement("Item", ["Trap"])
         ]);
-        CreateItem("Rusted Jaws", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Rusted Jaws", "Assets/KillerAddons/Trapper_RustedJaws.png", "AddOn", [
           CreateRequirement("Item", ["Trap"])
         ]);
-        CreateItem("Oily Coil", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Oily Coil", "Assets/KillerAddons/Trapper_OilyCoil.png", "AddOn", [
           CreateRequirement("Item", ["Trap"])
         ]);
-        CreateItem("Fastening Tools", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Fastening Tools", "Assets/KillerAddons/Trapper_FasteningTools.png", "AddOn", [
           CreateRequirement("Item", ["Trap"])
         ]);
-        CreateItem("Stitched Bag", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Stitched Bag", "Assets/KillerAddons/Trapper_StitchedBag.png", "AddOn", [
           CreateRequirement("Item", ["Trap"])
         ]);
-        CreateItem("Honing Stone", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Honing Stone", "Assets/KillerAddons/Trapper_HoningStone.png", "AddOn", [
           CreateRequirement("Item", ["Trap"])
         ]);
-        CreateItem("Bloody Coil", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Bloody Coil", "Assets/KillerAddons/Trapper_BloodyCoil.png", "AddOn", [
           CreateRequirement("Item", ["Trap"])
         ]);
-        CreateItem("Diamond Stone", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Diamond Stone", "Assets/KillerAddons/Trapper_DiamondStone.png", "AddOn", [
           CreateRequirement("Item", ["Trap"])
         ]);
         
         // Wraith addons
-        CreateItem("Bone Clapper", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Bone Clapper", "Assets/KillerAddons/Wraith_BoneClapper.png", "AddOn", [
           CreateRequirement("Item", ["Bell"])
         ]);
-        CreateItem("Swift Hunt - Soot", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Swift Hunt - Soot", "Assets/KillerAddons/Wraith_SwiftHuntSoot.png", "AddOn", [
           CreateRequirement("Item", ["Bell"])
         ]);
-        CreateItem("Blink - Soot", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Blink - Soot", "Assets/KillerAddons/Wraith_BlinkSoot.png", "AddOn", [
           CreateRequirement("Item", ["Bell"])
         ]);
-        CreateItem("Blind warrior - Soot", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Blind Warrior - Soot", "Assets/KillerAddons/Wraith_BlindWarriorSoot.png", "AddOn", [
           CreateRequirement("Item", ["Bell"])
         ]);
-        CreateItem("Coxcombed Clapper", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Coxcombed Clapper", "Assets/KillerAddons/Wraith_CoxcombedClapper.png", "AddOn", [
           CreateRequirement("Item", ["Bell"])
         ]);
-        CreateItem("Windstorm - Soot", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Windstorm - Soot", "Assets/KillerAddons/Wraith_WindstormSoot.png", "AddOn", [
           CreateRequirement("Item", ["Bell"])
         ]);
-        CreateItem("Swift Hunt - Mud", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Swift Hunt - Mud", "Assets/KillerAddons/Wraith_SwiftHuntMud.png", "AddOn", [
           CreateRequirement("Item", ["Bell"])
         ]);
-        CreateItem("Blind Warrior - Mud", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Blind Warrior - Mud", "Assets/KillerAddons/Wraith_BlindWarriorMud.png", "AddOn", [
           CreateRequirement("Item", ["Bell"])
         ]);
-        CreateItem("All Seeing - Mud", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("All Seeing - Mud", "Assets/KillerAddons/Wraith_AllSeeingMud.png", "AddOn", [
           CreateRequirement("Item", ["Bell"])
         ]);
-        CreateItem("Windstorm - Mud", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Windstorm - Mud", "Assets/KillerAddons/Wraith_WindstormMud.png", "AddOn", [
           CreateRequirement("Item", ["Bell"])
         ]);
-        CreateItem("The Ghost - Soot", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("The Ghost - Soot", "Assets/KillerAddons/Wraith_TheGhostSoot.png", "AddOn", [
           CreateRequirement("Item", ["Bell"])
         ]);
-        CreateItem("Swift Hunt - White", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Swift Hunt - White", "Assets/KillerAddons/Wraith_SwiftHuntWhite.png", "AddOn", [
           CreateRequirement("Item", ["Bell"])
         ]);
-        CreateItem("Blind Warrior - White", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Blind Warrior - White", "Assets/KillerAddons/Wraith_BlindWarriorWhite.png", "AddOn", [
           CreateRequirement("Item", ["Bell"])
         ]);
-        CreateItem("All Seeing - White", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("All Seeing - White", "Assets/KillerAddons/Wraith_AllSeeingWhite.png", "AddOn", [
           CreateRequirement("Item", ["Bell"])
         ]);
-        CreateItem("Windstorm - Blood", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Windstorm - Blood", "Assets/KillerAddons/Wraith_WindstormBlood.png", "AddOn", [
           CreateRequirement("Item", ["Bell"])
         ]);
-        CreateItem("Blind Warrior - Blood", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Blind Warrior - Blood", "Assets/KillerAddons/Wraith_BlindWarriorBlood.png", "AddOn", [
           CreateRequirement("Item", ["Bell"])
         ]);
-        CreateItem("All Seeing - Blood", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("All Seeing - Blood", "Assets/KillerAddons/Wraith_AllSeeingBlood.png", "AddOn", [
           CreateRequirement("Item", ["Bell"])
         ]);
-        CreateItem("Blind Warrior - Spirit", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Blind Warrior - Spirit", "Assets/KillerAddons/Wraith_BlindWarriorSpirit.png", "AddOn", [
           CreateRequirement("Item", ["Bell"])
         ]);
-        CreateItem("All Seeing - Spirit", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("All Seeing - Spirit", "Assets/KillerAddons/Wraith_AllSeeingSpirit.png", "AddOn", [
           CreateRequirement("Item", ["Bell"])
         ]);
         
         // Hillbilly addons (and also some Cannibal)
-        CreateItem("Vegetable Oil", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Vegetable Oil", "Assets/KillerAddons/Hillbilly_VegetableOil.png", "AddOn", [
           CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
-        CreateItem("Spark Plug", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Spark Plug", "Assets/KillerAddons/Hillbilly_SparkPlug.png", "AddOn", [
           CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
-        CreateItem("Chainsaw File", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Chainsaw File", "Assets/KillerAddons/Hillbilly_ChainsawFile.png", "AddOn", [
           CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
-        CreateItem("Spiked Boots", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Spiked Boots", "Assets/KillerAddons/Hillbilly_SpikedBoots.png", "AddOn", [
           CreateRequirement("Item", ["Hillbilly's Chainsaw"])
         ]);
-        CreateItem("Speed Limiter", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Speed Limiter", "Assets/KillerAddons/Hillbilly_SpeedLimiter.png", "AddOn", [
           CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
-        CreateItem("Shop Lubricant", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Shop Lubricant", "Assets/KillerAddons/Hillbilly_ShopLubricant.png", "AddOn", [
           CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
-        CreateItem("Primer Bulb", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Primer Bulb", "Assets/KillerAddons/Hillbilly_PrimerBulb.png", "AddOn", [
           CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
-        CreateItem("Long Guide Bar", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Long Guide Bar", "Assets/KillerAddons/Hillbilly_LongGuideBar.png", "AddOn", [
           CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
-        CreateItem("Homemade Muffler", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Homemade Muffler", "Assets/KillerAddons/Hillbilly_HomemadeMuffler.png", "AddOn", [
           CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
-        CreateItem("Grisly Chains", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Grisly Chains", "Assets/KillerAddons/Hillbilly_GrislyChains.png", "AddOn", [
           CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
-        CreateItem("Depth Gauge Rake", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Depth Gauge Rake", "Assets/KillerAddons/Hillbilly_DepthGaugeRake.png", "AddOn", [
           CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
-        CreateItem("Death Engravings", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Death Engravings", "Assets/KillerAddons/Hillbilly_DeathEngravings.png", "AddOn", [
           CreateRequirement("Item", ["Hillbilly's Chainsaw"])
         ]);
-        CreateItem("The Thompson's Mix", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("The Thompson's Mix", "Assets/KillerAddons/Hillbilly_TheThompsonsMix.png", "AddOn", [
           CreateRequirement("Item", ["Hillbilly's Chainsaw"])
         ]);
-        CreateItem("Rusted Chains", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Rusted Chains", "Assets/KillerAddons/Hillbilly_RustedChains.png", "AddOn", [
           CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
-        CreateItem("Light Chassis", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Light Chassis", "Assets/KillerAddons/Hillbilly_LightChassis.png", "AddOn", [
           CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
-        CreateItem("Doom Engravings", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Doom Engravings", "Assets/KillerAddons/Hillbilly_DoomEngravings.png", "AddOn", [
           CreateRequirement("Item", ["Hillbilly's Chainsaw"])
         ]);
-        CreateItem("Carburetor Tuning Guide", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Carburetor Tuning Guide", "Assets/KillerAddons/Hillbilly_CarburetorTuningGuide.png", "AddOn", [
           CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
-        CreateItem("Thompson's Moonshine", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Thompson's Moonshine", "Assets/KillerAddons/Hillbilly_ThompsonsMoonshine.png", "AddOn", [
           CreateRequirement("Item", ["Hillbilly's Chainsaw"])
         ]);
-        CreateItem("Begrimed Chains", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Begrimed Chains", "Assets/KillerAddons/Hillbilly_BegrimedChains.png", "AddOn", [
           CreateRequirement("Item", ["Hillbilly's Chainsaw", "Cannibal's Chainsaw"])
         ]);
         
         // Nurse addons
-        CreateItem("Wooden Horse", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Wooden Horse", "Assets/KillerAddons/Nurse_WoodenHorse.png", "AddOn", [
           CreateRequirement("Item", ["Teleport"])
         ]);
-        CreateItem("White Nit Comb", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("White Nit Comb", "Assets/KillerAddons/Nurse_WhiteNitComb.png", "AddOn", [
           CreateRequirement("Item", ["Teleport"])
         ]);
-        CreateItem("Torn Bookmark", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Torn Bookmark", "Assets/KillerAddons/Nurse_TornBookmark.png", "AddOn", [
           CreateRequirement("Item", ["Teleport"])
         ]);
-        CreateItem("Metal Spoon", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Metal Spoon", "Assets/KillerAddons/Nurse_MetalSpoon.png", "AddOn", [
           CreateRequirement("Item", ["Teleport"])
         ]);
-        CreateItem("Matchbox", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Matchbox", "Assets/KillerAddons/Nurse_Matchbox.png", "AddOn", [
           CreateRequirement("Item", ["Teleport"])
         ]);
-        CreateItem("Bad Man Keepsake", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Bad Man Keepsake", "Assets/KillerAddons/Nurse_BadManKeepsake.png", "AddOn", [
           CreateRequirement("Item", ["Teleport"])
         ]);
-        CreateItem("Pocket Watch", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Pocket Watch", "Assets/KillerAddons/Nurse_PocketWatch.png", "AddOn", [
           CreateRequirement("Item", ["Teleport"])
         ]);
-        CreateItem("Dull Bracelet", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Dull Bracelet", "Assets/KillerAddons/Nurse_DullBracelet.png", "AddOn", [
           CreateRequirement("Item", ["Teleport"])
         ]);
-        CreateItem("Dark Cincture", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Dark Cincture", "Assets/KillerAddons/Nurse_DarkCincture.png", "AddOn", [
           CreateRequirement("Item", ["Teleport"])
         ]);
-        CreateItem("Catatonic Boy's Treasure", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Catatonic Boy's Treasure", "Assets/KillerAddons/Nurse_CatatonicBoysTreasure.png", "AddOn", [
           CreateRequirement("Item", ["Teleport"])
         ]);
-        CreateItem("Spasmodic Breath", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Spasmodic Breath", "Assets/KillerAddons/Nurse_SpasmodicBreath.png", "AddOn", [
           CreateRequirement("Item", ["Teleport"])
         ]);
-        CreateItem("Heavy Panting", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Heavy Panting", "Assets/KillerAddons/Nurse_HeavyPanting.png", "AddOn", [
           CreateRequirement("Item", ["Teleport"])
         ]);
-        CreateItem("Fragile Wheeze", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Fragile Wheeze", "Assets/KillerAddons/Nurse_FragileWheeze.png", "AddOn", [
           CreateRequirement("Item", ["Teleport"])
         ]);
-        CreateItem("Ataxic Respiration", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Ataxic Respiration", "Assets/KillerAddons/Nurse_AtaxicRespiration.png", "AddOn", [
           CreateRequirement("Item", ["Teleport"])
         ]);
-        CreateItem("Anxious Gasp", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Anxious Gasp", "Assets/KillerAddons/Nurse_AnxiousGasp.png", "AddOn", [
           CreateRequirement("Item", ["Teleport"])
         ]);
-        CreateItem("Plaid Flannel", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Plaid Flannel", "Assets/KillerAddons/Nurse_PlaidFlannel.png", "AddOn", [
           CreateRequirement("Item", ["Teleport"])
         ]);
-        CreateItem("Kavanagh's Last Breath", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Kavanagh's Last Breath", "Assets/KillerAddons/Nurse_KavanaghsLastBreath.png", "AddOn", [
           CreateRequirement("Item", ["Teleport"])
         ]);
-        CreateItem("Jenner's Last Breath", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Jenner's Last Breath", "Assets/KillerAddons/Nurse_JennersLastBreath.png", "AddOn", [
           CreateRequirement("Item", ["Teleport"])
         ]);
-        CreateItem("Campbell's Last Breath", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Campbell's Last Breath", "Assets/KillerAddons/Nurse_CampbellsLastBreath.png", "AddOn", [
           CreateRequirement("Item", ["Teleport"])
         ]);
-        CreateItem("Bad Man's Last Breath", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Bad Man's Last Breath", "Assets/KillerAddons/Nurse_BadMansLastBreath.png", "AddOn", [
           CreateRequirement("Item", ["Teleport"])
         ]);
         
         // Shape addons
-        CreateItem("Tacky Earrings", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Tacky Earrings", "Assets/KillerAddons/Shape_TackyEarrings.png", "AddOn", [
           CreateRequirement("Item", ["Evil Within"])
         ]);
-        CreateItem("Boyfriend's Memo", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Boyfriend's Memo", "Assets/KillerAddons/Shape_BoyfriendsMemo.png", "AddOn", [
           CreateRequirement("Item", ["Evil Within"])
         ]);
-        CreateItem("Blond Hair", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Blond Hair", "Assets/KillerAddons/Shape_BlondHair.png", "AddOn", [
           CreateRequirement("Item", ["Evil Within"])
         ]);
-        CreateItem("Reflective Fragment", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Reflective Fragment", "Assets/KillerAddons/Shape_ReflectiveFragment.png", "AddOn", [
           CreateRequirement("Item", ["Evil Within"])
         ]);
-        CreateItem("Memorial Flower", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Memorial Flower", "Assets/KillerAddons/Shape_MemorialFlower.png", "AddOn", [
           CreateRequirement("Item", ["Evil Within"])
         ]);
-        CreateItem("Jewelry", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Jewelry", "Assets/KillerAddons/Shape_Jewelry.png", "AddOn", [
           CreateRequirement("Item", ["Evil Within"])
         ]);
-        CreateItem("Hair Brush", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Hair Brush", "Assets/KillerAddons/Shape_HairBrush.png", "AddOn", [
           CreateRequirement("Item", ["Evil Within"])
         ]);
-        CreateItem("Glass Fragment", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Glass Fragment", "Assets/KillerAddons/Shape_GlassFragment.png", "AddOn", [
           CreateRequirement("Item", ["Evil Within"])
         ]);
-        CreateItem("Dead Rabbit", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Dead Rabbit", "Assets/KillerAddons/Shape_DeadRabbit.png", "AddOn", [
           CreateRequirement("Item", ["Evil Within"])
         ]);
-        CreateItem("Mirror Shard", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Mirror Shard", "Assets/KillerAddons/Shape_MirrorShard.png", "AddOn", [
           CreateRequirement("Item", ["Evil Within"])
         ]);
-        CreateItem("Judith's Journal", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Judith's Journal", "Assets/KillerAddons/Shape_JudithsJournal.png", "AddOn", [
           CreateRequirement("Item", ["Evil Within"])
         ]);
-        CreateItem("Jewelry Box", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Jewelry Box", "Assets/KillerAddons/Shape_JewelryBox.png", "AddOn", [
           CreateRequirement("Item", ["Evil Within"])
         ]);
-        CreateItem("J. Meyers Memorial", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("J. Meyers Memorial", "Assets/KillerAddons/Shape_JMeyersMemorial.png", "AddOn", [
           CreateRequirement("Item", ["Evil Within"])
         ]);
-        CreateItem("Hair Bow", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Hair Bow", "Assets/KillerAddons/Shape_HairBow.png", "AddOn", [
           CreateRequirement("Item", ["Evil Within"])
         ]);
-        CreateItem("Vanity Mirror", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Vanity Mirror", "Assets/KillerAddons/Shape_VanityMirror.png", "AddOn", [
           CreateRequirement("Item", ["Evil Within"])
         ]);
-        CreateItem("Tombstone Piece", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Tombstone Piece", "Assets/KillerAddons/Shape_TombstonePiece.png", "AddOn", [
           CreateRequirement("Item", ["Evil Within"])
         ]);
-        CreateItem("Scratched Mirror", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Scratched Mirror", "Assets/KillerAddons/Shape_ScratchedMirror.png", "AddOn", [
           CreateRequirement("Item", ["Evil Within"])
         ]);
-        CreateItem("Lock of Hair", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Lock of Hair", "Assets/KillerAddons/Shape_LockOfHair.png", "AddOn", [
           CreateRequirement("Item", ["Evil Within"])
         ]);
-        CreateItem("Judith's Tombstone", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Judith's Tombstone", "Assets/KillerAddons/Shape_JudithsTombstone.png", "AddOn", [
           CreateRequirement("Item", ["Evil Within"])
         ]);
-        CreateItem("Fragrant Tuft of Hair", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Fragrant Tuft of Hair", "Assets/KillerAddons/Shape_FragrantTuftOfHair.png", "AddOn", [
           CreateRequirement("Item", ["Evil Within"])
         ]);
         
         // Hag addons
-        CreateItem("Rope Necklet", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Rope Necklet", "Assets/KillerAddons/Hag_RopeNecklet.png", "AddOn", [
           CreateRequirement("Item", ["Hex"])
         ]);
-        CreateItem("Powdered Eggshell", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Powdered Eggshell", "Assets/KillerAddons/Hag_PowderedEggshell.png", "AddOn", [
           CreateRequirement("Item", ["Hex"])
         ]);
-        CreateItem("Dead Fly Mud", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Dead Fly Mud", "Assets/KillerAddons/Hag_DeadFlyMud.png", "AddOn", [
           CreateRequirement("Item", ["Hex"])
         ]);
-        CreateItem("Bog Water", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Bog Water", "Assets/KillerAddons/Hag_BogWater.png", "AddOn", [
           CreateRequirement("Item", ["Hex"])
         ]);
-        CreateItem("Pussy Willow Catkins", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Pussy Willow Catkins", "Assets/KillerAddons/Hag_PussyWillowCatkins.png", "AddOn", [
           CreateRequirement("Item", ["Hex"])
         ]);
-        CreateItem("Half Eggshell", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Half Eggshell", "Assets/KillerAddons/Hag_HalfEggshell.png", "AddOn", [
           CreateRequirement("Item", ["Hex"])
         ]);
-        CreateItem("Dragonfly Wings", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Dragonfly Wings", "Assets/KillerAddons/Hag_DragonflyWings.png", "AddOn", [
           CreateRequirement("Item", ["Hex"])
         ]);
-        CreateItem("Cypress Necklet", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Cypress Necklet", "Assets/KillerAddons/Hag_CypressNecklet.png", "AddOn", [
           CreateRequirement("Item", ["Hex"])
         ]);
-        CreateItem("Bloodied Water", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Bloodied Water", "Assets/KillerAddons/Hag_BloodiedWater.png", "AddOn", [
           CreateRequirement("Item", ["Hex"])
         ]);
-        CreateItem("Willow Wreath", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Willow Wreath", "Assets/KillerAddons/Hag_WillowWreath.png", "AddOn", [
           CreateRequirement("Item", ["Hex"])
         ]);
-        CreateItem("Swamp Orchid Necklet", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Swamp Orchid Necklet", "Assets/KillerAddons/Hag_SwampOrchidNecklet.png", "AddOn", [
           CreateRequirement("Item", ["Hex"])
         ]);
-        CreateItem("Dried Cicada", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Dried Cicada", "Assets/KillerAddons/Hag_DriedCicada.png", "AddOn", [
           CreateRequirement("Item", ["Hex"])
         ]);
-        CreateItem("Cracked Turtle Egg", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Cracked Turtle Egg", "Assets/KillerAddons/Hag_CrackedTurtleEgg.png", "AddOn", [
           CreateRequirement("Item", ["Hex"])
         ]);
-        CreateItem("Bloodied Mud", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Bloodied Mud", "Assets/KillerAddons/Hag_BloodiedMud.png", "AddOn", [
           CreateRequirement("Item", ["Hex"])
         ]);
-        CreateItem("Scarred Hand", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Scarred Hand", "Assets/KillerAddons/Hag_ScarredHand.png", "AddOn", [
           CreateRequirement("Item", ["Hex"])
         ]);
-        CreateItem("Rusty Shackles", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Rusty Shackles", "Assets/KillerAddons/Hag_RustyShackles.png", "AddOn", [
           CreateRequirement("Item", ["Hex"])
         ]);
-        CreateItem("Granma's Heart", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Granma's Heart", "Assets/KillerAddons/Hag_GranmasHeart.png", "AddOn", [
           CreateRequirement("Item", ["Hex"])
         ]);
-        CreateItem("Disfigured Ear", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Disfigured Ear", "Assets/KillerAddons/Hag_DisfiguredEar.png", "AddOn", [
           CreateRequirement("Item", ["Hex"])
         ]);
-        CreateItem("Waterlogged Show", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Waterlogged Shoe", "Assets/KillerAddons/Hag_WaterloggedShoe.png", "AddOn", [
           CreateRequirement("Item", ["Hex"])
         ]);
-        CreateItem("Mint Rag", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Mint Rag", "Assets/KillerAddons/Hag_MintRag.png", "AddOn", [
           CreateRequirement("Item", ["Hex"])
         ]);
         
         // Doctor addons
-        CreateItem("Moldy Electrode", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Moldy Electrode", "Assets/KillerAddons/Doctor_MoldyElectrode.png", "AddOn", [
           CreateRequirement("Item", ["Shock Therapy"])
         ]);
-        CreateItem("Maple Knight", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Maple Knight", "Assets/KillerAddons/Doctor_MapleKnight.png", "AddOn", [
           CreateRequirement("Item", ["Shock Therapy"])
         ]);
-        CreateItem("Order - Class I", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Order - Class I", "Assets/KillerAddons/Doctor_OrderClassI.png", "AddOn", [
           CreateRequirement("Item", ["Shock Therapy"])
         ]);
-        CreateItem("Calm - Class I", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Calm - Class I", "Assets/KillerAddons/Doctor_CalmClassI.png", "AddOn", [
           CreateRequirement("Item", ["Shock Therapy"])
         ]);
-        CreateItem("Scrapped Tape", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Scrapped Tape", "Assets/KillerAddons/Doctor_ScrappedTape.png", "AddOn", [
           CreateRequirement("Item", ["Shock Therapy"])
         ]);
-        CreateItem("Polished Electrode", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Polished Electrode", "Assets/KillerAddons/Doctor_PolishedElectrode.png", "AddOn", [
           CreateRequirement("Item", ["Shock Therapy"])
         ]);
-        CreateItem("Interview Tape", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Interview Tape", "Assets/KillerAddons/Doctor_InterviewTape.png", "AddOn", [
           CreateRequirement("Item", ["Shock Therapy"])
         ]);
-        CreateItem("Retraint - Class II", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Restraint - Class II", "Assets/KillerAddons/Doctor_RestraintClassII.png", "AddOn", [
           CreateRequirement("Item", ["Shock Therapy"])
         ]);
-        CreateItem("Order - Class II", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Order - Class II", "Assets/KillerAddons/Doctor_OrderClassII.png", "AddOn", [
           CreateRequirement("Item", ["Shock Therapy"])
         ]);
-        CreateItem("Discipline - Class II", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Discipline - Class II", "Assets/KillerAddons/Doctor_DisciplineClassII.png", "AddOn", [
           CreateRequirement("Item", ["Shock Therapy"])
         ]);
-        CreateItem("Calm - Class II", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Calm - Class II", "Assets/KillerAddons/Doctor_CalmClassII.png", "AddOn", [
           CreateRequirement("Item", ["Shock Therapy"])
         ]);
-        CreateItem("High Stimulus Electrode", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("High Stimulus Electrode", "Assets/KillerAddons/Doctor_HighStimulusElectrode.png", "AddOn", [
           CreateRequirement("Item", ["Shock Therapy"])
         ]);
-        CreateItem("Restraint - Class III", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Restraint - Class III", "Assets/KillerAddons/Doctor_RestraintClassIII.png", "AddOn", [
           CreateRequirement("Item", ["Shock Therapy"])
         ]);
-        CreateItem("Discipline - Class III", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Discipline - Class III", "Assets/KillerAddons/Doctor_DisciplineClassIII.png", "AddOn", [
           CreateRequirement("Item", ["Shock Therapy"])
         ]);
-        CreateItem("Restraint - Carter's Notes", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Restraint - Carter's Notes", "Assets/KillerAddons/Doctor_RestraintCartersNotes.png", "AddOn", [
           CreateRequirement("Item", ["Shock Therapy"])
         ]);
-        CreateItem("Order - Carter's Notes", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Order - Carter's Notes", "Assets/KillerAddons/Doctor_OrderCartersNotes.png", "AddOn", [
           CreateRequirement("Item", ["Shock Therapy"])
         ]);
-        CreateItem("Obedience - Carter's Notes", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Obedience - Carter's Notes", "Assets/KillerAddons/Doctor_ObedienceCartersNotes.png", "AddOn", [
           CreateRequirement("Item", ["Shock Therapy"])
         ]);
-        CreateItem("Discipline - Carter's Notes", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Discipline - Carter's Notes", "Assets/KillerAddons/Doctor_DisciplineCartersNotes.png", "AddOn", [
           CreateRequirement("Item", ["Shock Therapy"])
         ]);
-        CreateItem("Calm - Carter's Notes", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Calm - Carter's Notes", "Assets/KillerAddons/Doctor_CalmCartersNotes.png", "AddOn", [
           CreateRequirement("Item", ["Shock Therapy"])
         ]);
-        CreateItem("Iridescent King", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Iridescent King", "Assets/KillerAddons/Doctor_IridescentKing.png", "AddOn", [
           CreateRequirement("Item", ["Shock Therapy"])
         ]);
         
         // Huntress Addons
-        CreateItem("Coarse Stone", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Coarse Stone", "Assets/KillerAddons/Huntress_CoarseStone.png", "AddOn", [
           CreateRequirement("Item", ["Hatchet"])
         ]);
-        CreateItem("Berus Toxin", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Berus Toxin", "Assets/KillerAddons/Huntress_BerusToxin.png", "AddOn", [
           CreateRequirement("Item", ["Hatchet"])
         ]);
-        CreateItem("Bandaged Haft", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Bandaged Haft", "Assets/KillerAddons/Huntress_BandagedHaft.png", "AddOn", [
           CreateRequirement("Item", ["Hatchet"])
         ]);
-        CreateItem("Amanita Toxin", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Amanita Toxin", "Assets/KillerAddons/Huntress_AmanitaToxin.png", "AddOn", [
           CreateRequirement("Item", ["Hatchet"])
         ]);
-        CreateItem("Yew Seed Brew", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Yew Seed Brew", "Assets/KillerAddons/Huntress_YewSeedBrew.png", "AddOn", [
           CreateRequirement("Item", ["Hatchet"])
         ]);
-        CreateItem("Shiny Pin", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Shiny Pin", "Assets/KillerAddons/Huntress_ShinyPin.png", "AddOn", [
           CreateRequirement("Item", ["Hatchet"])
         ]);
-        CreateItem("Oak Haft", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Oak Haft", "Assets/KillerAddons/Huntress_OakHaft.png", "AddOn", [
           CreateRequirement("Item", ["Hatchet"])
         ]);
-        CreateItem("Manna Grass Braid", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Manna Grass Braid", "Assets/KillerAddons/Huntress_MannaGrassBraid.png", "AddOn", [
           CreateRequirement("Item", ["Hatchet"])
         ]);
-        CreateItem("Leather Loop", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Leather Loop", "Assets/KillerAddons/Huntress_LeatherLoop.png", "AddOn", [
           CreateRequirement("Item", ["Hatchet"])
         ]);
-        CreateItem("Fine Stone", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Fine Stone", "Assets/KillerAddons/Huntress_FineStone.png", "AddOn", [
           CreateRequirement("Item", ["Hatchet"])
         ]);
-        CreateItem("Deerskin Gloves", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Deerskin Gloves", "Assets/KillerAddons/Huntress_DeerskinGloves.png", "AddOn", [
           CreateRequirement("Item", ["Hatchet"])
         ]);
-        CreateItem("Yew Seed Concoction", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Yew Seed Concoction", "Assets/KillerAddons/Huntress_YewSeedConcoction.png", "AddOn", [
           CreateRequirement("Item", ["Hatchet"])
         ]);
-        CreateItem("Venemous Concoction", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Venemous Concoction", "Assets/KillerAddons/Huntress_VenemousConcoction.png", "AddOn", [
           CreateRequirement("Item", ["Hatchet"])
         ]);
-        CreateItem("Rusty Head", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Rusty Head", "Assets/KillerAddons/Huntress_RustyHead.png", "AddOn", [
           CreateRequirement("Item", ["Hatchet"])
         ]);
-        CreateItem("Pungent Fiale", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Pungent Fiale", "Assets/KillerAddons/Huntress_PungentFiale.png", "AddOn", [
           CreateRequirement("Item", ["Hatchet"])
         ]);
-        CreateItem("Flower Babushka", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Flower Babushka", "Assets/KillerAddons/Huntress_FlowerBabushka.png", "AddOn", [
           CreateRequirement("Item", ["Hatchet"])
         ]);
-        CreateItem("Infantry Belt", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Infantry Belt", "Assets/KillerAddons/Huntress_InfantryBelt.png", "AddOn", [
           CreateRequirement("Item", ["Hatchet"])
         ]);
-        CreateItem("Glowing Concoction", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Glowing Concoction", "Assets/KillerAddons/Huntress_GlowingConcoction.png", "AddOn", [
           CreateRequirement("Item", ["Hatchet"])
         ]);
-        CreateItem("Begrimed Head", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Begrimed Head", "Assets/KillerAddons/Huntress_BegrimedHead.png", "AddOn", [
           CreateRequirement("Item", ["Hatchet"])
         ]);
-        CreateItem("Iridescent Head", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Iridescent Head", "Assets/KillerAddons/Huntress_IridescentHead.png", "AddOn", [
           CreateRequirement("Item", ["Hatchet"])
         ]);
         
         // Cannibal Addons
-        CreateItem("Knife Scratches", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Knife Scratches", "Assets/KillerAddons/Cannibal_KnifeScratches.png", "AddOn", [
           CreateRequirement("Item", ["Cannibal's Chainsaw"])
         ]);
-        CreateItem("Chili", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Chili", "Assets/KillerAddons/Cannibal_Chili.png", "AddOn", [
           CreateRequirement("Item", ["Cannibal's Chainsaw"])
         ]);
-        CreateItem("The Grease", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("The Grease", "Assets/KillerAddons/Cannibal_TheGrease.png", "AddOn", [
           CreateRequirement("Item", ["Cannibal's Chainsaw"])
         ]);
-        CreateItem("The Beast's Marks", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("The Beast's Marks", "Assets/KillerAddons/Cannibal_TheBeastsMarks.png", "AddOn", [
           CreateRequirement("Item", ["Cannibal's Chainsaw"])
         ]);
-        CreateItem("Award-winning Chili", "Assets/Unknown_AddOn.png", "AddOn", [
+        CreateItem("Award-Winning Chili", "Assets/KillerAddons/Cannibal_AwardWinningChili.png", "AddOn", [
           CreateRequirement("Item", ["Cannibal's Chainsaw"])
         ]);
         
@@ -1270,7 +1270,7 @@ Array.prototype.randomElement = function () {
         CreateItem("Hex - Huntress Lullaby", "Assets/KillerPerks/Hex_-_Huntress_Lullaby.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Hex - No One Escapes Death", "Assets/KillerPerks/Hex_-No_One_Escapes_Death.png", "Perk", [
+        CreateItem("Hex - No One Escapes Death", "Assets/KillerPerks/Hex_-_No_One_Escapes_Death.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
         CreateItem("Hex - Ruin", "Assets/KillerPerks/Hex_-_Ruin.png", "Perk", [
@@ -1294,7 +1294,7 @@ Array.prototype.randomElement = function () {
         CreateItem("Lightborn", "Assets/KillerPerks/Lightborn.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("Monior And Abuse", "Assets/KillerPerks/Monior_And_Abuse.png", "Perk", [
+        CreateItem("Monitor And Abuse", "Assets/KillerPerks/Monitor_And_Abuse.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
         CreateItem("Monstrous Shrine", "Assets/KillerPerks/Monstrous_Shrine.png", "Perk", [
