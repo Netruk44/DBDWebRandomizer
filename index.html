@@ -6,7 +6,7 @@
   <script src="randomizer.js"></script>
 </head>
 <body ng-app="randomizerApp">
-  <div ng-controller="randomizer as r">
+  <div ng-controller="randomizer as r" width="100%">
   <table>
     <tr><td class="type">Role:</td><td class="typeImage"><img src="{{r.currentSelections['Role'].image}}" /></td><td class="typeValue">{{r.showState["Role"]}}</td></tr>
     <tr><td class="type">Character:</td><td class="typeImage"><img src="{{r.currentSelections['Character'].image}}" /><td class="typeValue">{{r.showState["Character"]}}</td></tr>
