@@ -14,25 +14,33 @@ Array.prototype.randomElement = function () {
     function() {
       let vm = this;
 
-      // What we show the user, contains strings
-      // Probably just for debugging
-      vm.showState = {
-      };
-
       // For internal use, contains objects
       vm.currentSelections = {
       };
       
       vm.allItems = [];
+      vm.groups = {};
+      vm.groupNames = [];
       
       vm.Initialize = function() {
-        function CreateItem(name, image, type, requirements) {
-          vm.allItems.push({
+        function CreateItem(name, image, type, requirements, canDisable = true) {
+          let newItem = {
             name: name,
             image: image,
             type: type,
-            requirements: requirements
-          });
+            requirements: requirements,
+            enabled: true,
+            canDisable: canDisable
+          };
+          
+          vm.allItems.push(newItem);
+          
+          if(vm.groups[type] === undefined) {
+            vm.groups[type] = [];
+            vm.groupNames.push(type);
+          }
+          
+          vm.groups[type].push(newItem);
         };
 
         // Type: The required type (Character, Item, Addon)
@@ -117,31 +125,31 @@ Array.prototype.randomElement = function () {
         // Killer items (weapons)
         CreateItem("Trap", "Assets/KillerItems/Trap.png", "Item", [
           CreateRequirement("Character", ["Trapper"])
-        ]);
+        ], false);
         CreateItem("Bell", "Assets/KillerItems/Bell.png", "Item", [
           CreateRequirement("Character", ["Wraith"])
-        ]);
+        ], false);
         CreateItem("Hillbilly's Chainsaw", "Assets/KillerItems/Billy_Saw.png", "Item", [
           CreateRequirement("Character", ["Hillbilly"])
-        ]);
+        ], false);
         CreateItem("Teleport", "Assets/KillerItems/Breath.png", "Item", [
           CreateRequirement("Character", ["Nurse"])
-        ]);
+        ], false);
         CreateItem("Evil Within", "Assets/KillerItems/Evil.png", "Item", [
           CreateRequirement("Character", ["Shape"])
-        ]);
+        ], false);
         CreateItem("Hex", "Assets/KillerItems/Hex.png", "Item", [
           CreateRequirement("Character", ["Hag"])
-        ]);
+        ], false);
         CreateItem("Shock Therapy", "Assets/KillerItems/Spark.png", "Item", [
           CreateRequirement("Character", ["Doctor"])
-        ]);
+        ], false);
         CreateItem("Hatchet", "Assets/KillerItems/Axe.png", "Item", [
           CreateRequirement("Character", ["Huntress"])
-        ]);
+        ], false);
         CreateItem("Cannibal's Chainsaw", "Assets/KillerItems/Cannibal_Saw.png", "Item", [
           CreateRequirement("Character", ["Cannibal"])
-        ]);
+        ], false);
         
         // Survivor Items
         CreateItem("Chinese Firecracker", "Assets/SurvivorItems/ChineseFirecracker.png", "Item", [
@@ -1373,7 +1381,7 @@ Array.prototype.randomElement = function () {
         let items = [];
         
         for(let i = 0; i < vm.allItems.length; i++) {
-          if(vm.allItems[i].type === type) {
+          if(vm.allItems[i].type === type && vm.allItems[i].enabled === true) {
             items.push(vm.allItems[i]);
           }
         }
@@ -1429,7 +1437,6 @@ Array.prototype.randomElement = function () {
           return;
         }
         
-        vm.showState[type] = selectedItem.name;
         vm.currentSelections[type] = selectedItem;
       }
       
@@ -1461,7 +1468,6 @@ Array.prototype.randomElement = function () {
         if(vm.currentSelections[type] !== undefined) {
           allAvailableOptions = vm.RemoveAlreadySelectedItems(type, allAvailableOptions);
         } else {
-          vm.showState[type] = [];
           vm.currentSelections[type] = [];
         }
         
@@ -1473,7 +1479,6 @@ Array.prototype.randomElement = function () {
           return;
         }
         
-        vm.showState[type].push(selectedItem.name);
         vm.currentSelections[type].push(selectedItem);
       }
 

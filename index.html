@@ -1,25 +1,71 @@
 <html>
 <head>
-  <link rel="stylesheet" href="randomizer.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="randomizer.js"></script>
+  <link rel="stylesheet" href="randomizer.css" />
 </head>
 <body ng-app="randomizerApp">
-  <div ng-controller="randomizer as r" width="100%">
-  <table>
-    <tr><td class="type">Role:</td><td class="typeImage"><img src="{{r.currentSelections['Role'].image}}" /></td><td class="typeValue">{{r.showState["Role"]}}</td></tr>
-    <tr><td class="type">Character:</td><td class="typeImage"><img src="{{r.currentSelections['Character'].image}}" /><td class="typeValue">{{r.showState["Character"]}}</td></tr>
-    <tr><td class="type">Item/Weapon:</td><td class="typeImage"><img src="{{r.currentSelections['Item'].image}}" /><td class="typeValue">{{r.showState["Item"]}}</td></tr>
-    <tr><td class="type">First Add On:</td><td class="typeImage"><img src="{{r.currentSelections['AddOn'][0].image}}" /><td class="typeValue">{{r.showState["AddOn"][0]}}</td></tr>
-    <tr><td class="type">Second Add On:</td><td class="typeImage"><img src="{{r.currentSelections['AddOn'][1].image}}" /><td class="typeValue">{{r.showState["AddOn"][1]}}</td></tr>
-    <tr><td class="type">Offering:</td><td class="typeImage"><img src="{{r.currentSelections['Offering'].image}}" /><td class="typeValue">{{r.showState["Offering"]}}</td></tr>
-    <tr><td class="type">First Perk:</td><td class="typeImage"><img src="{{r.currentSelections['Perk'][0].image}}" /><td class="typeValue">{{r.showState["Perk"][0]}}</td></tr>
-    <tr><td class="type">Second Perk:</td><td class="typeImage"><img src="{{r.currentSelections['Perk'][1].image}}" /><td class="typeValue">{{r.showState["Perk"][1]}}</td></tr>
-    <tr><td class="type">Third Perk:</td><td class="typeImage"><img src="{{r.currentSelections['Perk'][2].image}}" /><td class="typeValue">{{r.showState["Perk"][2]}}</td></tr>
-    <tr><td class="type">Fourth Perk:</td><td class="typeImage"><img src="{{r.currentSelections['Perk'][3].image}}" /><td class="typeValue">{{r.showState["Perk"][3]}}</td></tr>
-    <tr><td class="randomizeButton" colspan="3"><button ng-click="r.Randomize()">Randomize</button></td></tr>
-  </table>
+  <div ng-controller="randomizer as r" width="100%" class="randomizer">
+    <table>
+      <tr><td class="type">Role:</td><td class="typeImage"><img src="{{r.currentSelections['Role'].image}}" /></td><td class="typeValue">{{r.currentSelections["Role"].name}}</td></tr>
+      <tr><td class="type">Character:</td><td class="typeImage"><img src="{{r.currentSelections['Character'].image}}" /><td class="typeValue">{{r.currentSelections["Character"].name}}</td></tr>
+      <tr><td class="type">Item/Weapon:</td><td class="typeImage"><img src="{{r.currentSelections['Item'].image}}" /><td class="typeValue">{{r.currentSelections["Item"].name}}</td></tr>
+      <tr><td class="type">First Add On:</td><td class="typeImage"><img src="{{r.currentSelections['AddOn'][0].image}}" /><td class="typeValue">{{r.currentSelections["AddOn"][0].name}}</td></tr>
+      <tr><td class="type">Second Add On:</td><td class="typeImage"><img src="{{r.currentSelections['AddOn'][1].image}}" /><td class="typeValue">{{r.currentSelections["AddOn"][1].name}}</td></tr>
+      <tr><td class="type">Offering:</td><td class="typeImage"><img src="{{r.currentSelections['Offering'].image}}" /><td class="typeValue">{{r.currentSelections["Offering"].name}}</td></tr>
+      <tr><td class="type">First Perk:</td><td class="typeImage"><img src="{{r.currentSelections['Perk'][0].image}}" /><td class="typeValue">{{r.currentSelections["Perk"][0].name}}</td></tr>
+      <tr><td class="type">Second Perk:</td><td class="typeImage"><img src="{{r.currentSelections['Perk'][1].image}}" /><td class="typeValue">{{r.currentSelections["Perk"][1].name}}</td></tr>
+      <tr><td class="type">Third Perk:</td><td class="typeImage"><img src="{{r.currentSelections['Perk'][2].image}}" /><td class="typeValue">{{r.currentSelections["Perk"][2].name}}</td></tr>
+      <tr><td class="type">Fourth Perk:</td><td class="typeImage"><img src="{{r.currentSelections['Perk'][3].image}}" /><td class="typeValue">{{r.currentSelections["Perk"][3].name}}</td></tr>
+      <tr><td class="randomizeButton" colspan="3"><button ng-click="r.Randomize()">Randomize</button></td></tr>
+      <tr><td class="optionsButton" colspan="3"><button data-toggle="modal" data-target="#optionsModal">Options</button></td></tr>
+    </table><br />
+    
+    <div id="optionsModal" class="modal fade dark" role="dialog">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h3 class="modal-title">Randomizer Options</h3>
+          </div>
+          <div class="modal-body">
+            <p>Select the items you want the randomizer to choose from.</p>
+            <p><strong>Note:</strong> If you disable (for example) Roles > Survivor, you don't need to disable all survivors under Characters.</p>
+            <p>The larger categories (items, addons, offerings) are a mess to navigate. I'm sorry <img src="assets\rooCry.png" width="24px"/></p>
+            <div class="panel-group dark" id="optionsAccordion">
+              <div ng-repeat="groupName in r.groupNames" class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#optionsAccordion" href="#collapse{{$index}}">{{groupName}}s</a>
+                  </h4>
+                </div>
+                <div id="collapse{{$index}}" class="panel-collapse collapse">
+                  <div class="panel-body">
+                    <div ng-repeat="item in r.groups[groupName]">
+                      <label><img src="{{item.image}}" />{{item.name}}: <input type="checkbox" ng-model="item.enabled" ng-disabled="!item.canDisable"></label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--<div ng-repeat="groupName in r.groupNames">
+              <h4>{{groupName}}</h4>
+              <div ng-repeat="item in r.groups[groupName]">
+                <label>{{item.name}}: <input type="checkbox" ng-model="item.enabled"></label>
+              </div>
+            </div>-->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+  
+  
 </body>
 </html>

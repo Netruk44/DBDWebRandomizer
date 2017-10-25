@@ -1,31 +1,31 @@
-table {
+.randomizer table {
   border-collapse: collapse;
   margin-left: auto;
   margin-right: auto;
 }
 
-tr {
+.randomizer tr {
   border: 1px #5B5B5B solid;
 }
 
-td {
-  color: white;
+.randomizer td {
+  color: #ddd;
 }
 
-td:nth-child(1) {
+.randomizer td:nth-child(1) {
   border: 1px #5B5B5B solid;
 }
 
-td.type {
+.randomizer td.type {
   font-weight: bold;
   text-align: right;
 }
 
-td.typeImage {
+.randomizer td.typeImage {
   text-align: center;
 }
 
-td.randomizeButton {
+.randomizer td.randomizeButton, td.optionsButton {
   text-align: center;
 }
 
@@ -33,19 +33,76 @@ body {
   background-color: #0b0b0b;
 }
 
-button {
+.randomizer td.randomizeButton button {
   background-color: gray;
-  border: 3px white solid;
+  border: 3px #ddd solid;
   padding: 15px 32px;
   text-alight: center;
   text-decoration: none;
-  color: white;
+  color: #ddd;
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
 }
 
-.div {
+.randomizer td.optionsButton button {
+  background-color: #2874A6;
+  border: 2px gray solid;
+  padding: 6px 16px;
+  text-alight: center;
+  text-decoration: none;
+  color: #ddd;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.randomizer div {
   margin: auto;
   text-align: center;
+}
+
+.modal.dark .modal-body {
+  background: #40464b;
+}
+
+.modal.dark .modal-footer {
+  background: #2d3032;
+  border-top: 1px solid #2a2c2e;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.modal.dark .modal-header {
+  background: #2d3032;
+  border-bottom: 1px solid #2a2c2e;
+}
+
+.modal.dark .modal-header h4 {
+  color: #ccc;
+}
+
+.modal.dark .btn-default {
+  color: #ccc;
+  background-color: #333;
+  border-color: #ccc;
+}
+
+.modal.dark .close {
+  color: #ccc;
+}
+
+.modal.dark {
+  color: #aaa;
+}
+
+.panel-group.dark .panel-heading {
+  background: #5C646B;
+  color: #ccc;
+}
+
+.panel-group.dark .panel-body {
+  background: #747E87;
+  color: #ddd;
 }
