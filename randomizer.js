@@ -1502,6 +1502,20 @@ Array.prototype.randomElement = function () {
         vm.AddRandomSingleItem("Perk");
       };
       
+      vm.TurnOffAll = function(type) {
+        for(let i = 0; i < vm.groups[type].length; i++) {
+          if(vm.groups[type][i].canDisable) {
+            vm.groups[type][i].enabled = false
+          }
+        }
+      }
+      
+      vm.TurnOnAll = function(type) {
+        for(let i = 0; i < vm.groups[type].length; i++) {
+          vm.groups[type][i].enabled = true
+        }
+      }
+      
       vm.Initialize();
 
       // Examples

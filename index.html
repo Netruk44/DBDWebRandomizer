@@ -44,6 +44,8 @@
                 </div>
                 <div id="collapse{{$index}}" class="panel-collapse collapse">
                   <div class="panel-body">
+                    <button ng-click="r.TurnOffAll(groupName)">Disable all</button>
+                    <button ng-click="r.TurnOnAll(groupName)">Enable all</button>
                     <div ng-repeat="item in r.groups[groupName]">
                       <label><img src="{{item.image}}" />{{item.name}}: <input type="checkbox" ng-model="item.enabled" ng-disabled="!item.canDisable"></label>
                     </div>
