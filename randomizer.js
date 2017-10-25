@@ -21,6 +21,14 @@ Array.prototype.randomElement = function () {
       vm.allItems = [];
       vm.groups = {};
       vm.groupNames = [];
+      vm.enabledGroups = {
+        "Role": true,
+        "Character": true,
+        "Item": true,
+        "AddOn": true,
+        "Offering": true,
+        "Perk": true
+      }
       
       vm.Initialize = function() {
         function CreateItem(name, image, type, requirements, canDisable = true) {
@@ -1504,6 +1512,7 @@ Array.prototype.randomElement = function () {
       
       vm.TurnOffAll = function(type) {
         for(let i = 0; i < vm.groups[type].length; i++) {
+          vm.enabledGroups[type] = false;
           if(vm.groups[type][i].canDisable) {
             vm.groups[type][i].enabled = false
           }
@@ -1511,6 +1520,7 @@ Array.prototype.randomElement = function () {
       }
       
       vm.TurnOnAll = function(type) {
+        vm.enabledGroups[type] = true;
         for(let i = 0; i < vm.groups[type].length; i++) {
           vm.groups[type][i].enabled = true
         }

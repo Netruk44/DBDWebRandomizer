@@ -10,16 +10,16 @@
 <body ng-app="randomizerApp">
   <div ng-controller="randomizer as r" width="100%" class="randomizer">
     <table>
-      <tr><td class="type">Role:</td><td class="typeImage"><img src="{{r.currentSelections['Role'].image}}" /></td><td class="typeValue">{{r.currentSelections["Role"].name}}</td></tr>
-      <tr><td class="type">Character:</td><td class="typeImage"><img src="{{r.currentSelections['Character'].image}}" /><td class="typeValue">{{r.currentSelections["Character"].name}}</td></tr>
-      <tr><td class="type">Item/Weapon:</td><td class="typeImage"><img src="{{r.currentSelections['Item'].image}}" /><td class="typeValue">{{r.currentSelections["Item"].name}}</td></tr>
-      <tr><td class="type">First Add On:</td><td class="typeImage"><img src="{{r.currentSelections['AddOn'][0].image}}" /><td class="typeValue">{{r.currentSelections["AddOn"][0].name}}</td></tr>
-      <tr><td class="type">Second Add On:</td><td class="typeImage"><img src="{{r.currentSelections['AddOn'][1].image}}" /><td class="typeValue">{{r.currentSelections["AddOn"][1].name}}</td></tr>
-      <tr><td class="type">Offering:</td><td class="typeImage"><img src="{{r.currentSelections['Offering'].image}}" /><td class="typeValue">{{r.currentSelections["Offering"].name}}</td></tr>
-      <tr><td class="type">First Perk:</td><td class="typeImage"><img src="{{r.currentSelections['Perk'][0].image}}" /><td class="typeValue">{{r.currentSelections["Perk"][0].name}}</td></tr>
-      <tr><td class="type">Second Perk:</td><td class="typeImage"><img src="{{r.currentSelections['Perk'][1].image}}" /><td class="typeValue">{{r.currentSelections["Perk"][1].name}}</td></tr>
-      <tr><td class="type">Third Perk:</td><td class="typeImage"><img src="{{r.currentSelections['Perk'][2].image}}" /><td class="typeValue">{{r.currentSelections["Perk"][2].name}}</td></tr>
-      <tr><td class="type">Fourth Perk:</td><td class="typeImage"><img src="{{r.currentSelections['Perk'][3].image}}" /><td class="typeValue">{{r.currentSelections["Perk"][3].name}}</td></tr>
+      <tr ng-if="r.enabledGroups['Role']"><td class="type">Role:</td><td class="typeImage"><img src="{{r.currentSelections['Role'].image}}" /></td><td class="typeValue">{{r.currentSelections["Role"].name}}</td></tr>
+      <tr ng-if="r.enabledGroups['Character']"><td class="type">Character:</td><td class="typeImage"><img src="{{r.currentSelections['Character'].image}}" /><td class="typeValue">{{r.currentSelections["Character"].name}}</td></tr>
+      <tr ng-if="r.enabledGroups['Item']"><td class="type">Item/Weapon:</td><td class="typeImage"><img src="{{r.currentSelections['Item'].image}}" /><td class="typeValue">{{r.currentSelections["Item"].name}}</td></tr>
+      <tr ng-if="r.enabledGroups['AddOn']"><td class="type">First Add On:</td><td class="typeImage"><img src="{{r.currentSelections['AddOn'][0].image}}" /><td class="typeValue">{{r.currentSelections["AddOn"][0].name}}</td></tr>
+      <tr ng-if="r.enabledGroups['AddOn']"><td class="type">Second Add On:</td><td class="typeImage"><img src="{{r.currentSelections['AddOn'][1].image}}" /><td class="typeValue">{{r.currentSelections["AddOn"][1].name}}</td></tr>
+      <tr ng-if="r.enabledGroups['Offering']"><td class="type">Offering:</td><td class="typeImage"><img src="{{r.currentSelections['Offering'].image}}" /><td class="typeValue">{{r.currentSelections["Offering"].name}}</td></tr>
+      <tr ng-if="r.enabledGroups['Perk']"><td class="type">First Perk:</td><td class="typeImage"><img src="{{r.currentSelections['Perk'][0].image}}" /><td class="typeValue">{{r.currentSelections["Perk"][0].name}}</td></tr>
+      <tr ng-if="r.enabledGroups['Perk']"><td class="type">Second Perk:</td><td class="typeImage"><img src="{{r.currentSelections['Perk'][1].image}}" /><td class="typeValue">{{r.currentSelections["Perk"][1].name}}</td></tr>
+      <tr ng-if="r.enabledGroups['Perk']"><td class="type">Third Perk:</td><td class="typeImage"><img src="{{r.currentSelections['Perk'][2].image}}" /><td class="typeValue">{{r.currentSelections["Perk"][2].name}}</td></tr>
+      <tr ng-if="r.enabledGroups['Perk']"><td class="type">Fourth Perk:</td><td class="typeImage"><img src="{{r.currentSelections['Perk'][3].image}}" /><td class="typeValue">{{r.currentSelections["Perk"][3].name}}</td></tr>
       <tr><td class="randomizeButton" colspan="3"><button ng-click="r.Randomize()">Randomize</button></td></tr>
       <tr><td class="optionsButton" colspan="3"><button data-toggle="modal" data-target="#optionsModal">Options</button></td></tr>
     </table><br />
