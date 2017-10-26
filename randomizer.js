@@ -95,9 +95,9 @@ Array.prototype.randomElement = function () {
         CreateItem("David", "Assets/Survivor/David.jpg", "Character", [
           CreateRequirement("Role", ["Survivor"])
         ]);
-        /*CreateItem("Kate", "Assets/Survivor/Kate.jpg", "Character", [
+        CreateItem("Quentin", "Assets/Survivor/Quentin.jpg", "Character", [
           CreateRequirement("Role", ["Survivor"])
-        ]);*/
+        ]);
         
         CreateItem("Trapper", "Assets/Killer/Trapper.jpg", "Character", [
           CreateRequirement("Role", ["Killer"])
@@ -126,9 +126,9 @@ Array.prototype.randomElement = function () {
         CreateItem("Cannibal", "Assets/Killer/Cannibal.jpg", "Character", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        /*CreateItem("Sandman", "Assets/Killer/Sandman.jpg", "Character", [
+        CreateItem("Nightmare", "Assets/Killer/Nightmare.jpg", "Character", [
           CreateRequirement("Role", ["Killer"])
-        ]);*/
+        ]);
         
         // Killer items (weapons)
         CreateItem("Trap", "Assets/KillerItems/Trap.png", "Item", [
@@ -157,6 +157,9 @@ Array.prototype.randomElement = function () {
         ], false);
         CreateItem("Cannibal's Chainsaw", "Assets/KillerItems/Cannibal_Saw.png", "Item", [
           CreateRequirement("Character", ["Cannibal"])
+        ], false);
+        CreateItem("Dream Master", "Assets/KillerItems/Trap.png", "Item", [
+          CreateRequirement("Character", ["Nightmare"])
         ], false);
         
         // Survivor Items
@@ -1251,6 +1254,15 @@ Array.prototype.randomElement = function () {
         CreateItem("We're Gonna Live Forever", "Assets/SurvivorPerks/We're_Gonna_Live_Forever.png", "Perk", [
           CreateRequirement("Role", ["Survivor"])
         ]);
+        CreateItem("Pharmacy", "Assets/SurvivorPerks/Pharmacy.png", "Perk", [
+          CreateRequirement("Role", ["Survivor"])
+        ]);
+        CreateItem("Vigil", "Assets/SurvivorPerks/Vigil.png", "Perk", [
+          CreateRequirement("Role", ["Survivor"])
+        ]);
+        CreateItem("Wake Up!", "Assets/SurvivorPerks/Wake_Up.png", "Perk", [
+          CreateRequirement("Role", ["Survivor"])
+        ]);
         
         // Killer Perks
         CreateItem("A Nurse's Calling", "Assets/KillerPerks/A_Nurse's_Calling.png", "Perk", [
@@ -1368,6 +1380,15 @@ Array.prototype.randomElement = function () {
           CreateRequirement("Role", ["Killer"])
         ]);
         CreateItem("Whispers", "Assets/KillerPerks/Whispers.png", "Perk", [
+          CreateRequirement("Role", ["Killer"])
+        ]);
+        CreateItem("Fire Up", "Assets/KillerPerks/Fire_Up.png", "Perk", [
+          CreateRequirement("Role", ["Killer"])
+        ]);
+        CreateItem("Remember Me", "Assets/KillerPerks/Remember_Me.png", "Perk", [
+          CreateRequirement("Role", ["Killer"])
+        ]);
+        CreateItem("BloodWarden", "Assets/KillerPerks/Blood_Warden.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
         
