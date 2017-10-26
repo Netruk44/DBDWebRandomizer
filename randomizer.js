@@ -1510,6 +1510,12 @@ Array.prototype.randomElement = function () {
         vm.AddRandomSingleItem("Perk");
       };
       
+      vm.ItemToggled = function(item) {
+        if(item.enabled) {
+          vm.enabledGroups[item.type] = true;
+        }
+      }
+      
       vm.TurnOffAll = function(type) {
         for(let i = 0; i < vm.groups[type].length; i++) {
           vm.enabledGroups[type] = false;
@@ -1527,143 +1533,6 @@ Array.prototype.randomElement = function () {
       }
       
       vm.Initialize();
-
-      // Examples
-      /*vm.allItems = [
-        // Role examples
-        {
-          name: "Killer",
-          image: "http://www.foo.bar/image.png",
-          type: "Role",
-          requirements: []
-        },
-        {
-          name: "Survivor",
-          image: "http://www.foo.bar/image.png",
-          type: "Role",
-          requirements: []
-        },
-        
-        // Character examples
-        {
-          name: "Trapper",
-          image: "http://www.foo.bar/image.png",
-          type: "Character",
-          requirements: [
-            {
-              requiredName: "Role",
-              requiredValue: ["Killer"]
-            }
-          ]
-        },
-        {
-          name: "Jake",
-          image: "http://www.foo.bar/image.png",
-          type: "Character",
-          requirements: [
-            {
-              requiredName: "Role",
-              requiredValue: ["Survivor"]
-            }
-          ]
-        },
-
-        // Item examples
-        {
-          name: "Trap",
-          image: "http://www.foo.bar/image.png",
-          type: "Item",
-          requirements: [
-            {
-              requiredName: "Character",
-              requiredValue: ["Trapper"]
-            }
-          ]
-        },
-        {
-          name: "Flashlight",
-          image: "http://www.foo.bar/image.png",
-          type: "Item",
-          requirements: [
-            {
-              requiredName: "Role",
-              requiredValue: ["Survivor"]
-            }
-          ]
-        },
-
-        // Item add-on examples
-        {
-          name: "Trapper Gloves",
-          image: "http://www.foo.bar/image.png",
-          type: "AddOn",
-          requirements: [
-            {
-              requiredName: "Character",
-              requiredValue: ["Trapper"]
-            }
-          ]
-        },
-        {
-          name: "Wide Lens",
-          image: "http://www.foo.bar/image.png",
-          type: "AddOn",
-          requirements: [
-            {
-              requiredName: "Item",
-              requiredValue: ["Flashlight"]
-            }
-          ]
-        },
-
-        // Offering examples
-        {
-          name: "Tenager Wreath",
-          image: "http://www.foo.bar/image.png",
-          type: "Offering",
-          requirements: [
-            {
-              requiredName: "Role",
-              requiredValue: ["Killer"]
-            }
-          ]
-        },
-        {
-          name: "Bog Laurel Sachet",
-          image: "http://www.foo.bar/image.png",
-          type: "Offering",
-          requirements: [
-            {
-              requiredName: "Role",
-              requiredValue: ["Survivor"]
-            }
-          ]
-        },
-
-        // Perk examples
-        {
-          name: "A Nurse's Calling",
-          image: "http://www.foo.bar/image.png",
-          type: "Perk",
-          requirements: [
-            {
-              requiredName: "Role",
-              requiredValue: ["Killer"]
-            }
-          ]
-        },
-        {
-          name: "Ace In The Hole",
-          image: "http://www.foo.bar/image.png",
-          type: "Perk",
-          requirements: [
-            {
-              requiredName: "Role",
-              requiredValue: ["Survivor"]
-            }
-          ]
-        }
-      ];*/
     }
   ]);
 })(window.angular);

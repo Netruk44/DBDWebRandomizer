@@ -47,7 +47,7 @@
                     <button ng-click="r.TurnOffAll(groupName)">Disable all</button>
                     <button ng-click="r.TurnOnAll(groupName)">Enable all</button>
                     <div ng-repeat="item in r.groups[groupName]">
-                      <label><img src="{{item.image}}" />{{item.name}}: <input type="checkbox" ng-model="item.enabled" ng-disabled="!item.canDisable"></label>
+                      <label><img src="{{item.image}}" />{{item.name}}: <input type="checkbox" ng-model="item.enabled" ng-disabled="!item.canDisable" ng-change="r.ItemToggled(item)"></label>
                     </div>
                   </div>
                 </div>
