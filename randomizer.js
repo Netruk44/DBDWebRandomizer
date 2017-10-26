@@ -1388,7 +1388,7 @@ Array.prototype.randomElement = function () {
         CreateItem("Remember Me", "Assets/KillerPerks/Remember_Me.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
-        CreateItem("BloodWarden", "Assets/KillerPerks/Blood_Warden.png", "Perk", [
+        CreateItem("Blood Warden", "Assets/KillerPerks/Blood_Warden.png", "Perk", [
           CreateRequirement("Role", ["Killer"])
         ]);
         
