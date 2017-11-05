@@ -158,7 +158,7 @@ Array.prototype.randomElement = function () {
         CreateItem("Cannibal's Chainsaw", "Assets/KillerItems/Cannibal_Saw.png", "Item", [
           CreateRequirement("Character", ["Cannibal"])
         ], false);
-        CreateItem("Dream Master", "Assets/KillerItems/Trap.png", "Item", [
+        CreateItem("Dream Demon", "Assets/KillerItems/Dream_Demon.png", "Item", [
           CreateRequirement("Character", ["Nightmare"])
         ], false);
         
@@ -736,6 +736,68 @@ Array.prototype.randomElement = function () {
         ]);
         CreateItem("Award-Winning Chili", "Assets/KillerAddons/Cannibal_AwardWinningChili.png", "AddOn", [
           CreateRequirement("Item", ["Cannibal's Chainsaw"])
+        ]);
+        
+        // Nightmare Addons
+        CreateItem("Wool Shirt", "Assets/KillerAddons/Nightmare_WoolShirt.png", "AddOn", [
+          CreateRequirement("Item", ["Dream Demon"])
+        ]);
+        CreateItem("Sheep Block", "Assets/KillerAddons/Nightmare_SheepBlock.png", "AddOn", [
+          CreateRequirement("Item", ["Dream Demon"])
+        ]);
+        CreateItem("Kid's Drawing", "Assets/KillerAddons/Nightmare_KidsDrawing.png", "AddOn", [
+          CreateRequirement("Item", ["Dream Demon"])
+        ]);
+        CreateItem("Garden Rake", "Assets/KillerAddons/Nightmare_GardenRake.png", "AddOn", [
+          CreateRequirement("Item", ["Dream Demon"])
+        ]);
+        CreateItem("Prototype Claws", "Assets/KillerAddons/Nightmare_PrototypeClaws.png", "AddOn", [
+          CreateRequirement("Item", ["Dream Demon"])
+        ]);
+        CreateItem("Outdoor Rope", "Assets/KillerAddons/Nightmare_OutdoorRope.png", "AddOn", [
+          CreateRequirement("Item", ["Dream Demon"])
+        ]);
+        CreateItem("Nancy's Sketch", "Assets/KillerAddons/Nightmare_NancysSketch.png", "AddOn", [
+          CreateRequirement("Item", ["Dream Demon"])
+        ]);
+        CreateItem("Green Dress", "Assets/KillerAddons/Nightmare_GreenDress.png", "AddOn", [
+          CreateRequirement("Item", ["Dream Demon"])
+        ]);
+        CreateItem("Cat Block", "Assets/KillerAddons/Nightmare_CatBlock.png", "AddOn", [
+          CreateRequirement("Item", ["Dream Demon"])
+        ]);
+        CreateItem("Unicorn Block", "Assets/KillerAddons/Nightmare_UnicornBlock.png", "AddOn", [
+          CreateRequirement("Item", ["Dream Demon"])
+        ]);
+        CreateItem("Swing Chains", "Assets/KillerAddons/Nightmare_SwingChains.png", "AddOn", [
+          CreateRequirement("Item", ["Dream Demon"])
+        ]);
+        CreateItem("Nancy's Masterpiece", "Assets/KillerAddons/Nightmare_NancysMasterpiece.png", "AddOn", [
+          CreateRequirement("Item", ["Dream Demon"])
+        ]);
+        CreateItem("Jump Rope", "Assets/KillerAddons/Nightmare_JumpRope.png", "AddOn", [
+          CreateRequirement("Item", ["Dream Demon"])
+        ]);
+        CreateItem("Blue Dress", "Assets/KillerAddons/Nightmare_BlueDress.png", "AddOn", [
+          CreateRequirement("Item", ["Dream Demon"])
+        ]);
+        CreateItem("Pill Bottle", "Assets/KillerAddons/Nightmare_PillBottle.png", "AddOn", [
+          CreateRequirement("Item", ["Dream Demon"])
+        ]);
+        CreateItem("Paint Thinner", "Assets/KillerAddons/Nightmare_PaintThinner.png", "AddOn", [
+          CreateRequirement("Item", ["Dream Demon"])
+        ]);
+        CreateItem("Class Photo", "Assets/KillerAddons/Nightmare_ClassPhoto.png", "AddOn", [
+          CreateRequirement("Item", ["Dream Demon"])
+        ]);
+        CreateItem("\"Z\" Block", "Assets/KillerAddons/Nightmare_ZBlock.png", "AddOn", [
+          CreateRequirement("Item", ["Dream Demon"])
+        ]);
+        CreateItem("Red Paint Brush", "Assets/KillerAddons/Nightmare_RedPaintBrush.png", "AddOn", [
+          CreateRequirement("Item", ["Dream Demon"])
+        ]);
+        CreateItem("Black Box", "Assets/KillerAddons/Nightmare_BlackBox.png", "AddOn", [
+          CreateRequirement("Item", ["Dream Demon"])
         ]);
         
         // Flashlight Addons
