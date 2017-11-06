@@ -3,14 +3,16 @@
 	"image": "Assets/Survivors.png",
 	"type": "Role",
 	"requirements": [],
-	"subGrouping": ""
+	"subGrouping": "",
+  "enabled" : true
 },
 {
 	"name": "Killer",
 	"image": "Assets/Killers.png",
 	"type": "Role",
 	"requirements": [],
-	"subGrouping": ""
+	"subGrouping": "",
+  "enabled" : true
 },
 {
 	"name": "Dwight",
@@ -21,7 +23,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Meg",
@@ -32,7 +35,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Claudette",
@@ -43,7 +47,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Jake",
@@ -54,7 +59,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Nea",
@@ -65,7 +71,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Laurie",
@@ -76,7 +83,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Ace",
@@ -87,7 +95,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Bill",
@@ -98,7 +107,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Feng",
@@ -109,7 +119,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "David",
@@ -120,7 +131,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Quentin",
@@ -131,7 +143,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Trapper",
@@ -142,7 +155,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Wraith",
@@ -153,7 +167,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Hillbilly",
@@ -164,7 +179,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Nurse",
@@ -175,7 +191,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Shape",
@@ -186,7 +203,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Hag",
@@ -197,7 +215,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Doctor",
@@ -208,7 +227,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Huntress",
@@ -219,7 +239,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Cannibal",
@@ -230,7 +251,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Nightmare",
@@ -241,7 +263,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Trap",
@@ -252,7 +275,8 @@
 		"requiredValue": ["Trapper"]
 	}],
 	"subGrouping": "Killer Items",
-	"canDisable": false
+	"canDisable": false,
+  "enabled" : true
 },
 {
 	"name": "Bell",
@@ -263,7 +287,8 @@
 		"requiredValue": ["Wraith"]
 	}],
 	"subGrouping": "Killer Items",
-	"canDisable": false
+	"canDisable": false,
+  "enabled" : true
 },
 {
 	"name": "Hillbilly's Chainsaw",
@@ -274,7 +299,8 @@
 		"requiredValue": ["Hillbilly"]
 	}],
 	"subGrouping": "Killer Items",
-	"canDisable": false
+	"canDisable": false,
+  "enabled" : true
 },
 {
 	"name": "Teleport",
@@ -285,7 +311,8 @@
 		"requiredValue": ["Nurse"]
 	}],
 	"subGrouping": "Killer Items",
-	"canDisable": false
+	"canDisable": false,
+  "enabled" : true
 },
 {
 	"name": "Evil Within",
@@ -296,7 +323,8 @@
 		"requiredValue": ["Shape"]
 	}],
 	"subGrouping": "Killer Items",
-	"canDisable": false
+	"canDisable": false,
+  "enabled" : true
 },
 {
 	"name": "Hex",
@@ -307,7 +335,8 @@
 		"requiredValue": ["Hag"]
 	}],
 	"subGrouping": "Killer Items",
-	"canDisable": false
+	"canDisable": false,
+  "enabled" : true
 },
 {
 	"name": "Shock Therapy",
@@ -318,7 +347,8 @@
 		"requiredValue": ["Doctor"]
 	}],
 	"subGrouping": "Killer Items",
-	"canDisable": false
+	"canDisable": false,
+  "enabled" : true
 },
 {
 	"name": "Hatchet",
@@ -329,7 +359,8 @@
 		"requiredValue": ["Huntress"]
 	}],
 	"subGrouping": "Killer Items",
-	"canDisable": false
+	"canDisable": false,
+  "enabled" : true
 },
 {
 	"name": "Cannibal's Chainsaw",
@@ -340,7 +371,8 @@
 		"requiredValue": ["Cannibal"]
 	}],
 	"subGrouping": "Killer Items",
-	"canDisable": false
+	"canDisable": false,
+  "enabled" : true
 },
 {
 	"name": "Dream Demon",
@@ -351,7 +383,8 @@
 		"requiredValue": ["Nightmare"]
 	}],
 	"subGrouping": "Killer Items",
-	"canDisable": false
+	"canDisable": false,
+  "enabled" : true
 },
 {
 	"name": "Chinese Firecracker",
@@ -362,7 +395,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Chinese Firecrackers",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Flashlight",
@@ -373,7 +407,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Flashlights",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Will O' Wisp",
@@ -384,7 +419,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Flashlights",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Sport Flashlight",
@@ -395,7 +431,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Flashlights",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Utility Flashlight",
@@ -406,7 +443,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Flashlights",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Broken Key",
@@ -417,7 +455,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Keys",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Dull Key",
@@ -428,7 +467,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Keys",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Skeleton Key",
@@ -439,7 +479,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Keys",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Map",
@@ -450,7 +491,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Maps",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Rainbow Map",
@@ -461,7 +503,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Maps",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Camping Aid Kit",
@@ -472,7 +515,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Med-Kits",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "All Hallows' Eve Lunchbox",
@@ -483,7 +527,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Med-Kits",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "First Aid Kit",
@@ -494,7 +539,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Med-Kits",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Emergency Med-Kit",
@@ -505,7 +551,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Med-Kits",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Ranger Med-Kit",
@@ -516,7 +563,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Med-Kits",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Worn Out Tools",
@@ -527,7 +575,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Toolboxes",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Toolbox",
@@ -538,7 +587,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Toolboxes",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Mechanic's Toolbox",
@@ -549,7 +599,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Toolboxes",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Commodious Toolbox",
@@ -560,7 +611,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Toolboxes",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Engineer's Toolbox",
@@ -571,7 +623,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Toolboxes",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Alex's Toolbox",
@@ -582,7 +635,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Toolboxes",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "No Item",
@@ -593,7 +647,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Trapper Gloves",
@@ -604,7 +659,8 @@
 		"requiredValue": ["Trap"]
 	}],
 	"subGrouping": "Trapper",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Strong Coil Spring",
@@ -615,7 +671,8 @@
 		"requiredValue": ["Trap"]
 	}],
 	"subGrouping": "Trapper",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Serrated Jaws",
@@ -626,7 +683,8 @@
 		"requiredValue": ["Trap"]
 	}],
 	"subGrouping": "Trapper",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Wax Brick",
@@ -637,7 +695,8 @@
 		"requiredValue": ["Trap"]
 	}],
 	"subGrouping": "Trapper",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Trapper Bag",
@@ -648,7 +707,8 @@
 		"requiredValue": ["Trap"]
 	}],
 	"subGrouping": "Trapper",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Trap Setters",
@@ -659,7 +719,8 @@
 		"requiredValue": ["Trap"]
 	}],
 	"subGrouping": "Trapper",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Secondary Coil",
@@ -670,7 +731,8 @@
 		"requiredValue": ["Trap"]
 	}],
 	"subGrouping": "Trapper",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Logwood Dye",
@@ -681,7 +743,8 @@
 		"requiredValue": ["Trap"]
 	}],
 	"subGrouping": "Trapper",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "4-Coil Spring Kit",
@@ -692,7 +755,8 @@
 		"requiredValue": ["Trap"]
 	}],
 	"subGrouping": "Trapper",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Tar Bottle",
@@ -703,7 +767,8 @@
 		"requiredValue": ["Trap"]
 	}],
 	"subGrouping": "Trapper",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Setting Tools",
@@ -714,7 +779,8 @@
 		"requiredValue": ["Trap"]
 	}],
 	"subGrouping": "Trapper",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Rusted Jaws",
@@ -725,7 +791,8 @@
 		"requiredValue": ["Trap"]
 	}],
 	"subGrouping": "Trapper",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Oily Coil",
@@ -736,7 +803,8 @@
 		"requiredValue": ["Trap"]
 	}],
 	"subGrouping": "Trapper",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Fastening Tools",
@@ -747,7 +815,8 @@
 		"requiredValue": ["Trap"]
 	}],
 	"subGrouping": "Trapper",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Stitched Bag",
@@ -758,7 +827,8 @@
 		"requiredValue": ["Trap"]
 	}],
 	"subGrouping": "Trapper",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Honing Stone",
@@ -769,7 +839,8 @@
 		"requiredValue": ["Trap"]
 	}],
 	"subGrouping": "Trapper",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Bloody Coil",
@@ -780,7 +851,8 @@
 		"requiredValue": ["Trap"]
 	}],
 	"subGrouping": "Trapper",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Diamond Stone",
@@ -791,7 +863,8 @@
 		"requiredValue": ["Trap"]
 	}],
 	"subGrouping": "Trapper",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Bone Clapper",
@@ -802,7 +875,8 @@
 		"requiredValue": ["Bell"]
 	}],
 	"subGrouping": "Wraith",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Swift Hunt - Soot",
@@ -813,7 +887,8 @@
 		"requiredValue": ["Bell"]
 	}],
 	"subGrouping": "Wraith",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Blink - Soot",
@@ -824,7 +899,8 @@
 		"requiredValue": ["Bell"]
 	}],
 	"subGrouping": "Wraith",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Blind Warrior - Soot",
@@ -835,7 +911,8 @@
 		"requiredValue": ["Bell"]
 	}],
 	"subGrouping": "Wraith",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Coxcombed Clapper",
@@ -846,7 +923,8 @@
 		"requiredValue": ["Bell"]
 	}],
 	"subGrouping": "Wraith",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Windstorm - Soot",
@@ -857,7 +935,8 @@
 		"requiredValue": ["Bell"]
 	}],
 	"subGrouping": "Wraith",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Swift Hunt - Mud",
@@ -868,7 +947,8 @@
 		"requiredValue": ["Bell"]
 	}],
 	"subGrouping": "Wraith",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Blind Warrior - Mud",
@@ -879,7 +959,8 @@
 		"requiredValue": ["Bell"]
 	}],
 	"subGrouping": "Wraith",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "All Seeing - Mud",
@@ -890,7 +971,8 @@
 		"requiredValue": ["Bell"]
 	}],
 	"subGrouping": "Wraith",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Windstorm - Mud",
@@ -901,7 +983,8 @@
 		"requiredValue": ["Bell"]
 	}],
 	"subGrouping": "Wraith",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "The Ghost - Soot",
@@ -912,7 +995,8 @@
 		"requiredValue": ["Bell"]
 	}],
 	"subGrouping": "Wraith",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Swift Hunt - White",
@@ -923,7 +1007,8 @@
 		"requiredValue": ["Bell"]
 	}],
 	"subGrouping": "Wraith",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Blind Warrior - White",
@@ -934,7 +1019,8 @@
 		"requiredValue": ["Bell"]
 	}],
 	"subGrouping": "Wraith",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "All Seeing - White",
@@ -945,7 +1031,8 @@
 		"requiredValue": ["Bell"]
 	}],
 	"subGrouping": "Wraith",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Windstorm - Blood",
@@ -956,7 +1043,8 @@
 		"requiredValue": ["Bell"]
 	}],
 	"subGrouping": "Wraith",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Blind Warrior - Blood",
@@ -967,7 +1055,8 @@
 		"requiredValue": ["Bell"]
 	}],
 	"subGrouping": "Wraith",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "All Seeing - Blood",
@@ -978,7 +1067,8 @@
 		"requiredValue": ["Bell"]
 	}],
 	"subGrouping": "Wraith",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Blind Warrior - Spirit",
@@ -989,7 +1079,8 @@
 		"requiredValue": ["Bell"]
 	}],
 	"subGrouping": "Wraith",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "All Seeing - Spirit",
@@ -1000,7 +1091,8 @@
 		"requiredValue": ["Bell"]
 	}],
 	"subGrouping": "Wraith",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Vegetable Oil",
@@ -1012,7 +1104,8 @@
 		"Cannibal's Chainsaw"]
 	}],
 	"subGrouping": "Hillbilly and Cannibal",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Spark Plug",
@@ -1024,7 +1117,8 @@
 		"Cannibal's Chainsaw"]
 	}],
 	"subGrouping": "Hillbilly and Cannibal",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Chainsaw File",
@@ -1036,7 +1130,8 @@
 		"Cannibal's Chainsaw"]
 	}],
 	"subGrouping": "Hillbilly and Cannibal",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Spiked Boots",
@@ -1047,7 +1142,8 @@
 		"requiredValue": ["Hillbilly's Chainsaw"]
 	}],
 	"subGrouping": "Hillbilly",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Speed Limiter",
@@ -1059,7 +1155,8 @@
 		"Cannibal's Chainsaw"]
 	}],
 	"subGrouping": "Hillbilly and Cannibal",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Shop Lubricant",
@@ -1071,7 +1168,8 @@
 		"Cannibal's Chainsaw"]
 	}],
 	"subGrouping": "Hillbilly and Cannibal",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Primer Bulb",
@@ -1083,7 +1181,8 @@
 		"Cannibal's Chainsaw"]
 	}],
 	"subGrouping": "Hillbilly and Cannibal",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Long Guide Bar",
@@ -1095,7 +1194,8 @@
 		"Cannibal's Chainsaw"]
 	}],
 	"subGrouping": "Hillbilly and Cannibal",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Homemade Muffler",
@@ -1107,7 +1207,8 @@
 		"Cannibal's Chainsaw"]
 	}],
 	"subGrouping": "Hillbilly and Cannibal",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Grisly Chains",
@@ -1119,7 +1220,8 @@
 		"Cannibal's Chainsaw"]
 	}],
 	"subGrouping": "Hillbilly and Cannibal",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Depth Gauge Rake",
@@ -1131,7 +1233,8 @@
 		"Cannibal's Chainsaw"]
 	}],
 	"subGrouping": "Hillbilly and Cannibal",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Death Engravings",
@@ -1142,7 +1245,8 @@
 		"requiredValue": ["Hillbilly's Chainsaw"]
 	}],
 	"subGrouping": "Hillbilly",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "The Thompson's Mix",
@@ -1153,7 +1257,8 @@
 		"requiredValue": ["Hillbilly's Chainsaw"]
 	}],
 	"subGrouping": "Hillbilly",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Rusted Chains",
@@ -1165,7 +1270,8 @@
 		"Cannibal's Chainsaw"]
 	}],
 	"subGrouping": "Hillbilly and Cannibal",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Light Chassis",
@@ -1177,7 +1283,8 @@
 		"Cannibal's Chainsaw"]
 	}],
 	"subGrouping": "Hillbilly and Cannibal",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Doom Engravings",
@@ -1188,7 +1295,8 @@
 		"requiredValue": ["Hillbilly's Chainsaw"]
 	}],
 	"subGrouping": "Hillbilly",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Carburetor Tuning Guide",
@@ -1200,7 +1308,8 @@
 		"Cannibal's Chainsaw"]
 	}],
 	"subGrouping": "Hillbilly and Cannibal",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Thompson's Moonshine",
@@ -1211,7 +1320,8 @@
 		"requiredValue": ["Hillbilly's Chainsaw"]
 	}],
 	"subGrouping": "Hillbilly",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Begrimed Chains",
@@ -1223,7 +1333,8 @@
 		"Cannibal's Chainsaw"]
 	}],
 	"subGrouping": "Hillbilly and Cannibal",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Wooden Horse",
@@ -1234,7 +1345,8 @@
 		"requiredValue": ["Teleport"]
 	}],
 	"subGrouping": "Nurse",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "White Nit Comb",
@@ -1245,7 +1357,8 @@
 		"requiredValue": ["Teleport"]
 	}],
 	"subGrouping": "Nurse",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Torn Bookmark",
@@ -1256,7 +1369,8 @@
 		"requiredValue": ["Teleport"]
 	}],
 	"subGrouping": "Nurse",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Metal Spoon",
@@ -1267,7 +1381,8 @@
 		"requiredValue": ["Teleport"]
 	}],
 	"subGrouping": "Nurse",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Matchbox",
@@ -1278,7 +1393,8 @@
 		"requiredValue": ["Teleport"]
 	}],
 	"subGrouping": "Nurse",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Bad Man Keepsake",
@@ -1289,7 +1405,8 @@
 		"requiredValue": ["Teleport"]
 	}],
 	"subGrouping": "Nurse",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Pocket Watch",
@@ -1300,7 +1417,8 @@
 		"requiredValue": ["Teleport"]
 	}],
 	"subGrouping": "Nurse",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Dull Bracelet",
@@ -1311,7 +1429,8 @@
 		"requiredValue": ["Teleport"]
 	}],
 	"subGrouping": "Nurse",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Dark Cincture",
@@ -1322,7 +1441,8 @@
 		"requiredValue": ["Teleport"]
 	}],
 	"subGrouping": "Nurse",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Catatonic Boy's Treasure",
@@ -1333,7 +1453,8 @@
 		"requiredValue": ["Teleport"]
 	}],
 	"subGrouping": "Nurse",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Spasmodic Breath",
@@ -1344,7 +1465,8 @@
 		"requiredValue": ["Teleport"]
 	}],
 	"subGrouping": "Nurse",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Heavy Panting",
@@ -1355,7 +1477,8 @@
 		"requiredValue": ["Teleport"]
 	}],
 	"subGrouping": "Nurse",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Fragile Wheeze",
@@ -1366,7 +1489,8 @@
 		"requiredValue": ["Teleport"]
 	}],
 	"subGrouping": "Nurse",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Ataxic Respiration",
@@ -1377,7 +1501,8 @@
 		"requiredValue": ["Teleport"]
 	}],
 	"subGrouping": "Nurse",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Anxious Gasp",
@@ -1388,7 +1513,8 @@
 		"requiredValue": ["Teleport"]
 	}],
 	"subGrouping": "Nurse",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Plaid Flannel",
@@ -1399,7 +1525,8 @@
 		"requiredValue": ["Teleport"]
 	}],
 	"subGrouping": "Nurse",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Kavanagh's Last Breath",
@@ -1410,7 +1537,8 @@
 		"requiredValue": ["Teleport"]
 	}],
 	"subGrouping": "Nurse",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Jenner's Last Breath",
@@ -1421,7 +1549,8 @@
 		"requiredValue": ["Teleport"]
 	}],
 	"subGrouping": "Nurse",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Campbell's Last Breath",
@@ -1432,7 +1561,8 @@
 		"requiredValue": ["Teleport"]
 	}],
 	"subGrouping": "Nurse",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Bad Man's Last Breath",
@@ -1443,7 +1573,8 @@
 		"requiredValue": ["Teleport"]
 	}],
 	"subGrouping": "Nurse",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Tacky Earrings",
@@ -1454,7 +1585,8 @@
 		"requiredValue": ["Evil Within"]
 	}],
 	"subGrouping": "Shape",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Boyfriend's Memo",
@@ -1465,7 +1597,8 @@
 		"requiredValue": ["Evil Within"]
 	}],
 	"subGrouping": "Shape",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Blond Hair",
@@ -1476,7 +1609,8 @@
 		"requiredValue": ["Evil Within"]
 	}],
 	"subGrouping": "Shape",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Reflective Fragment",
@@ -1487,7 +1621,8 @@
 		"requiredValue": ["Evil Within"]
 	}],
 	"subGrouping": "Shape",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Memorial Flower",
@@ -1498,7 +1633,8 @@
 		"requiredValue": ["Evil Within"]
 	}],
 	"subGrouping": "Shape",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Jewelry",
@@ -1509,7 +1645,8 @@
 		"requiredValue": ["Evil Within"]
 	}],
 	"subGrouping": "Shape",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Hair Brush",
@@ -1520,7 +1657,8 @@
 		"requiredValue": ["Evil Within"]
 	}],
 	"subGrouping": "Shape",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Glass Fragment",
@@ -1531,7 +1669,8 @@
 		"requiredValue": ["Evil Within"]
 	}],
 	"subGrouping": "Shape",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Dead Rabbit",
@@ -1542,7 +1681,8 @@
 		"requiredValue": ["Evil Within"]
 	}],
 	"subGrouping": "Shape",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Mirror Shard",
@@ -1553,7 +1693,8 @@
 		"requiredValue": ["Evil Within"]
 	}],
 	"subGrouping": "Shape",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Judith's Journal",
@@ -1564,7 +1705,8 @@
 		"requiredValue": ["Evil Within"]
 	}],
 	"subGrouping": "Shape",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Jewelry Box",
@@ -1575,7 +1717,8 @@
 		"requiredValue": ["Evil Within"]
 	}],
 	"subGrouping": "Shape",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "J. Myers Memorial",
@@ -1586,7 +1729,8 @@
 		"requiredValue": ["Evil Within"]
 	}],
 	"subGrouping": "Shape",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Hair Bow",
@@ -1597,7 +1741,8 @@
 		"requiredValue": ["Evil Within"]
 	}],
 	"subGrouping": "Shape",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Vanity Mirror",
@@ -1608,7 +1753,8 @@
 		"requiredValue": ["Evil Within"]
 	}],
 	"subGrouping": "Shape",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Tombstone Piece",
@@ -1619,7 +1765,8 @@
 		"requiredValue": ["Evil Within"]
 	}],
 	"subGrouping": "Shape",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Scratched Mirror",
@@ -1630,7 +1777,8 @@
 		"requiredValue": ["Evil Within"]
 	}],
 	"subGrouping": "Shape",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Lock of Hair",
@@ -1641,7 +1789,8 @@
 		"requiredValue": ["Evil Within"]
 	}],
 	"subGrouping": "Shape",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Judith's Tombstone",
@@ -1652,7 +1801,8 @@
 		"requiredValue": ["Evil Within"]
 	}],
 	"subGrouping": "Shape",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Fragrant Tuft of Hair",
@@ -1663,7 +1813,8 @@
 		"requiredValue": ["Evil Within"]
 	}],
 	"subGrouping": "Shape",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Rope Necklet",
@@ -1674,7 +1825,8 @@
 		"requiredValue": ["Hex"]
 	}],
 	"subGrouping": "Hag",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Powdered Eggshell",
@@ -1685,7 +1837,8 @@
 		"requiredValue": ["Hex"]
 	}],
 	"subGrouping": "Hag",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Dead Fly Mud",
@@ -1696,7 +1849,8 @@
 		"requiredValue": ["Hex"]
 	}],
 	"subGrouping": "Hag",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Bog Water",
@@ -1707,7 +1861,8 @@
 		"requiredValue": ["Hex"]
 	}],
 	"subGrouping": "Hag",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Pussy Willow Catkins",
@@ -1718,7 +1873,8 @@
 		"requiredValue": ["Hex"]
 	}],
 	"subGrouping": "Hag",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Half Eggshell",
@@ -1729,7 +1885,8 @@
 		"requiredValue": ["Hex"]
 	}],
 	"subGrouping": "Hag",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Dragonfly Wings",
@@ -1740,7 +1897,8 @@
 		"requiredValue": ["Hex"]
 	}],
 	"subGrouping": "Hag",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Cypress Necklet",
@@ -1751,7 +1909,8 @@
 		"requiredValue": ["Hex"]
 	}],
 	"subGrouping": "Hag",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Bloodied Water",
@@ -1762,7 +1921,8 @@
 		"requiredValue": ["Hex"]
 	}],
 	"subGrouping": "Hag",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Willow Wreath",
@@ -1773,7 +1933,8 @@
 		"requiredValue": ["Hex"]
 	}],
 	"subGrouping": "Hag",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Swamp Orchid Necklet",
@@ -1784,7 +1945,8 @@
 		"requiredValue": ["Hex"]
 	}],
 	"subGrouping": "Hag",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Dried Cicada",
@@ -1795,7 +1957,8 @@
 		"requiredValue": ["Hex"]
 	}],
 	"subGrouping": "Hag",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Cracked Turtle Egg",
@@ -1806,7 +1969,8 @@
 		"requiredValue": ["Hex"]
 	}],
 	"subGrouping": "Hag",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Bloodied Mud",
@@ -1817,7 +1981,8 @@
 		"requiredValue": ["Hex"]
 	}],
 	"subGrouping": "Hag",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Scarred Hand",
@@ -1828,7 +1993,8 @@
 		"requiredValue": ["Hex"]
 	}],
 	"subGrouping": "Hag",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Rusty Shackles",
@@ -1839,7 +2005,8 @@
 		"requiredValue": ["Hex"]
 	}],
 	"subGrouping": "Hag",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Granma's Heart",
@@ -1850,7 +2017,8 @@
 		"requiredValue": ["Hex"]
 	}],
 	"subGrouping": "Hag",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Disfigured Ear",
@@ -1861,7 +2029,8 @@
 		"requiredValue": ["Hex"]
 	}],
 	"subGrouping": "Hag",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Waterlogged Shoe",
@@ -1872,7 +2041,8 @@
 		"requiredValue": ["Hex"]
 	}],
 	"subGrouping": "Hag",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Mint Rag",
@@ -1883,7 +2053,8 @@
 		"requiredValue": ["Hex"]
 	}],
 	"subGrouping": "Hag",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Moldy Electrode",
@@ -1894,7 +2065,8 @@
 		"requiredValue": ["Shock Therapy"]
 	}],
 	"subGrouping": "Doctor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Maple Knight",
@@ -1905,7 +2077,8 @@
 		"requiredValue": ["Shock Therapy"]
 	}],
 	"subGrouping": "Doctor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Order - Class I",
@@ -1916,7 +2089,8 @@
 		"requiredValue": ["Shock Therapy"]
 	}],
 	"subGrouping": "Doctor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Calm - Class I",
@@ -1927,7 +2101,8 @@
 		"requiredValue": ["Shock Therapy"]
 	}],
 	"subGrouping": "Doctor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Scrapped Tape",
@@ -1938,7 +2113,8 @@
 		"requiredValue": ["Shock Therapy"]
 	}],
 	"subGrouping": "Doctor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Polished Electrode",
@@ -1949,7 +2125,8 @@
 		"requiredValue": ["Shock Therapy"]
 	}],
 	"subGrouping": "Doctor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Interview Tape",
@@ -1960,7 +2137,8 @@
 		"requiredValue": ["Shock Therapy"]
 	}],
 	"subGrouping": "Doctor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Restraint - Class II",
@@ -1971,7 +2149,8 @@
 		"requiredValue": ["Shock Therapy"]
 	}],
 	"subGrouping": "Doctor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Order - Class II",
@@ -1982,7 +2161,8 @@
 		"requiredValue": ["Shock Therapy"]
 	}],
 	"subGrouping": "Doctor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Discipline - Class II",
@@ -1993,7 +2173,8 @@
 		"requiredValue": ["Shock Therapy"]
 	}],
 	"subGrouping": "Doctor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Calm - Class II",
@@ -2004,7 +2185,8 @@
 		"requiredValue": ["Shock Therapy"]
 	}],
 	"subGrouping": "Doctor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "High Stimulus Electrode",
@@ -2015,7 +2197,8 @@
 		"requiredValue": ["Shock Therapy"]
 	}],
 	"subGrouping": "Doctor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Restraint - Class III",
@@ -2026,7 +2209,8 @@
 		"requiredValue": ["Shock Therapy"]
 	}],
 	"subGrouping": "Doctor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Discipline - Class III",
@@ -2037,7 +2221,8 @@
 		"requiredValue": ["Shock Therapy"]
 	}],
 	"subGrouping": "Doctor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Restraint - Carter's Notes",
@@ -2048,7 +2233,8 @@
 		"requiredValue": ["Shock Therapy"]
 	}],
 	"subGrouping": "Doctor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Order - Carter's Notes",
@@ -2059,7 +2245,8 @@
 		"requiredValue": ["Shock Therapy"]
 	}],
 	"subGrouping": "Doctor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Obedience - Carter's Notes",
@@ -2070,7 +2257,8 @@
 		"requiredValue": ["Shock Therapy"]
 	}],
 	"subGrouping": "Doctor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Discipline - Carter's Notes",
@@ -2081,7 +2269,8 @@
 		"requiredValue": ["Shock Therapy"]
 	}],
 	"subGrouping": "Doctor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Calm - Carter's Notes",
@@ -2092,7 +2281,8 @@
 		"requiredValue": ["Shock Therapy"]
 	}],
 	"subGrouping": "Doctor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Iridescent King",
@@ -2103,7 +2293,8 @@
 		"requiredValue": ["Shock Therapy"]
 	}],
 	"subGrouping": "Doctor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Coarse Stone",
@@ -2114,7 +2305,8 @@
 		"requiredValue": ["Hatchet"]
 	}],
 	"subGrouping": "Huntress",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Berus Toxin",
@@ -2125,7 +2317,8 @@
 		"requiredValue": ["Hatchet"]
 	}],
 	"subGrouping": "Huntress",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Bandaged Haft",
@@ -2136,7 +2329,8 @@
 		"requiredValue": ["Hatchet"]
 	}],
 	"subGrouping": "Huntress",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Amanita Toxin",
@@ -2147,7 +2341,8 @@
 		"requiredValue": ["Hatchet"]
 	}],
 	"subGrouping": "Huntress",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Yew Seed Brew",
@@ -2158,7 +2353,8 @@
 		"requiredValue": ["Hatchet"]
 	}],
 	"subGrouping": "Huntress",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Shiny Pin",
@@ -2169,7 +2365,8 @@
 		"requiredValue": ["Hatchet"]
 	}],
 	"subGrouping": "Huntress",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Oak Haft",
@@ -2180,7 +2377,8 @@
 		"requiredValue": ["Hatchet"]
 	}],
 	"subGrouping": "Huntress",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Manna Grass Braid",
@@ -2191,7 +2389,8 @@
 		"requiredValue": ["Hatchet"]
 	}],
 	"subGrouping": "Huntress",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Leather Loop",
@@ -2202,7 +2401,8 @@
 		"requiredValue": ["Hatchet"]
 	}],
 	"subGrouping": "Huntress",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Fine Stone",
@@ -2213,7 +2413,8 @@
 		"requiredValue": ["Hatchet"]
 	}],
 	"subGrouping": "Huntress",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Deerskin Gloves",
@@ -2224,7 +2425,8 @@
 		"requiredValue": ["Hatchet"]
 	}],
 	"subGrouping": "Huntress",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Yew Seed Concoction",
@@ -2235,7 +2437,8 @@
 		"requiredValue": ["Hatchet"]
 	}],
 	"subGrouping": "Huntress",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Venemous Concoction",
@@ -2246,7 +2449,8 @@
 		"requiredValue": ["Hatchet"]
 	}],
 	"subGrouping": "Huntress",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Rusty Head",
@@ -2257,7 +2461,8 @@
 		"requiredValue": ["Hatchet"]
 	}],
 	"subGrouping": "Huntress",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Pungent Fiale",
@@ -2268,7 +2473,8 @@
 		"requiredValue": ["Hatchet"]
 	}],
 	"subGrouping": "Huntress",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Flower Babushka",
@@ -2279,7 +2485,8 @@
 		"requiredValue": ["Hatchet"]
 	}],
 	"subGrouping": "Huntress",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Infantry Belt",
@@ -2290,7 +2497,8 @@
 		"requiredValue": ["Hatchet"]
 	}],
 	"subGrouping": "Huntress",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Glowing Concoction",
@@ -2301,7 +2509,8 @@
 		"requiredValue": ["Hatchet"]
 	}],
 	"subGrouping": "Huntress",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Begrimed Head",
@@ -2312,7 +2521,8 @@
 		"requiredValue": ["Hatchet"]
 	}],
 	"subGrouping": "Huntress",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Iridescent Head",
@@ -2323,7 +2533,8 @@
 		"requiredValue": ["Hatchet"]
 	}],
 	"subGrouping": "Huntress",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Knife Scratches",
@@ -2334,7 +2545,8 @@
 		"requiredValue": ["Cannibal's Chainsaw"]
 	}],
 	"subGrouping": "Cannibal",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Chili",
@@ -2345,7 +2557,8 @@
 		"requiredValue": ["Cannibal's Chainsaw"]
 	}],
 	"subGrouping": "Cannibal",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "The Grease",
@@ -2356,7 +2569,8 @@
 		"requiredValue": ["Cannibal's Chainsaw"]
 	}],
 	"subGrouping": "Cannibal",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "The Beast's Marks",
@@ -2367,7 +2581,8 @@
 		"requiredValue": ["Cannibal's Chainsaw"]
 	}],
 	"subGrouping": "Cannibal",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Award-Winning Chili",
@@ -2378,7 +2593,8 @@
 		"requiredValue": ["Cannibal's Chainsaw"]
 	}],
 	"subGrouping": "Cannibal",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Wool Shirt",
@@ -2389,7 +2605,8 @@
 		"requiredValue": ["Dream Demon"]
 	}],
 	"subGrouping": "Nightmare",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Sheep Block",
@@ -2400,7 +2617,8 @@
 		"requiredValue": ["Dream Demon"]
 	}],
 	"subGrouping": "Nightmare",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Kid's Drawing",
@@ -2411,7 +2629,8 @@
 		"requiredValue": ["Dream Demon"]
 	}],
 	"subGrouping": "Nightmare",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Garden Rake",
@@ -2422,7 +2641,8 @@
 		"requiredValue": ["Dream Demon"]
 	}],
 	"subGrouping": "Nightmare",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Prototype Claws",
@@ -2433,7 +2653,8 @@
 		"requiredValue": ["Dream Demon"]
 	}],
 	"subGrouping": "Nightmare",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Outdoor Rope",
@@ -2444,7 +2665,8 @@
 		"requiredValue": ["Dream Demon"]
 	}],
 	"subGrouping": "Nightmare",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Nancy's Sketch",
@@ -2455,7 +2677,8 @@
 		"requiredValue": ["Dream Demon"]
 	}],
 	"subGrouping": "Nightmare",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Green Dress",
@@ -2466,7 +2689,8 @@
 		"requiredValue": ["Dream Demon"]
 	}],
 	"subGrouping": "Nightmare",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Cat Block",
@@ -2477,7 +2701,8 @@
 		"requiredValue": ["Dream Demon"]
 	}],
 	"subGrouping": "Nightmare",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Unicorn Block",
@@ -2488,7 +2713,8 @@
 		"requiredValue": ["Dream Demon"]
 	}],
 	"subGrouping": "Nightmare",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Swing Chains",
@@ -2499,7 +2725,8 @@
 		"requiredValue": ["Dream Demon"]
 	}],
 	"subGrouping": "Nightmare",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Nancy's Masterpiece",
@@ -2510,7 +2737,8 @@
 		"requiredValue": ["Dream Demon"]
 	}],
 	"subGrouping": "Nightmare",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Jump Rope",
@@ -2521,7 +2749,8 @@
 		"requiredValue": ["Dream Demon"]
 	}],
 	"subGrouping": "Nightmare",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Blue Dress",
@@ -2532,7 +2761,8 @@
 		"requiredValue": ["Dream Demon"]
 	}],
 	"subGrouping": "Nightmare",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Pill Bottle",
@@ -2543,7 +2773,8 @@
 		"requiredValue": ["Dream Demon"]
 	}],
 	"subGrouping": "Nightmare",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Paint Thinner",
@@ -2554,7 +2785,8 @@
 		"requiredValue": ["Dream Demon"]
 	}],
 	"subGrouping": "Nightmare",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Class Photo",
@@ -2565,7 +2797,8 @@
 		"requiredValue": ["Dream Demon"]
 	}],
 	"subGrouping": "Nightmare",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "\"Z\" Block",
@@ -2576,7 +2809,8 @@
 		"requiredValue": ["Dream Demon"]
 	}],
 	"subGrouping": "Nightmare",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Red Paint Brush",
@@ -2587,7 +2821,8 @@
 		"requiredValue": ["Dream Demon"]
 	}],
 	"subGrouping": "Nightmare",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Black Box",
@@ -2598,7 +2833,8 @@
 		"requiredValue": ["Dream Demon"]
 	}],
 	"subGrouping": "Nightmare",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Wide Lens",
@@ -2612,7 +2848,8 @@
 		"Utility Flashlight"]
 	}],
 	"subGrouping": "Flashlight",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Power Bulb",
@@ -2626,7 +2863,8 @@
 		"Utility Flashlight"]
 	}],
 	"subGrouping": "Flashlight",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Leather Grip",
@@ -2640,7 +2878,8 @@
 		"Utility Flashlight"]
 	}],
 	"subGrouping": "Flashlight",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Battery",
@@ -2654,7 +2893,8 @@
 		"Utility Flashlight"]
 	}],
 	"subGrouping": "Flashlight",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Tir Optic",
@@ -2668,7 +2908,8 @@
 		"Utility Flashlight"]
 	}],
 	"subGrouping": "Flashlight",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Rubber Grip",
@@ -2682,7 +2923,8 @@
 		"Utility Flashlight"]
 	}],
 	"subGrouping": "Flashlight",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Low Amp Filament",
@@ -2696,7 +2938,8 @@
 		"Utility Flashlight"]
 	}],
 	"subGrouping": "Flashlight",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Heavy Duty Battery",
@@ -2710,7 +2953,8 @@
 		"Utility Flashlight"]
 	}],
 	"subGrouping": "Flashlight",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Focus Lens",
@@ -2724,7 +2968,8 @@
 		"Utility Flashlight"]
 	}],
 	"subGrouping": "Flashlight",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Long Life Battery",
@@ -2738,7 +2983,8 @@
 		"Utility Flashlight"]
 	}],
 	"subGrouping": "Flashlight",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Intense Halogen",
@@ -2752,7 +2998,8 @@
 		"Utility Flashlight"]
 	}],
 	"subGrouping": "Flashlight",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "High-End Sapphire Lens",
@@ -2766,7 +3013,8 @@
 		"Utility Flashlight"]
 	}],
 	"subGrouping": "Flashlight",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Odd Bulb",
@@ -2780,7 +3028,8 @@
 		"Utility Flashlight"]
 	}],
 	"subGrouping": "Flashlight",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Prayer Rope",
@@ -2793,7 +3042,8 @@
 		"Skeleton Key"]
 	}],
 	"subGrouping": "Key",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Scratched Pearl",
@@ -2806,7 +3056,8 @@
 		"Skeleton Key"]
 	}],
 	"subGrouping": "Key",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Prayer Beads",
@@ -2819,7 +3070,8 @@
 		"Skeleton Key"]
 	}],
 	"subGrouping": "Key",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Eroded Token",
@@ -2832,7 +3084,8 @@
 		"Skeleton Key"]
 	}],
 	"subGrouping": "Key",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Gold Token",
@@ -2845,7 +3098,8 @@
 		"Skeleton Key"]
 	}],
 	"subGrouping": "Key",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Weaved Ring",
@@ -2858,7 +3112,8 @@
 		"Skeleton Key"]
 	}],
 	"subGrouping": "Key",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Milky Glass",
@@ -2871,7 +3126,8 @@
 		"Skeleton Key"]
 	}],
 	"subGrouping": "Key",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Blood Amber",
@@ -2884,7 +3140,8 @@
 		"Skeleton Key"]
 	}],
 	"subGrouping": "Key",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Map Addendum",
@@ -2896,7 +3153,8 @@
 		"Rainbow Map"]
 	}],
 	"subGrouping": "Map",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Yellow Wire",
@@ -2908,7 +3166,8 @@
 		"Rainbow Map"]
 	}],
 	"subGrouping": "Map",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Unusual Stamp",
@@ -2920,7 +3179,8 @@
 		"Rainbow Map"]
 	}],
 	"subGrouping": "Map",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Retardant Jelly",
@@ -2932,7 +3192,8 @@
 		"Rainbow Map"]
 	}],
 	"subGrouping": "Map",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Red Twine",
@@ -2944,7 +3205,8 @@
 		"Rainbow Map"]
 	}],
 	"subGrouping": "Map",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Glass Bead",
@@ -2956,7 +3218,8 @@
 		"Rainbow Map"]
 	}],
 	"subGrouping": "Map",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Odd Stamp",
@@ -2968,7 +3231,8 @@
 		"Rainbow Map"]
 	}],
 	"subGrouping": "Map",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Black Silk Cord",
@@ -2980,7 +3244,8 @@
 		"Rainbow Map"]
 	}],
 	"subGrouping": "Map",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Crystal Bead",
@@ -2992,7 +3257,8 @@
 		"Rainbow Map"]
 	}],
 	"subGrouping": "Map",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Rubber Gloves",
@@ -3007,7 +3273,8 @@
 		"Ranger Med-Kit"]
 	}],
 	"subGrouping": "Med-Kit",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Butterfly Tape",
@@ -3022,7 +3289,8 @@
 		"Ranger Med-Kit"]
 	}],
 	"subGrouping": "Med-Kit",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Bandages",
@@ -3037,7 +3305,8 @@
 		"Ranger Med-Kit"]
 	}],
 	"subGrouping": "Med-Kit",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Sponge",
@@ -3052,7 +3321,8 @@
 		"Ranger Med-Kit"]
 	}],
 	"subGrouping": "Med-Kit",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Self Adherent Wrap",
@@ -3067,7 +3337,8 @@
 		"Ranger Med-Kit"]
 	}],
 	"subGrouping": "Med-Kit",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Needle And Thread",
@@ -3082,7 +3353,8 @@
 		"Ranger Med-Kit"]
 	}],
 	"subGrouping": "Med-Kit",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Medical Scissors",
@@ -3097,7 +3369,8 @@
 		"Ranger Med-Kit"]
 	}],
 	"subGrouping": "Med-Kit",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Gauze Roll",
@@ -3112,7 +3385,8 @@
 		"Ranger Med-Kit"]
 	}],
 	"subGrouping": "Med-Kit",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Surgical Suture",
@@ -3127,7 +3401,8 @@
 		"Ranger Med-Kit"]
 	}],
 	"subGrouping": "Med-Kit",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Styptic Agent",
@@ -3142,7 +3417,8 @@
 		"Ranger Med-Kit"]
 	}],
 	"subGrouping": "Med-Kit",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Gel Dressings",
@@ -3157,7 +3433,8 @@
 		"Ranger Med-Kit"]
 	}],
 	"subGrouping": "Med-Kit",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Abdominal Dressing",
@@ -3172,7 +3449,8 @@
 		"Ranger Med-Kit"]
 	}],
 	"subGrouping": "Med-Kit",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Anti-Hemorrhagic Syringe",
@@ -3187,7 +3465,8 @@
 		"Ranger Med-Kit"]
 	}],
 	"subGrouping": "Med-Kit",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Spring Clamp",
@@ -3203,7 +3482,8 @@
 		"Alex's Toolbox"]
 	}],
 	"subGrouping": "Toolbox",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Scraps",
@@ -3219,7 +3499,8 @@
 		"Alex's Toolbox"]
 	}],
 	"subGrouping": "Toolbox",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Clean Rag",
@@ -3235,7 +3516,8 @@
 		"Alex's Toolbox"]
 	}],
 	"subGrouping": "Toolbox",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Wire Spool",
@@ -3251,7 +3533,8 @@
 		"Alex's Toolbox"]
 	}],
 	"subGrouping": "Toolbox",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Socket Swivels",
@@ -3267,7 +3550,8 @@
 		"Alex's Toolbox"]
 	}],
 	"subGrouping": "Toolbox",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Protective Gloves",
@@ -3283,7 +3567,8 @@
 		"Alex's Toolbox"]
 	}],
 	"subGrouping": "Toolbox",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Instructions",
@@ -3299,7 +3584,8 @@
 		"Alex's Toolbox"]
 	}],
 	"subGrouping": "Toolbox",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Grip Wrench",
@@ -3315,7 +3601,8 @@
 		"Alex's Toolbox"]
 	}],
 	"subGrouping": "Toolbox",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Cutting Wire",
@@ -3331,7 +3618,8 @@
 		"Alex's Toolbox"]
 	}],
 	"subGrouping": "Toolbox",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Hacksaw",
@@ -3347,7 +3635,8 @@
 		"Alex's Toolbox"]
 	}],
 	"subGrouping": "Toolbox",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Brand New Part",
@@ -3363,7 +3652,8 @@
 		"Alex's Toolbox"]
 	}],
 	"subGrouping": "Toolbox",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "No Add-On",
@@ -3371,7 +3661,8 @@
 	"type": "AddOn",
 	"requirements": [],
 	"subGrouping": "",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "No Add-On ",
@@ -3379,7 +3670,8 @@
 	"type": "AddOn",
 	"requirements": [],
 	"subGrouping": "",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Bog Laurel Sachet",
@@ -3390,7 +3682,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Fresh Bog Laurel",
@@ -3401,7 +3694,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Fragrant Bog Laurel",
@@ -3412,7 +3706,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Crispleaf Amaranth Sachet",
@@ -3423,7 +3718,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Fresh Crispleaf Amaranth",
@@ -3434,7 +3730,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Fragrant Crispleaf Amaranth",
@@ -3445,7 +3742,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Primrose Blossom Sachet",
@@ -3456,7 +3754,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Fresh Primrose Blossom",
@@ -3467,7 +3766,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Fragrant Primrose Blossom",
@@ -3478,7 +3778,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Sweet William Sachet",
@@ -3489,7 +3790,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Fresh Sweet William",
@@ -3500,7 +3802,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Fragrant Sweet William",
@@ -3511,7 +3814,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Bound Envelope",
@@ -3522,7 +3826,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Sealed Envelope",
@@ -3533,7 +3838,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Escape Cake",
@@ -3544,7 +3850,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Chalk Pouch",
@@ -3555,7 +3862,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Cream Chalk Pouch",
@@ -3566,7 +3874,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Ivory Chalk Pouch",
@@ -3577,7 +3886,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Salt Pouch",
@@ -3588,7 +3898,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Black Salt Statuette",
@@ -3599,7 +3910,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Vigo's Jar of Salty Lips",
@@ -3610,7 +3922,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Tarnished Coin",
@@ -3621,7 +3934,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Shiny Coin",
@@ -3632,7 +3946,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Shroud of Union",
@@ -3643,7 +3958,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Vigo's Shroud",
@@ -3654,7 +3970,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Shroud of Binding",
@@ -3665,7 +3982,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Petrified Oak",
@@ -3676,7 +3994,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "White Ward",
@@ -3687,7 +4006,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Tanager Wreath",
@@ -3698,7 +4018,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Devout Tanager Wreath",
@@ -3709,7 +4030,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Ardent Tanager Wreath",
@@ -3720,7 +4042,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Raven Wreath",
@@ -3731,7 +4054,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Devout Raven Wreath",
@@ -3742,7 +4066,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Ardent Raven Wreath",
@@ -3753,7 +4078,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Spotted Owl Wreath",
@@ -3764,7 +4090,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Devout Spotted Owl Wreath",
@@ -3775,7 +4102,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Ardent Spotted Owl Wreath",
@@ -3786,7 +4114,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Shrike Wreath",
@@ -3797,7 +4126,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Devout Shrike Wreath",
@@ -3808,7 +4138,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Ardent Shrike Wreath",
@@ -3819,7 +4150,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Hollow Shell",
@@ -3830,7 +4162,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Survivor Pudding",
@@ -3841,7 +4174,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Scratched Coin",
@@ -3852,7 +4186,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Cut Coin",
@@ -3863,7 +4198,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Moldy Oak",
@@ -3874,7 +4210,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Rotten Oak",
@@ -3885,7 +4222,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Putrid Oak",
@@ -3896,7 +4234,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Cypress Memento Mori",
@@ -3907,7 +4246,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Ivory Memento Mori",
@@ -3918,7 +4258,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Ebony Memento Mori",
@@ -3929,7 +4270,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Shroud of Separation",
@@ -3940,7 +4282,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Black Ward",
@@ -3951,7 +4294,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Bloody Party Streamers",
@@ -3959,7 +4303,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Clear Reagent",
@@ -3967,7 +4312,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Faint Reagent",
@@ -3975,7 +4321,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Hazy Reagent",
@@ -3983,7 +4330,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Murky Reagent",
@@ -3991,7 +4339,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "New Moon Bouquet",
@@ -3999,7 +4348,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Crescent Moon Bouquet",
@@ -4007,7 +4357,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Quarter Moon Bouquet",
@@ -4015,7 +4366,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Full Moon Bouquet",
@@ -4023,7 +4375,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "MacMillan Ledger Page",
@@ -4031,7 +4384,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Signed Ledger Page",
@@ -4039,7 +4393,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "MacMillan's Phalanx Bone",
@@ -4047,7 +4402,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Shredded Plate",
@@ -4055,7 +4411,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Virginia Plate",
@@ -4063,7 +4420,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Azarov's Key",
@@ -4071,7 +4429,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Cattle Tag 28",
@@ -4079,7 +4438,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Cattle Tag 81",
@@ -4087,7 +4447,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Heart Locket",
@@ -4095,7 +4456,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Lunacy Ticket",
@@ -4103,7 +4465,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "P. Elliot Lunacy Ticket",
@@ -4111,7 +4474,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Charred Wedding Photograph",
@@ -4119,7 +4483,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Harvest Festival Leaflet",
@@ -4127,7 +4492,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Decrepit Clapboard",
@@ -4135,7 +4501,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Strode Realty Key",
@@ -4143,7 +4510,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Fuming Cordage",
@@ -4151,7 +4519,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Fuming Welcome Sign",
@@ -4159,7 +4528,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Granma's Cookbook",
@@ -4167,7 +4537,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Emergency Certificate",
@@ -4175,7 +4546,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Psychiatric Assessment Report",
@@ -4183,7 +4555,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Shattered Glasses",
@@ -4191,7 +4564,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Painted River Rock",
@@ -4199,7 +4573,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Children's Book",
@@ -4207,7 +4582,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "The Last Mask",
@@ -4215,7 +4591,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "All",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "No Offering",
@@ -4223,7 +4600,8 @@
 	"type": "Offering",
 	"requirements": [],
 	"subGrouping": "",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Ace In The Hole",
@@ -4234,7 +4612,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Ace",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Open Handed",
@@ -4245,7 +4624,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Ace",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Up The Ante",
@@ -4256,7 +4636,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Ace",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Adrenaline",
@@ -4267,7 +4648,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Meg",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Sprint Burst",
@@ -4278,7 +4660,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Meg",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Quick and Quiet",
@@ -4289,7 +4672,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Meg",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Alert",
@@ -4300,7 +4684,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Feng",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Lithe",
@@ -4311,7 +4696,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Feng",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Technician",
@@ -4322,7 +4708,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Feng",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Balanced Landing",
@@ -4333,7 +4720,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Nea",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Streetwise",
@@ -4344,7 +4732,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Nea",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Urban Evasion",
@@ -4355,7 +4744,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Nea",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Bond",
@@ -4366,7 +4756,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Dwight",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Leader",
@@ -4377,7 +4768,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Dwight",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Prove Thyself",
@@ -4388,7 +4780,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Dwight",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Borrowed Time",
@@ -4399,7 +4792,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Bill",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Left Behind",
@@ -4410,7 +4804,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Bill",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Unbreakable",
@@ -4421,7 +4816,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Bill",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Botany Knowledge",
@@ -4432,7 +4828,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Claudette",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Empathy",
@@ -4443,7 +4840,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Claudette",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Self Care",
@@ -4454,7 +4852,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Claudette",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Calm Spirit",
@@ -4465,7 +4864,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Jake",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Iron Will",
@@ -4476,7 +4876,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Jake",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Saboteur",
@@ -4487,7 +4888,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Jake",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Dead Hard",
@@ -4498,7 +4900,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "David",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "No Mither",
@@ -4509,7 +4912,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "David",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "We're Gonna Live Forever",
@@ -4520,7 +4924,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "David",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Decisive Strike",
@@ -4531,7 +4936,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Laurie",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Object of Obsession",
@@ -4542,7 +4948,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Laurie",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Pharmacy",
@@ -4553,7 +4960,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Quentin",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Vigil",
@@ -4564,7 +4972,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Quentin",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Wake Up!",
@@ -4575,7 +4984,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Quentin",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Dark Sense",
@@ -4586,7 +4996,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Deja Vu",
@@ -4597,7 +5008,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Hope",
@@ -4608,7 +5020,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Kindred",
@@ -4619,7 +5032,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Lightweight",
@@ -4630,7 +5044,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "No One Left Behind",
@@ -4641,7 +5056,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Plunderer's Instinct",
@@ -4652,7 +5068,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Premonition",
@@ -4663,7 +5080,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Resilience",
@@ -4674,7 +5092,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Slippery Meat",
@@ -4685,7 +5104,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Small Game",
@@ -4696,7 +5116,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Sole Survivor",
@@ -4707,7 +5128,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Spine Chill",
@@ -4718,7 +5140,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "This Is Not Happening",
@@ -4729,7 +5152,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "We'll Make It",
@@ -4740,7 +5164,8 @@
 		"requiredValue": ["Survivor"]
 	}],
 	"subGrouping": "Survivor Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "A Nurse's Calling",
@@ -4751,7 +5176,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Nurse",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Stridor",
@@ -4762,7 +5188,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Nurse",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Thanatophobia",
@@ -4773,7 +5200,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Nurse",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Barbecue And Chili",
@@ -4784,7 +5212,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Cannibal",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Franklin's Demise",
@@ -4795,7 +5224,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Cannibal",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Knock Out",
@@ -4806,7 +5236,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Cannibal",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Beast Of Prey",
@@ -4817,7 +5248,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Huntress",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Hex - Huntress Lullaby",
@@ -4828,7 +5260,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Huntress",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Territorial Imperitive",
@@ -4839,7 +5272,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Huntress",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Bloodhound",
@@ -4850,7 +5284,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Wraith",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Predator",
@@ -4861,7 +5296,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Wraith",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Shadowborn",
@@ -4872,7 +5308,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Wraith",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Dying Light",
@@ -4883,7 +5320,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Shape",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Play With Your Food",
@@ -4894,7 +5332,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Shape",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Save The Best For Last",
@@ -4905,7 +5344,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Shape",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Enduring",
@@ -4916,7 +5356,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Hillbilly",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Lightborn",
@@ -4927,7 +5368,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Hillbilly",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Tinkerer",
@@ -4938,7 +5380,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Hillbilly",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Hex - Devour Hope",
@@ -4949,7 +5392,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Hag",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Hex - Ruin",
@@ -4960,7 +5404,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Hag",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Hex - The Third Seal",
@@ -4971,7 +5416,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Hag",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Monitor And Abuse",
@@ -4982,7 +5428,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Doctor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Overcharge",
@@ -4993,7 +5440,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Doctor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Overwhelming Presence",
@@ -5004,7 +5452,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Doctor",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Agitation",
@@ -5015,7 +5464,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Trapper",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Brutal Strength",
@@ -5026,7 +5476,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Trapper",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Unnerving Presence",
@@ -5037,7 +5488,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Trapper",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Fire Up",
@@ -5048,7 +5500,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Nightmare",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Remember Me",
@@ -5059,7 +5512,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Nightmare",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Blood Warden",
@@ -5070,7 +5524,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Nightmare",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Bitter Murmur",
@@ -5081,7 +5536,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Deerstalker",
@@ -5092,7 +5548,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Distressing",
@@ -5103,7 +5560,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Hex - No One Escapes Death",
@@ -5114,7 +5572,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Hex - Thrill Of The Hunt",
@@ -5125,7 +5584,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Insidious",
@@ -5136,7 +5596,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Iron Grasp",
@@ -5147,7 +5608,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Monstrous Shrine",
@@ -5158,7 +5620,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Sloppy Butcher",
@@ -5169,7 +5632,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Spies From The Shadows",
@@ -5180,7 +5644,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Unrelenting",
@@ -5191,7 +5656,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "Whispers",
@@ -5202,7 +5668,8 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer Generic",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "No Perk",
@@ -5210,7 +5677,8 @@
 	"type": "Perk",
 	"requirements": [],
 	"subGrouping": "",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "No Perk ",
@@ -5218,7 +5686,8 @@
 	"type": "Perk",
 	"requirements": [],
 	"subGrouping": "",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "No Perk  ",
@@ -5226,7 +5695,8 @@
 	"type": "Perk",
 	"requirements": [],
 	"subGrouping": "",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 },
 {
 	"name": "No Perk   ",
@@ -5234,5 +5704,6 @@
 	"type": "Perk",
 	"requirements": [],
 	"subGrouping": "",
-	"canDisable": true
+	"canDisable": true,
+  "enabled" : true
 }]
