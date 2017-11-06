@@ -1,0 +1,5238 @@
+[{
+	"name": "Survivor",
+	"image": "Assets/Survivors.png",
+	"type": "Role",
+	"requirements": [],
+	"subGrouping": ""
+},
+{
+	"name": "Killer",
+	"image": "Assets/Killers.png",
+	"type": "Role",
+	"requirements": [],
+	"subGrouping": ""
+},
+{
+	"name": "Dwight",
+	"image": "Assets/Survivor/Dwight.jpg",
+	"type": "Character",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Meg",
+	"image": "Assets/Survivor/Meg.jpg",
+	"type": "Character",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Claudette",
+	"image": "Assets/Survivor/Claudette.jpg",
+	"type": "Character",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Jake",
+	"image": "Assets/Survivor/Jake.jpg",
+	"type": "Character",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Nea",
+	"image": "Assets/Survivor/Nea.jpg",
+	"type": "Character",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Laurie",
+	"image": "Assets/Survivor/Laurie.jpg",
+	"type": "Character",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Ace",
+	"image": "Assets/Survivor/Ace.jpg",
+	"type": "Character",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Bill",
+	"image": "Assets/Survivor/Bill.jpg",
+	"type": "Character",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Feng",
+	"image": "Assets/Survivor/Feng.jpg",
+	"type": "Character",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "David",
+	"image": "Assets/Survivor/David.jpg",
+	"type": "Character",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Quentin",
+	"image": "Assets/Survivor/Quentin.jpg",
+	"type": "Character",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Trapper",
+	"image": "Assets/Killer/Trapper.jpg",
+	"type": "Character",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Wraith",
+	"image": "Assets/Killer/Wraith.jpg",
+	"type": "Character",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Hillbilly",
+	"image": "Assets/Killer/Hillbilly.jpg",
+	"type": "Character",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Nurse",
+	"image": "Assets/Killer/Nurse.jpg",
+	"type": "Character",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Shape",
+	"image": "Assets/Killer/Shape.jpg",
+	"type": "Character",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Hag",
+	"image": "Assets/Killer/Hag.jpg",
+	"type": "Character",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Doctor",
+	"image": "Assets/Killer/Doctor.jpg",
+	"type": "Character",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Huntress",
+	"image": "Assets/Killer/Huntress.jpg",
+	"type": "Character",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Cannibal",
+	"image": "Assets/Killer/Cannibal.jpg",
+	"type": "Character",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Nightmare",
+	"image": "Assets/Killer/Nightmare.jpg",
+	"type": "Character",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Trap",
+	"image": "Assets/KillerItems/Trap.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Trapper"]
+	}],
+	"subGrouping": "Killer Items",
+	"canDisable": false
+},
+{
+	"name": "Bell",
+	"image": "Assets/KillerItems/Bell.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Wraith"]
+	}],
+	"subGrouping": "Killer Items",
+	"canDisable": false
+},
+{
+	"name": "Hillbilly's Chainsaw",
+	"image": "Assets/KillerItems/Billy_Saw.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Hillbilly"]
+	}],
+	"subGrouping": "Killer Items",
+	"canDisable": false
+},
+{
+	"name": "Teleport",
+	"image": "Assets/KillerItems/Breath.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Nurse"]
+	}],
+	"subGrouping": "Killer Items",
+	"canDisable": false
+},
+{
+	"name": "Evil Within",
+	"image": "Assets/KillerItems/Evil.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Shape"]
+	}],
+	"subGrouping": "Killer Items",
+	"canDisable": false
+},
+{
+	"name": "Hex",
+	"image": "Assets/KillerItems/Hex.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Hag"]
+	}],
+	"subGrouping": "Killer Items",
+	"canDisable": false
+},
+{
+	"name": "Shock Therapy",
+	"image": "Assets/KillerItems/Spark.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Doctor"]
+	}],
+	"subGrouping": "Killer Items",
+	"canDisable": false
+},
+{
+	"name": "Hatchet",
+	"image": "Assets/KillerItems/Axe.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Huntress"]
+	}],
+	"subGrouping": "Killer Items",
+	"canDisable": false
+},
+{
+	"name": "Cannibal's Chainsaw",
+	"image": "Assets/KillerItems/Cannibal_Saw.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Cannibal"]
+	}],
+	"subGrouping": "Killer Items",
+	"canDisable": false
+},
+{
+	"name": "Dream Demon",
+	"image": "Assets/KillerItems/Dream_Demon.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Nightmare"]
+	}],
+	"subGrouping": "Killer Items",
+	"canDisable": false
+},
+{
+	"name": "Chinese Firecracker",
+	"image": "Assets/SurvivorItems/ChineseFirecracker.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Chinese Firecrackers",
+	"canDisable": true
+},
+{
+	"name": "Flashlight",
+	"image": "Assets/SurvivorItems/Flashlight.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Flashlights",
+	"canDisable": true
+},
+{
+	"name": "Will O' Wisp",
+	"image": "Assets/SurvivorItems/Flashlight_WillOWisp.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Flashlights",
+	"canDisable": true
+},
+{
+	"name": "Sport Flashlight",
+	"image": "Assets/SurvivorItems/Flashlight_Sport.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Flashlights",
+	"canDisable": true
+},
+{
+	"name": "Utility Flashlight",
+	"image": "Assets/SurvivorItems/Flashlight_Utility.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Flashlights",
+	"canDisable": true
+},
+{
+	"name": "Broken Key",
+	"image": "Assets/SurvivorItems/Key_Broken.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Keys",
+	"canDisable": true
+},
+{
+	"name": "Dull Key",
+	"image": "Assets/SurvivorItems/Key_Dull.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Keys",
+	"canDisable": true
+},
+{
+	"name": "Skeleton Key",
+	"image": "Assets/SurvivorItems/Key_Skeleton.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Keys",
+	"canDisable": true
+},
+{
+	"name": "Map",
+	"image": "Assets/SurvivorItems/Map.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Maps",
+	"canDisable": true
+},
+{
+	"name": "Rainbow Map",
+	"image": "Assets/SurvivorItems/Map_Rainbow.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Maps",
+	"canDisable": true
+},
+{
+	"name": "Camping Aid Kit",
+	"image": "Assets/SurvivorItems/FirstAid_Camping.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Med-Kits",
+	"canDisable": true
+},
+{
+	"name": "All Hallows' Eve Lunchbox",
+	"image": "Assets/SurvivorItems/FirstAid_Spooky.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Med-Kits",
+	"canDisable": true
+},
+{
+	"name": "First Aid Kit",
+	"image": "Assets/SurvivorItems/FirstAid.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Med-Kits",
+	"canDisable": true
+},
+{
+	"name": "Emergency Med-Kit",
+	"image": "Assets/SurvivorItems/FirstAid_Emergency.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Med-Kits",
+	"canDisable": true
+},
+{
+	"name": "Ranger Med-Kit",
+	"image": "Assets/SurvivorItems/FirstAid_Ranger.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Med-Kits",
+	"canDisable": true
+},
+{
+	"name": "Worn Out Tools",
+	"image": "Assets/SurvivorItems/Toolbox_Worn.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Toolboxes",
+	"canDisable": true
+},
+{
+	"name": "Toolbox",
+	"image": "Assets/SurvivorItems/Toolbox.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Toolboxes",
+	"canDisable": true
+},
+{
+	"name": "Mechanic's Toolbox",
+	"image": "Assets/SurvivorItems/Toolbox_Mechanic.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Toolboxes",
+	"canDisable": true
+},
+{
+	"name": "Commodious Toolbox",
+	"image": "Assets/SurvivorItems/Toolbox_Commodious.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Toolboxes",
+	"canDisable": true
+},
+{
+	"name": "Engineer's Toolbox",
+	"image": "Assets/SurvivorItems/Toolbox_Engineer.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Toolboxes",
+	"canDisable": true
+},
+{
+	"name": "Alex's Toolbox",
+	"image": "Assets/SurvivorItems/Toolbox_Alex.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Toolboxes",
+	"canDisable": true
+},
+{
+	"name": "No Item",
+	"image": "Assets/None.png",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "",
+	"canDisable": true
+},
+{
+	"name": "Trapper Gloves",
+	"image": "Assets/KillerAddons/Trapper_TrapperGloves.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Trap"]
+	}],
+	"subGrouping": "Trapper",
+	"canDisable": true
+},
+{
+	"name": "Strong Coil Spring",
+	"image": "Assets/KillerAddons/Trapper_StrongCoilSpring.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Trap"]
+	}],
+	"subGrouping": "Trapper",
+	"canDisable": true
+},
+{
+	"name": "Serrated Jaws",
+	"image": "Assets/KillerAddons/Trapper_SerratedJaws.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Trap"]
+	}],
+	"subGrouping": "Trapper",
+	"canDisable": true
+},
+{
+	"name": "Wax Brick",
+	"image": "Assets/KillerAddons/Trapper_WaxBrick.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Trap"]
+	}],
+	"subGrouping": "Trapper",
+	"canDisable": true
+},
+{
+	"name": "Trapper Bag",
+	"image": "Assets/KillerAddons/Trapper_TrapperBag.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Trap"]
+	}],
+	"subGrouping": "Trapper",
+	"canDisable": true
+},
+{
+	"name": "Trap Setters",
+	"image": "Assets/KillerAddons/Trapper_TrapSetters.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Trap"]
+	}],
+	"subGrouping": "Trapper",
+	"canDisable": true
+},
+{
+	"name": "Secondary Coil",
+	"image": "Assets/KillerAddons/Trapper_SecondaryCoil.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Trap"]
+	}],
+	"subGrouping": "Trapper",
+	"canDisable": true
+},
+{
+	"name": "Logwood Dye",
+	"image": "Assets/KillerAddons/Trapper_LogwoodDye.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Trap"]
+	}],
+	"subGrouping": "Trapper",
+	"canDisable": true
+},
+{
+	"name": "4-Coil Spring Kit",
+	"image": "Assets/KillerAddons/Trapper_CoilSpringKit.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Trap"]
+	}],
+	"subGrouping": "Trapper",
+	"canDisable": true
+},
+{
+	"name": "Tar Bottle",
+	"image": "Assets/KillerAddons/Trapper_TarBottle.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Trap"]
+	}],
+	"subGrouping": "Trapper",
+	"canDisable": true
+},
+{
+	"name": "Setting Tools",
+	"image": "Assets/KillerAddons/Trapper_SettingTools.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Trap"]
+	}],
+	"subGrouping": "Trapper",
+	"canDisable": true
+},
+{
+	"name": "Rusted Jaws",
+	"image": "Assets/KillerAddons/Trapper_RustedJaws.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Trap"]
+	}],
+	"subGrouping": "Trapper",
+	"canDisable": true
+},
+{
+	"name": "Oily Coil",
+	"image": "Assets/KillerAddons/Trapper_OilyCoil.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Trap"]
+	}],
+	"subGrouping": "Trapper",
+	"canDisable": true
+},
+{
+	"name": "Fastening Tools",
+	"image": "Assets/KillerAddons/Trapper_FasteningTools.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Trap"]
+	}],
+	"subGrouping": "Trapper",
+	"canDisable": true
+},
+{
+	"name": "Stitched Bag",
+	"image": "Assets/KillerAddons/Trapper_StitchedBag.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Trap"]
+	}],
+	"subGrouping": "Trapper",
+	"canDisable": true
+},
+{
+	"name": "Honing Stone",
+	"image": "Assets/KillerAddons/Trapper_HoningStone.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Trap"]
+	}],
+	"subGrouping": "Trapper",
+	"canDisable": true
+},
+{
+	"name": "Bloody Coil",
+	"image": "Assets/KillerAddons/Trapper_BloodyCoil.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Trap"]
+	}],
+	"subGrouping": "Trapper",
+	"canDisable": true
+},
+{
+	"name": "Diamond Stone",
+	"image": "Assets/KillerAddons/Trapper_DiamondStone.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Trap"]
+	}],
+	"subGrouping": "Trapper",
+	"canDisable": true
+},
+{
+	"name": "Bone Clapper",
+	"image": "Assets/KillerAddons/Wraith_BoneClapper.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Bell"]
+	}],
+	"subGrouping": "Wraith",
+	"canDisable": true
+},
+{
+	"name": "Swift Hunt - Soot",
+	"image": "Assets/KillerAddons/Wraith_SwiftHuntSoot.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Bell"]
+	}],
+	"subGrouping": "Wraith",
+	"canDisable": true
+},
+{
+	"name": "Blink - Soot",
+	"image": "Assets/KillerAddons/Wraith_BlinkSoot.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Bell"]
+	}],
+	"subGrouping": "Wraith",
+	"canDisable": true
+},
+{
+	"name": "Blind Warrior - Soot",
+	"image": "Assets/KillerAddons/Wraith_BlindWarriorSoot.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Bell"]
+	}],
+	"subGrouping": "Wraith",
+	"canDisable": true
+},
+{
+	"name": "Coxcombed Clapper",
+	"image": "Assets/KillerAddons/Wraith_CoxcombedClapper.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Bell"]
+	}],
+	"subGrouping": "Wraith",
+	"canDisable": true
+},
+{
+	"name": "Windstorm - Soot",
+	"image": "Assets/KillerAddons/Wraith_WindstormSoot.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Bell"]
+	}],
+	"subGrouping": "Wraith",
+	"canDisable": true
+},
+{
+	"name": "Swift Hunt - Mud",
+	"image": "Assets/KillerAddons/Wraith_SwiftHuntMud.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Bell"]
+	}],
+	"subGrouping": "Wraith",
+	"canDisable": true
+},
+{
+	"name": "Blind Warrior - Mud",
+	"image": "Assets/KillerAddons/Wraith_BlindWarriorMud.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Bell"]
+	}],
+	"subGrouping": "Wraith",
+	"canDisable": true
+},
+{
+	"name": "All Seeing - Mud",
+	"image": "Assets/KillerAddons/Wraith_AllSeeingMud.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Bell"]
+	}],
+	"subGrouping": "Wraith",
+	"canDisable": true
+},
+{
+	"name": "Windstorm - Mud",
+	"image": "Assets/KillerAddons/Wraith_WindstormMud.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Bell"]
+	}],
+	"subGrouping": "Wraith",
+	"canDisable": true
+},
+{
+	"name": "The Ghost - Soot",
+	"image": "Assets/KillerAddons/Wraith_TheGhostSoot.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Bell"]
+	}],
+	"subGrouping": "Wraith",
+	"canDisable": true
+},
+{
+	"name": "Swift Hunt - White",
+	"image": "Assets/KillerAddons/Wraith_SwiftHuntWhite.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Bell"]
+	}],
+	"subGrouping": "Wraith",
+	"canDisable": true
+},
+{
+	"name": "Blind Warrior - White",
+	"image": "Assets/KillerAddons/Wraith_BlindWarriorWhite.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Bell"]
+	}],
+	"subGrouping": "Wraith",
+	"canDisable": true
+},
+{
+	"name": "All Seeing - White",
+	"image": "Assets/KillerAddons/Wraith_AllSeeingWhite.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Bell"]
+	}],
+	"subGrouping": "Wraith",
+	"canDisable": true
+},
+{
+	"name": "Windstorm - Blood",
+	"image": "Assets/KillerAddons/Wraith_WindstormBlood.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Bell"]
+	}],
+	"subGrouping": "Wraith",
+	"canDisable": true
+},
+{
+	"name": "Blind Warrior - Blood",
+	"image": "Assets/KillerAddons/Wraith_BlindWarriorBlood.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Bell"]
+	}],
+	"subGrouping": "Wraith",
+	"canDisable": true
+},
+{
+	"name": "All Seeing - Blood",
+	"image": "Assets/KillerAddons/Wraith_AllSeeingBlood.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Bell"]
+	}],
+	"subGrouping": "Wraith",
+	"canDisable": true
+},
+{
+	"name": "Blind Warrior - Spirit",
+	"image": "Assets/KillerAddons/Wraith_BlindWarriorSpirit.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Bell"]
+	}],
+	"subGrouping": "Wraith",
+	"canDisable": true
+},
+{
+	"name": "All Seeing - Spirit",
+	"image": "Assets/KillerAddons/Wraith_AllSeeingSpirit.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Bell"]
+	}],
+	"subGrouping": "Wraith",
+	"canDisable": true
+},
+{
+	"name": "Vegetable Oil",
+	"image": "Assets/KillerAddons/Hillbilly_VegetableOil.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hillbilly's Chainsaw",
+		"Cannibal's Chainsaw"]
+	}],
+	"subGrouping": "Hillbilly and Cannibal",
+	"canDisable": true
+},
+{
+	"name": "Spark Plug",
+	"image": "Assets/KillerAddons/Hillbilly_SparkPlug.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hillbilly's Chainsaw",
+		"Cannibal's Chainsaw"]
+	}],
+	"subGrouping": "Hillbilly and Cannibal",
+	"canDisable": true
+},
+{
+	"name": "Chainsaw File",
+	"image": "Assets/KillerAddons/Hillbilly_ChainsawFile.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hillbilly's Chainsaw",
+		"Cannibal's Chainsaw"]
+	}],
+	"subGrouping": "Hillbilly and Cannibal",
+	"canDisable": true
+},
+{
+	"name": "Spiked Boots",
+	"image": "Assets/KillerAddons/Hillbilly_SpikedBoots.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hillbilly's Chainsaw"]
+	}],
+	"subGrouping": "Hillbilly",
+	"canDisable": true
+},
+{
+	"name": "Speed Limiter",
+	"image": "Assets/KillerAddons/Hillbilly_SpeedLimiter.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hillbilly's Chainsaw",
+		"Cannibal's Chainsaw"]
+	}],
+	"subGrouping": "Hillbilly and Cannibal",
+	"canDisable": true
+},
+{
+	"name": "Shop Lubricant",
+	"image": "Assets/KillerAddons/Hillbilly_ShopLubricant.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hillbilly's Chainsaw",
+		"Cannibal's Chainsaw"]
+	}],
+	"subGrouping": "Hillbilly and Cannibal",
+	"canDisable": true
+},
+{
+	"name": "Primer Bulb",
+	"image": "Assets/KillerAddons/Hillbilly_PrimerBulb.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hillbilly's Chainsaw",
+		"Cannibal's Chainsaw"]
+	}],
+	"subGrouping": "Hillbilly and Cannibal",
+	"canDisable": true
+},
+{
+	"name": "Long Guide Bar",
+	"image": "Assets/KillerAddons/Hillbilly_LongGuideBar.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hillbilly's Chainsaw",
+		"Cannibal's Chainsaw"]
+	}],
+	"subGrouping": "Hillbilly and Cannibal",
+	"canDisable": true
+},
+{
+	"name": "Homemade Muffler",
+	"image": "Assets/KillerAddons/Hillbilly_HomemadeMuffler.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hillbilly's Chainsaw",
+		"Cannibal's Chainsaw"]
+	}],
+	"subGrouping": "Hillbilly and Cannibal",
+	"canDisable": true
+},
+{
+	"name": "Grisly Chains",
+	"image": "Assets/KillerAddons/Hillbilly_GrislyChains.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hillbilly's Chainsaw",
+		"Cannibal's Chainsaw"]
+	}],
+	"subGrouping": "Hillbilly and Cannibal",
+	"canDisable": true
+},
+{
+	"name": "Depth Gauge Rake",
+	"image": "Assets/KillerAddons/Hillbilly_DepthGaugeRake.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hillbilly's Chainsaw",
+		"Cannibal's Chainsaw"]
+	}],
+	"subGrouping": "Hillbilly and Cannibal",
+	"canDisable": true
+},
+{
+	"name": "Death Engravings",
+	"image": "Assets/KillerAddons/Hillbilly_DeathEngravings.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hillbilly's Chainsaw"]
+	}],
+	"subGrouping": "Hillbilly",
+	"canDisable": true
+},
+{
+	"name": "The Thompson's Mix",
+	"image": "Assets/KillerAddons/Hillbilly_TheThompsonsMix.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hillbilly's Chainsaw"]
+	}],
+	"subGrouping": "Hillbilly",
+	"canDisable": true
+},
+{
+	"name": "Rusted Chains",
+	"image": "Assets/KillerAddons/Hillbilly_RustedChains.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hillbilly's Chainsaw",
+		"Cannibal's Chainsaw"]
+	}],
+	"subGrouping": "Hillbilly and Cannibal",
+	"canDisable": true
+},
+{
+	"name": "Light Chassis",
+	"image": "Assets/KillerAddons/Hillbilly_LightChassis.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hillbilly's Chainsaw",
+		"Cannibal's Chainsaw"]
+	}],
+	"subGrouping": "Hillbilly and Cannibal",
+	"canDisable": true
+},
+{
+	"name": "Doom Engravings",
+	"image": "Assets/KillerAddons/Hillbilly_DoomEngravings.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hillbilly's Chainsaw"]
+	}],
+	"subGrouping": "Hillbilly",
+	"canDisable": true
+},
+{
+	"name": "Carburetor Tuning Guide",
+	"image": "Assets/KillerAddons/Hillbilly_CarburetorTuningGuide.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hillbilly's Chainsaw",
+		"Cannibal's Chainsaw"]
+	}],
+	"subGrouping": "Hillbilly and Cannibal",
+	"canDisable": true
+},
+{
+	"name": "Thompson's Moonshine",
+	"image": "Assets/KillerAddons/Hillbilly_ThompsonsMoonshine.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hillbilly's Chainsaw"]
+	}],
+	"subGrouping": "Hillbilly",
+	"canDisable": true
+},
+{
+	"name": "Begrimed Chains",
+	"image": "Assets/KillerAddons/Hillbilly_BegrimedChains.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hillbilly's Chainsaw",
+		"Cannibal's Chainsaw"]
+	}],
+	"subGrouping": "Hillbilly and Cannibal",
+	"canDisable": true
+},
+{
+	"name": "Wooden Horse",
+	"image": "Assets/KillerAddons/Nurse_WoodenHorse.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Teleport"]
+	}],
+	"subGrouping": "Nurse",
+	"canDisable": true
+},
+{
+	"name": "White Nit Comb",
+	"image": "Assets/KillerAddons/Nurse_WhiteNitComb.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Teleport"]
+	}],
+	"subGrouping": "Nurse",
+	"canDisable": true
+},
+{
+	"name": "Torn Bookmark",
+	"image": "Assets/KillerAddons/Nurse_TornBookmark.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Teleport"]
+	}],
+	"subGrouping": "Nurse",
+	"canDisable": true
+},
+{
+	"name": "Metal Spoon",
+	"image": "Assets/KillerAddons/Nurse_MetalSpoon.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Teleport"]
+	}],
+	"subGrouping": "Nurse",
+	"canDisable": true
+},
+{
+	"name": "Matchbox",
+	"image": "Assets/KillerAddons/Nurse_Matchbox.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Teleport"]
+	}],
+	"subGrouping": "Nurse",
+	"canDisable": true
+},
+{
+	"name": "Bad Man Keepsake",
+	"image": "Assets/KillerAddons/Nurse_BadManKeepsake.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Teleport"]
+	}],
+	"subGrouping": "Nurse",
+	"canDisable": true
+},
+{
+	"name": "Pocket Watch",
+	"image": "Assets/KillerAddons/Nurse_PocketWatch.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Teleport"]
+	}],
+	"subGrouping": "Nurse",
+	"canDisable": true
+},
+{
+	"name": "Dull Bracelet",
+	"image": "Assets/KillerAddons/Nurse_DullBracelet.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Teleport"]
+	}],
+	"subGrouping": "Nurse",
+	"canDisable": true
+},
+{
+	"name": "Dark Cincture",
+	"image": "Assets/KillerAddons/Nurse_DarkCincture.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Teleport"]
+	}],
+	"subGrouping": "Nurse",
+	"canDisable": true
+},
+{
+	"name": "Catatonic Boy's Treasure",
+	"image": "Assets/KillerAddons/Nurse_CatatonicBoysTreasure.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Teleport"]
+	}],
+	"subGrouping": "Nurse",
+	"canDisable": true
+},
+{
+	"name": "Spasmodic Breath",
+	"image": "Assets/KillerAddons/Nurse_SpasmodicBreath.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Teleport"]
+	}],
+	"subGrouping": "Nurse",
+	"canDisable": true
+},
+{
+	"name": "Heavy Panting",
+	"image": "Assets/KillerAddons/Nurse_HeavyPanting.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Teleport"]
+	}],
+	"subGrouping": "Nurse",
+	"canDisable": true
+},
+{
+	"name": "Fragile Wheeze",
+	"image": "Assets/KillerAddons/Nurse_FragileWheeze.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Teleport"]
+	}],
+	"subGrouping": "Nurse",
+	"canDisable": true
+},
+{
+	"name": "Ataxic Respiration",
+	"image": "Assets/KillerAddons/Nurse_AtaxicRespiration.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Teleport"]
+	}],
+	"subGrouping": "Nurse",
+	"canDisable": true
+},
+{
+	"name": "Anxious Gasp",
+	"image": "Assets/KillerAddons/Nurse_AnxiousGasp.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Teleport"]
+	}],
+	"subGrouping": "Nurse",
+	"canDisable": true
+},
+{
+	"name": "Plaid Flannel",
+	"image": "Assets/KillerAddons/Nurse_PlaidFlannel.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Teleport"]
+	}],
+	"subGrouping": "Nurse",
+	"canDisable": true
+},
+{
+	"name": "Kavanagh's Last Breath",
+	"image": "Assets/KillerAddons/Nurse_KavanaghsLastBreath.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Teleport"]
+	}],
+	"subGrouping": "Nurse",
+	"canDisable": true
+},
+{
+	"name": "Jenner's Last Breath",
+	"image": "Assets/KillerAddons/Nurse_JennersLastBreath.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Teleport"]
+	}],
+	"subGrouping": "Nurse",
+	"canDisable": true
+},
+{
+	"name": "Campbell's Last Breath",
+	"image": "Assets/KillerAddons/Nurse_CampbellsLastBreath.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Teleport"]
+	}],
+	"subGrouping": "Nurse",
+	"canDisable": true
+},
+{
+	"name": "Bad Man's Last Breath",
+	"image": "Assets/KillerAddons/Nurse_BadMansLastBreath.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Teleport"]
+	}],
+	"subGrouping": "Nurse",
+	"canDisable": true
+},
+{
+	"name": "Tacky Earrings",
+	"image": "Assets/KillerAddons/Shape_TackyEarrings.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Evil Within"]
+	}],
+	"subGrouping": "Shape",
+	"canDisable": true
+},
+{
+	"name": "Boyfriend's Memo",
+	"image": "Assets/KillerAddons/Shape_BoyfriendsMemo.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Evil Within"]
+	}],
+	"subGrouping": "Shape",
+	"canDisable": true
+},
+{
+	"name": "Blond Hair",
+	"image": "Assets/KillerAddons/Shape_BlondHair.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Evil Within"]
+	}],
+	"subGrouping": "Shape",
+	"canDisable": true
+},
+{
+	"name": "Reflective Fragment",
+	"image": "Assets/KillerAddons/Shape_ReflectiveFragment.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Evil Within"]
+	}],
+	"subGrouping": "Shape",
+	"canDisable": true
+},
+{
+	"name": "Memorial Flower",
+	"image": "Assets/KillerAddons/Shape_MemorialFlower.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Evil Within"]
+	}],
+	"subGrouping": "Shape",
+	"canDisable": true
+},
+{
+	"name": "Jewelry",
+	"image": "Assets/KillerAddons/Shape_Jewelry.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Evil Within"]
+	}],
+	"subGrouping": "Shape",
+	"canDisable": true
+},
+{
+	"name": "Hair Brush",
+	"image": "Assets/KillerAddons/Shape_HairBrush.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Evil Within"]
+	}],
+	"subGrouping": "Shape",
+	"canDisable": true
+},
+{
+	"name": "Glass Fragment",
+	"image": "Assets/KillerAddons/Shape_GlassFragment.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Evil Within"]
+	}],
+	"subGrouping": "Shape",
+	"canDisable": true
+},
+{
+	"name": "Dead Rabbit",
+	"image": "Assets/KillerAddons/Shape_DeadRabbit.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Evil Within"]
+	}],
+	"subGrouping": "Shape",
+	"canDisable": true
+},
+{
+	"name": "Mirror Shard",
+	"image": "Assets/KillerAddons/Shape_MirrorShard.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Evil Within"]
+	}],
+	"subGrouping": "Shape",
+	"canDisable": true
+},
+{
+	"name": "Judith's Journal",
+	"image": "Assets/KillerAddons/Shape_JudithsJournal.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Evil Within"]
+	}],
+	"subGrouping": "Shape",
+	"canDisable": true
+},
+{
+	"name": "Jewelry Box",
+	"image": "Assets/KillerAddons/Shape_JewelryBox.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Evil Within"]
+	}],
+	"subGrouping": "Shape",
+	"canDisable": true
+},
+{
+	"name": "J. Myers Memorial",
+	"image": "Assets/KillerAddons/Shape_JMyersMemorial.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Evil Within"]
+	}],
+	"subGrouping": "Shape",
+	"canDisable": true
+},
+{
+	"name": "Hair Bow",
+	"image": "Assets/KillerAddons/Shape_HairBow.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Evil Within"]
+	}],
+	"subGrouping": "Shape",
+	"canDisable": true
+},
+{
+	"name": "Vanity Mirror",
+	"image": "Assets/KillerAddons/Shape_VanityMirror.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Evil Within"]
+	}],
+	"subGrouping": "Shape",
+	"canDisable": true
+},
+{
+	"name": "Tombstone Piece",
+	"image": "Assets/KillerAddons/Shape_TombstonePiece.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Evil Within"]
+	}],
+	"subGrouping": "Shape",
+	"canDisable": true
+},
+{
+	"name": "Scratched Mirror",
+	"image": "Assets/KillerAddons/Shape_ScratchedMirror.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Evil Within"]
+	}],
+	"subGrouping": "Shape",
+	"canDisable": true
+},
+{
+	"name": "Lock of Hair",
+	"image": "Assets/KillerAddons/Shape_LockOfHair.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Evil Within"]
+	}],
+	"subGrouping": "Shape",
+	"canDisable": true
+},
+{
+	"name": "Judith's Tombstone",
+	"image": "Assets/KillerAddons/Shape_JudithsTombstone.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Evil Within"]
+	}],
+	"subGrouping": "Shape",
+	"canDisable": true
+},
+{
+	"name": "Fragrant Tuft of Hair",
+	"image": "Assets/KillerAddons/Shape_FragrantTuftOfHair.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Evil Within"]
+	}],
+	"subGrouping": "Shape",
+	"canDisable": true
+},
+{
+	"name": "Rope Necklet",
+	"image": "Assets/KillerAddons/Hag_RopeNecklet.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hex"]
+	}],
+	"subGrouping": "Hag",
+	"canDisable": true
+},
+{
+	"name": "Powdered Eggshell",
+	"image": "Assets/KillerAddons/Hag_PowderedEggshell.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hex"]
+	}],
+	"subGrouping": "Hag",
+	"canDisable": true
+},
+{
+	"name": "Dead Fly Mud",
+	"image": "Assets/KillerAddons/Hag_DeadFlyMud.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hex"]
+	}],
+	"subGrouping": "Hag",
+	"canDisable": true
+},
+{
+	"name": "Bog Water",
+	"image": "Assets/KillerAddons/Hag_BogWater.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hex"]
+	}],
+	"subGrouping": "Hag",
+	"canDisable": true
+},
+{
+	"name": "Pussy Willow Catkins",
+	"image": "Assets/KillerAddons/Hag_PussyWillowCatkins.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hex"]
+	}],
+	"subGrouping": "Hag",
+	"canDisable": true
+},
+{
+	"name": "Half Eggshell",
+	"image": "Assets/KillerAddons/Hag_HalfEggshell.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hex"]
+	}],
+	"subGrouping": "Hag",
+	"canDisable": true
+},
+{
+	"name": "Dragonfly Wings",
+	"image": "Assets/KillerAddons/Hag_DragonflyWings.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hex"]
+	}],
+	"subGrouping": "Hag",
+	"canDisable": true
+},
+{
+	"name": "Cypress Necklet",
+	"image": "Assets/KillerAddons/Hag_CypressNecklet.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hex"]
+	}],
+	"subGrouping": "Hag",
+	"canDisable": true
+},
+{
+	"name": "Bloodied Water",
+	"image": "Assets/KillerAddons/Hag_BloodiedWater.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hex"]
+	}],
+	"subGrouping": "Hag",
+	"canDisable": true
+},
+{
+	"name": "Willow Wreath",
+	"image": "Assets/KillerAddons/Hag_WillowWreath.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hex"]
+	}],
+	"subGrouping": "Hag",
+	"canDisable": true
+},
+{
+	"name": "Swamp Orchid Necklet",
+	"image": "Assets/KillerAddons/Hag_SwampOrchidNecklet.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hex"]
+	}],
+	"subGrouping": "Hag",
+	"canDisable": true
+},
+{
+	"name": "Dried Cicada",
+	"image": "Assets/KillerAddons/Hag_DriedCicada.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hex"]
+	}],
+	"subGrouping": "Hag",
+	"canDisable": true
+},
+{
+	"name": "Cracked Turtle Egg",
+	"image": "Assets/KillerAddons/Hag_CrackedTurtleEgg.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hex"]
+	}],
+	"subGrouping": "Hag",
+	"canDisable": true
+},
+{
+	"name": "Bloodied Mud",
+	"image": "Assets/KillerAddons/Hag_BloodiedMud.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hex"]
+	}],
+	"subGrouping": "Hag",
+	"canDisable": true
+},
+{
+	"name": "Scarred Hand",
+	"image": "Assets/KillerAddons/Hag_ScarredHand.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hex"]
+	}],
+	"subGrouping": "Hag",
+	"canDisable": true
+},
+{
+	"name": "Rusty Shackles",
+	"image": "Assets/KillerAddons/Hag_RustyShackles.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hex"]
+	}],
+	"subGrouping": "Hag",
+	"canDisable": true
+},
+{
+	"name": "Granma's Heart",
+	"image": "Assets/KillerAddons/Hag_GranmasHeart.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hex"]
+	}],
+	"subGrouping": "Hag",
+	"canDisable": true
+},
+{
+	"name": "Disfigured Ear",
+	"image": "Assets/KillerAddons/Hag_DisfiguredEar.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hex"]
+	}],
+	"subGrouping": "Hag",
+	"canDisable": true
+},
+{
+	"name": "Waterlogged Shoe",
+	"image": "Assets/KillerAddons/Hag_WaterloggedShoe.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hex"]
+	}],
+	"subGrouping": "Hag",
+	"canDisable": true
+},
+{
+	"name": "Mint Rag",
+	"image": "Assets/KillerAddons/Hag_MintRag.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hex"]
+	}],
+	"subGrouping": "Hag",
+	"canDisable": true
+},
+{
+	"name": "Moldy Electrode",
+	"image": "Assets/KillerAddons/Doctor_MoldyElectrode.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Shock Therapy"]
+	}],
+	"subGrouping": "Doctor",
+	"canDisable": true
+},
+{
+	"name": "Maple Knight",
+	"image": "Assets/KillerAddons/Doctor_MapleKnight.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Shock Therapy"]
+	}],
+	"subGrouping": "Doctor",
+	"canDisable": true
+},
+{
+	"name": "Order - Class I",
+	"image": "Assets/KillerAddons/Doctor_OrderClassI.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Shock Therapy"]
+	}],
+	"subGrouping": "Doctor",
+	"canDisable": true
+},
+{
+	"name": "Calm - Class I",
+	"image": "Assets/KillerAddons/Doctor_CalmClassI.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Shock Therapy"]
+	}],
+	"subGrouping": "Doctor",
+	"canDisable": true
+},
+{
+	"name": "Scrapped Tape",
+	"image": "Assets/KillerAddons/Doctor_ScrappedTape.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Shock Therapy"]
+	}],
+	"subGrouping": "Doctor",
+	"canDisable": true
+},
+{
+	"name": "Polished Electrode",
+	"image": "Assets/KillerAddons/Doctor_PolishedElectrode.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Shock Therapy"]
+	}],
+	"subGrouping": "Doctor",
+	"canDisable": true
+},
+{
+	"name": "Interview Tape",
+	"image": "Assets/KillerAddons/Doctor_InterviewTape.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Shock Therapy"]
+	}],
+	"subGrouping": "Doctor",
+	"canDisable": true
+},
+{
+	"name": "Restraint - Class II",
+	"image": "Assets/KillerAddons/Doctor_RestraintClassII.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Shock Therapy"]
+	}],
+	"subGrouping": "Doctor",
+	"canDisable": true
+},
+{
+	"name": "Order - Class II",
+	"image": "Assets/KillerAddons/Doctor_OrderClassII.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Shock Therapy"]
+	}],
+	"subGrouping": "Doctor",
+	"canDisable": true
+},
+{
+	"name": "Discipline - Class II",
+	"image": "Assets/KillerAddons/Doctor_DisciplineClassII.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Shock Therapy"]
+	}],
+	"subGrouping": "Doctor",
+	"canDisable": true
+},
+{
+	"name": "Calm - Class II",
+	"image": "Assets/KillerAddons/Doctor_CalmClassII.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Shock Therapy"]
+	}],
+	"subGrouping": "Doctor",
+	"canDisable": true
+},
+{
+	"name": "High Stimulus Electrode",
+	"image": "Assets/KillerAddons/Doctor_HighStimulusElectrode.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Shock Therapy"]
+	}],
+	"subGrouping": "Doctor",
+	"canDisable": true
+},
+{
+	"name": "Restraint - Class III",
+	"image": "Assets/KillerAddons/Doctor_RestraintClassIII.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Shock Therapy"]
+	}],
+	"subGrouping": "Doctor",
+	"canDisable": true
+},
+{
+	"name": "Discipline - Class III",
+	"image": "Assets/KillerAddons/Doctor_DisciplineClassIII.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Shock Therapy"]
+	}],
+	"subGrouping": "Doctor",
+	"canDisable": true
+},
+{
+	"name": "Restraint - Carter's Notes",
+	"image": "Assets/KillerAddons/Doctor_RestraintCartersNotes.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Shock Therapy"]
+	}],
+	"subGrouping": "Doctor",
+	"canDisable": true
+},
+{
+	"name": "Order - Carter's Notes",
+	"image": "Assets/KillerAddons/Doctor_OrderCartersNotes.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Shock Therapy"]
+	}],
+	"subGrouping": "Doctor",
+	"canDisable": true
+},
+{
+	"name": "Obedience - Carter's Notes",
+	"image": "Assets/KillerAddons/Doctor_ObedienceCartersNotes.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Shock Therapy"]
+	}],
+	"subGrouping": "Doctor",
+	"canDisable": true
+},
+{
+	"name": "Discipline - Carter's Notes",
+	"image": "Assets/KillerAddons/Doctor_DisciplineCartersNotes.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Shock Therapy"]
+	}],
+	"subGrouping": "Doctor",
+	"canDisable": true
+},
+{
+	"name": "Calm - Carter's Notes",
+	"image": "Assets/KillerAddons/Doctor_CalmCartersNotes.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Shock Therapy"]
+	}],
+	"subGrouping": "Doctor",
+	"canDisable": true
+},
+{
+	"name": "Iridescent King",
+	"image": "Assets/KillerAddons/Doctor_IridescentKing.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Shock Therapy"]
+	}],
+	"subGrouping": "Doctor",
+	"canDisable": true
+},
+{
+	"name": "Coarse Stone",
+	"image": "Assets/KillerAddons/Huntress_CoarseStone.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hatchet"]
+	}],
+	"subGrouping": "Huntress",
+	"canDisable": true
+},
+{
+	"name": "Berus Toxin",
+	"image": "Assets/KillerAddons/Huntress_BerusToxin.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hatchet"]
+	}],
+	"subGrouping": "Huntress",
+	"canDisable": true
+},
+{
+	"name": "Bandaged Haft",
+	"image": "Assets/KillerAddons/Huntress_BandagedHaft.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hatchet"]
+	}],
+	"subGrouping": "Huntress",
+	"canDisable": true
+},
+{
+	"name": "Amanita Toxin",
+	"image": "Assets/KillerAddons/Huntress_AmanitaToxin.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hatchet"]
+	}],
+	"subGrouping": "Huntress",
+	"canDisable": true
+},
+{
+	"name": "Yew Seed Brew",
+	"image": "Assets/KillerAddons/Huntress_YewSeedBrew.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hatchet"]
+	}],
+	"subGrouping": "Huntress",
+	"canDisable": true
+},
+{
+	"name": "Shiny Pin",
+	"image": "Assets/KillerAddons/Huntress_ShinyPin.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hatchet"]
+	}],
+	"subGrouping": "Huntress",
+	"canDisable": true
+},
+{
+	"name": "Oak Haft",
+	"image": "Assets/KillerAddons/Huntress_OakHaft.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hatchet"]
+	}],
+	"subGrouping": "Huntress",
+	"canDisable": true
+},
+{
+	"name": "Manna Grass Braid",
+	"image": "Assets/KillerAddons/Huntress_MannaGrassBraid.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hatchet"]
+	}],
+	"subGrouping": "Huntress",
+	"canDisable": true
+},
+{
+	"name": "Leather Loop",
+	"image": "Assets/KillerAddons/Huntress_LeatherLoop.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hatchet"]
+	}],
+	"subGrouping": "Huntress",
+	"canDisable": true
+},
+{
+	"name": "Fine Stone",
+	"image": "Assets/KillerAddons/Huntress_FineStone.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hatchet"]
+	}],
+	"subGrouping": "Huntress",
+	"canDisable": true
+},
+{
+	"name": "Deerskin Gloves",
+	"image": "Assets/KillerAddons/Huntress_DeerskinGloves.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hatchet"]
+	}],
+	"subGrouping": "Huntress",
+	"canDisable": true
+},
+{
+	"name": "Yew Seed Concoction",
+	"image": "Assets/KillerAddons/Huntress_YewSeedConcoction.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hatchet"]
+	}],
+	"subGrouping": "Huntress",
+	"canDisable": true
+},
+{
+	"name": "Venemous Concoction",
+	"image": "Assets/KillerAddons/Huntress_VenemousConcoction.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hatchet"]
+	}],
+	"subGrouping": "Huntress",
+	"canDisable": true
+},
+{
+	"name": "Rusty Head",
+	"image": "Assets/KillerAddons/Huntress_RustyHead.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hatchet"]
+	}],
+	"subGrouping": "Huntress",
+	"canDisable": true
+},
+{
+	"name": "Pungent Fiale",
+	"image": "Assets/KillerAddons/Huntress_PungentFiale.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hatchet"]
+	}],
+	"subGrouping": "Huntress",
+	"canDisable": true
+},
+{
+	"name": "Flower Babushka",
+	"image": "Assets/KillerAddons/Huntress_FlowerBabushka.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hatchet"]
+	}],
+	"subGrouping": "Huntress",
+	"canDisable": true
+},
+{
+	"name": "Infantry Belt",
+	"image": "Assets/KillerAddons/Huntress_InfantryBelt.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hatchet"]
+	}],
+	"subGrouping": "Huntress",
+	"canDisable": true
+},
+{
+	"name": "Glowing Concoction",
+	"image": "Assets/KillerAddons/Huntress_GlowingConcoction.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hatchet"]
+	}],
+	"subGrouping": "Huntress",
+	"canDisable": true
+},
+{
+	"name": "Begrimed Head",
+	"image": "Assets/KillerAddons/Huntress_BegrimedHead.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hatchet"]
+	}],
+	"subGrouping": "Huntress",
+	"canDisable": true
+},
+{
+	"name": "Iridescent Head",
+	"image": "Assets/KillerAddons/Huntress_IridescentHead.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Hatchet"]
+	}],
+	"subGrouping": "Huntress",
+	"canDisable": true
+},
+{
+	"name": "Knife Scratches",
+	"image": "Assets/KillerAddons/Cannibal_KnifeScratches.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Cannibal's Chainsaw"]
+	}],
+	"subGrouping": "Cannibal",
+	"canDisable": true
+},
+{
+	"name": "Chili",
+	"image": "Assets/KillerAddons/Cannibal_Chili.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Cannibal's Chainsaw"]
+	}],
+	"subGrouping": "Cannibal",
+	"canDisable": true
+},
+{
+	"name": "The Grease",
+	"image": "Assets/KillerAddons/Cannibal_TheGrease.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Cannibal's Chainsaw"]
+	}],
+	"subGrouping": "Cannibal",
+	"canDisable": true
+},
+{
+	"name": "The Beast's Marks",
+	"image": "Assets/KillerAddons/Cannibal_TheBeastsMarks.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Cannibal's Chainsaw"]
+	}],
+	"subGrouping": "Cannibal",
+	"canDisable": true
+},
+{
+	"name": "Award-Winning Chili",
+	"image": "Assets/KillerAddons/Cannibal_AwardWinningChili.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Cannibal's Chainsaw"]
+	}],
+	"subGrouping": "Cannibal",
+	"canDisable": true
+},
+{
+	"name": "Wool Shirt",
+	"image": "Assets/KillerAddons/Nightmare_WoolShirt.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Dream Demon"]
+	}],
+	"subGrouping": "Nightmare",
+	"canDisable": true
+},
+{
+	"name": "Sheep Block",
+	"image": "Assets/KillerAddons/Nightmare_SheepBlock.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Dream Demon"]
+	}],
+	"subGrouping": "Nightmare",
+	"canDisable": true
+},
+{
+	"name": "Kid's Drawing",
+	"image": "Assets/KillerAddons/Nightmare_KidsDrawing.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Dream Demon"]
+	}],
+	"subGrouping": "Nightmare",
+	"canDisable": true
+},
+{
+	"name": "Garden Rake",
+	"image": "Assets/KillerAddons/Nightmare_GardenRake.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Dream Demon"]
+	}],
+	"subGrouping": "Nightmare",
+	"canDisable": true
+},
+{
+	"name": "Prototype Claws",
+	"image": "Assets/KillerAddons/Nightmare_PrototypeClaws.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Dream Demon"]
+	}],
+	"subGrouping": "Nightmare",
+	"canDisable": true
+},
+{
+	"name": "Outdoor Rope",
+	"image": "Assets/KillerAddons/Nightmare_OutdoorRope.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Dream Demon"]
+	}],
+	"subGrouping": "Nightmare",
+	"canDisable": true
+},
+{
+	"name": "Nancy's Sketch",
+	"image": "Assets/KillerAddons/Nightmare_NancysSketch.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Dream Demon"]
+	}],
+	"subGrouping": "Nightmare",
+	"canDisable": true
+},
+{
+	"name": "Green Dress",
+	"image": "Assets/KillerAddons/Nightmare_GreenDress.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Dream Demon"]
+	}],
+	"subGrouping": "Nightmare",
+	"canDisable": true
+},
+{
+	"name": "Cat Block",
+	"image": "Assets/KillerAddons/Nightmare_CatBlock.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Dream Demon"]
+	}],
+	"subGrouping": "Nightmare",
+	"canDisable": true
+},
+{
+	"name": "Unicorn Block",
+	"image": "Assets/KillerAddons/Nightmare_UnicornBlock.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Dream Demon"]
+	}],
+	"subGrouping": "Nightmare",
+	"canDisable": true
+},
+{
+	"name": "Swing Chains",
+	"image": "Assets/KillerAddons/Nightmare_SwingChains.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Dream Demon"]
+	}],
+	"subGrouping": "Nightmare",
+	"canDisable": true
+},
+{
+	"name": "Nancy's Masterpiece",
+	"image": "Assets/KillerAddons/Nightmare_NancysMasterpiece.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Dream Demon"]
+	}],
+	"subGrouping": "Nightmare",
+	"canDisable": true
+},
+{
+	"name": "Jump Rope",
+	"image": "Assets/KillerAddons/Nightmare_JumpRope.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Dream Demon"]
+	}],
+	"subGrouping": "Nightmare",
+	"canDisable": true
+},
+{
+	"name": "Blue Dress",
+	"image": "Assets/KillerAddons/Nightmare_BlueDress.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Dream Demon"]
+	}],
+	"subGrouping": "Nightmare",
+	"canDisable": true
+},
+{
+	"name": "Pill Bottle",
+	"image": "Assets/KillerAddons/Nightmare_PillBottle.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Dream Demon"]
+	}],
+	"subGrouping": "Nightmare",
+	"canDisable": true
+},
+{
+	"name": "Paint Thinner",
+	"image": "Assets/KillerAddons/Nightmare_PaintThinner.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Dream Demon"]
+	}],
+	"subGrouping": "Nightmare",
+	"canDisable": true
+},
+{
+	"name": "Class Photo",
+	"image": "Assets/KillerAddons/Nightmare_ClassPhoto.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Dream Demon"]
+	}],
+	"subGrouping": "Nightmare",
+	"canDisable": true
+},
+{
+	"name": "\"Z\" Block",
+	"image": "Assets/KillerAddons/Nightmare_ZBlock.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Dream Demon"]
+	}],
+	"subGrouping": "Nightmare",
+	"canDisable": true
+},
+{
+	"name": "Red Paint Brush",
+	"image": "Assets/KillerAddons/Nightmare_RedPaintBrush.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Dream Demon"]
+	}],
+	"subGrouping": "Nightmare",
+	"canDisable": true
+},
+{
+	"name": "Black Box",
+	"image": "Assets/KillerAddons/Nightmare_BlackBox.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Dream Demon"]
+	}],
+	"subGrouping": "Nightmare",
+	"canDisable": true
+},
+{
+	"name": "Wide Lens",
+	"image": "Assets/SurvivorAddons/Flashlight_WideLens.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Flashlight",
+		"Will O' Wisp",
+		"Sport Flashlight",
+		"Utility Flashlight"]
+	}],
+	"subGrouping": "Flashlight",
+	"canDisable": true
+},
+{
+	"name": "Power Bulb",
+	"image": "Assets/SurvivorAddons/Flashlight_PowerBulb.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Flashlight",
+		"Will O' Wisp",
+		"Sport Flashlight",
+		"Utility Flashlight"]
+	}],
+	"subGrouping": "Flashlight",
+	"canDisable": true
+},
+{
+	"name": "Leather Grip",
+	"image": "Assets/SurvivorAddons/Flashlight_LeatherGrip.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Flashlight",
+		"Will O' Wisp",
+		"Sport Flashlight",
+		"Utility Flashlight"]
+	}],
+	"subGrouping": "Flashlight",
+	"canDisable": true
+},
+{
+	"name": "Battery",
+	"image": "Assets/SurvivorAddons/Flashlight_Battery.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Flashlight",
+		"Will O' Wisp",
+		"Sport Flashlight",
+		"Utility Flashlight"]
+	}],
+	"subGrouping": "Flashlight",
+	"canDisable": true
+},
+{
+	"name": "Tir Optic",
+	"image": "Assets/SurvivorAddons/Flashlight_TirOptic.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Flashlight",
+		"Will O' Wisp",
+		"Sport Flashlight",
+		"Utility Flashlight"]
+	}],
+	"subGrouping": "Flashlight",
+	"canDisable": true
+},
+{
+	"name": "Rubber Grip",
+	"image": "Assets/SurvivorAddons/Flashlight_RubberGrip.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Flashlight",
+		"Will O' Wisp",
+		"Sport Flashlight",
+		"Utility Flashlight"]
+	}],
+	"subGrouping": "Flashlight",
+	"canDisable": true
+},
+{
+	"name": "Low Amp Filament",
+	"image": "Assets/SurvivorAddons/Flashlight_LowAmpFilament.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Flashlight",
+		"Will O' Wisp",
+		"Sport Flashlight",
+		"Utility Flashlight"]
+	}],
+	"subGrouping": "Flashlight",
+	"canDisable": true
+},
+{
+	"name": "Heavy Duty Battery",
+	"image": "Assets/SurvivorAddons/Flashlight_HeavyDutyBattery.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Flashlight",
+		"Will O' Wisp",
+		"Sport Flashlight",
+		"Utility Flashlight"]
+	}],
+	"subGrouping": "Flashlight",
+	"canDisable": true
+},
+{
+	"name": "Focus Lens",
+	"image": "Assets/SurvivorAddons/Flashlight_FocusLens.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Flashlight",
+		"Will O' Wisp",
+		"Sport Flashlight",
+		"Utility Flashlight"]
+	}],
+	"subGrouping": "Flashlight",
+	"canDisable": true
+},
+{
+	"name": "Long Life Battery",
+	"image": "Assets/SurvivorAddons/Flashlight_LongLifeBattery.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Flashlight",
+		"Will O' Wisp",
+		"Sport Flashlight",
+		"Utility Flashlight"]
+	}],
+	"subGrouping": "Flashlight",
+	"canDisable": true
+},
+{
+	"name": "Intense Halogen",
+	"image": "Assets/SurvivorAddons/Flashlight_IntenseHalogen.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Flashlight",
+		"Will O' Wisp",
+		"Sport Flashlight",
+		"Utility Flashlight"]
+	}],
+	"subGrouping": "Flashlight",
+	"canDisable": true
+},
+{
+	"name": "High-End Sapphire Lens",
+	"image": "Assets/SurvivorAddons/Flashlight_HighEndSapphireLens.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Flashlight",
+		"Will O' Wisp",
+		"Sport Flashlight",
+		"Utility Flashlight"]
+	}],
+	"subGrouping": "Flashlight",
+	"canDisable": true
+},
+{
+	"name": "Odd Bulb",
+	"image": "Assets/SurvivorAddons/Flashlight_OddBulb.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Flashlight",
+		"Will O' Wisp",
+		"Sport Flashlight",
+		"Utility Flashlight"]
+	}],
+	"subGrouping": "Flashlight",
+	"canDisable": true
+},
+{
+	"name": "Prayer Rope",
+	"image": "Assets/SurvivorAddons/Key_PrayerRope.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Broken Key",
+		"Dull Key",
+		"Skeleton Key"]
+	}],
+	"subGrouping": "Key",
+	"canDisable": true
+},
+{
+	"name": "Scratched Pearl",
+	"image": "Assets/SurvivorAddons/Key_ScratchedPearl.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Broken Key",
+		"Dull Key",
+		"Skeleton Key"]
+	}],
+	"subGrouping": "Key",
+	"canDisable": true
+},
+{
+	"name": "Prayer Beads",
+	"image": "Assets/SurvivorAddons/Key_PrayerBeads.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Broken Key",
+		"Dull Key",
+		"Skeleton Key"]
+	}],
+	"subGrouping": "Key",
+	"canDisable": true
+},
+{
+	"name": "Eroded Token",
+	"image": "Assets/SurvivorAddons/Key_ErodedToken.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Broken Key",
+		"Dull Key",
+		"Skeleton Key"]
+	}],
+	"subGrouping": "Key",
+	"canDisable": true
+},
+{
+	"name": "Gold Token",
+	"image": "Assets/SurvivorAddons/Key_GoldToken.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Broken Key",
+		"Dull Key",
+		"Skeleton Key"]
+	}],
+	"subGrouping": "Key",
+	"canDisable": true
+},
+{
+	"name": "Weaved Ring",
+	"image": "Assets/SurvivorAddons/Key_WeavedRing.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Broken Key",
+		"Dull Key",
+		"Skeleton Key"]
+	}],
+	"subGrouping": "Key",
+	"canDisable": true
+},
+{
+	"name": "Milky Glass",
+	"image": "Assets/SurvivorAddons/Key_MilkyGlass.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Broken Key",
+		"Dull Key",
+		"Skeleton Key"]
+	}],
+	"subGrouping": "Key",
+	"canDisable": true
+},
+{
+	"name": "Blood Amber",
+	"image": "Assets/SurvivorAddons/Key_BloodAmber.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Broken Key",
+		"Dull Key",
+		"Skeleton Key"]
+	}],
+	"subGrouping": "Key",
+	"canDisable": true
+},
+{
+	"name": "Map Addendum",
+	"image": "Assets/SurvivorAddons/Map_MapAddendum.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Map",
+		"Rainbow Map"]
+	}],
+	"subGrouping": "Map",
+	"canDisable": true
+},
+{
+	"name": "Yellow Wire",
+	"image": "Assets/SurvivorAddons/Map_YellowWire.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Map",
+		"Rainbow Map"]
+	}],
+	"subGrouping": "Map",
+	"canDisable": true
+},
+{
+	"name": "Unusual Stamp",
+	"image": "Assets/SurvivorAddons/Map_UnusualStamp.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Map",
+		"Rainbow Map"]
+	}],
+	"subGrouping": "Map",
+	"canDisable": true
+},
+{
+	"name": "Retardant Jelly",
+	"image": "Assets/SurvivorAddons/Map_RetardantJelly.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Map",
+		"Rainbow Map"]
+	}],
+	"subGrouping": "Map",
+	"canDisable": true
+},
+{
+	"name": "Red Twine",
+	"image": "Assets/SurvivorAddons/Map_RedTwine.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Map",
+		"Rainbow Map"]
+	}],
+	"subGrouping": "Map",
+	"canDisable": true
+},
+{
+	"name": "Glass Bead",
+	"image": "Assets/SurvivorAddons/Map_GlassBead.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Map",
+		"Rainbow Map"]
+	}],
+	"subGrouping": "Map",
+	"canDisable": true
+},
+{
+	"name": "Odd Stamp",
+	"image": "Assets/SurvivorAddons/Map_OddStamp.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Map",
+		"Rainbow Map"]
+	}],
+	"subGrouping": "Map",
+	"canDisable": true
+},
+{
+	"name": "Black Silk Cord",
+	"image": "Assets/SurvivorAddons/Map_BlackSilkCord.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Map",
+		"Rainbow Map"]
+	}],
+	"subGrouping": "Map",
+	"canDisable": true
+},
+{
+	"name": "Crystal Bead",
+	"image": "Assets/SurvivorAddons/Map_CrystalBead.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Map",
+		"Rainbow Map"]
+	}],
+	"subGrouping": "Map",
+	"canDisable": true
+},
+{
+	"name": "Rubber Gloves",
+	"image": "Assets/SurvivorAddons/FirstAid_RubberGloves.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Camping Aid Kit",
+		"All Hallows' Eve Lunchbox",
+		"First Aid Kit",
+		"Emergency Med-Kit",
+		"Ranger Med-Kit"]
+	}],
+	"subGrouping": "Med-Kit",
+	"canDisable": true
+},
+{
+	"name": "Butterfly Tape",
+	"image": "Assets/SurvivorAddons/FirstAid_ButterflyTape.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Camping Aid Kit",
+		"All Hallows' Eve Lunchbox",
+		"First Aid Kit",
+		"Emergency Med-Kit",
+		"Ranger Med-Kit"]
+	}],
+	"subGrouping": "Med-Kit",
+	"canDisable": true
+},
+{
+	"name": "Bandages",
+	"image": "Assets/SurvivorAddons/FirstAid_Bandages.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Camping Aid Kit",
+		"All Hallows' Eve Lunchbox",
+		"First Aid Kit",
+		"Emergency Med-Kit",
+		"Ranger Med-Kit"]
+	}],
+	"subGrouping": "Med-Kit",
+	"canDisable": true
+},
+{
+	"name": "Sponge",
+	"image": "Assets/SurvivorAddons/FirstAid_Sponge.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Camping Aid Kit",
+		"All Hallows' Eve Lunchbox",
+		"First Aid Kit",
+		"Emergency Med-Kit",
+		"Ranger Med-Kit"]
+	}],
+	"subGrouping": "Med-Kit",
+	"canDisable": true
+},
+{
+	"name": "Self Adherent Wrap",
+	"image": "Assets/SurvivorAddons/FirstAid_SelfAdherentWrap.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Camping Aid Kit",
+		"All Hallows' Eve Lunchbox",
+		"First Aid Kit",
+		"Emergency Med-Kit",
+		"Ranger Med-Kit"]
+	}],
+	"subGrouping": "Med-Kit",
+	"canDisable": true
+},
+{
+	"name": "Needle And Thread",
+	"image": "Assets/SurvivorAddons/FirstAid_NeedleAndThread.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Camping Aid Kit",
+		"All Hallows' Eve Lunchbox",
+		"First Aid Kit",
+		"Emergency Med-Kit",
+		"Ranger Med-Kit"]
+	}],
+	"subGrouping": "Med-Kit",
+	"canDisable": true
+},
+{
+	"name": "Medical Scissors",
+	"image": "Assets/SurvivorAddons/FirstAid_MedicalScissors.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Camping Aid Kit",
+		"All Hallows' Eve Lunchbox",
+		"First Aid Kit",
+		"Emergency Med-Kit",
+		"Ranger Med-Kit"]
+	}],
+	"subGrouping": "Med-Kit",
+	"canDisable": true
+},
+{
+	"name": "Gauze Roll",
+	"image": "Assets/SurvivorAddons/FirstAid_GauzeRoll.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Camping Aid Kit",
+		"All Hallows' Eve Lunchbox",
+		"First Aid Kit",
+		"Emergency Med-Kit",
+		"Ranger Med-Kit"]
+	}],
+	"subGrouping": "Med-Kit",
+	"canDisable": true
+},
+{
+	"name": "Surgical Suture",
+	"image": "Assets/SurvivorAddons/FirstAid_SurgicalSuture.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Camping Aid Kit",
+		"All Hallows' Eve Lunchbox",
+		"First Aid Kit",
+		"Emergency Med-Kit",
+		"Ranger Med-Kit"]
+	}],
+	"subGrouping": "Med-Kit",
+	"canDisable": true
+},
+{
+	"name": "Styptic Agent",
+	"image": "Assets/SurvivorAddons/FirstAid_StypticAgent.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Camping Aid Kit",
+		"All Hallows' Eve Lunchbox",
+		"First Aid Kit",
+		"Emergency Med-Kit",
+		"Ranger Med-Kit"]
+	}],
+	"subGrouping": "Med-Kit",
+	"canDisable": true
+},
+{
+	"name": "Gel Dressings",
+	"image": "Assets/SurvivorAddons/FirstAid_GelDressings.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Camping Aid Kit",
+		"All Hallows' Eve Lunchbox",
+		"First Aid Kit",
+		"Emergency Med-Kit",
+		"Ranger Med-Kit"]
+	}],
+	"subGrouping": "Med-Kit",
+	"canDisable": true
+},
+{
+	"name": "Abdominal Dressing",
+	"image": "Assets/SurvivorAddons/FirstAid_AbdominalDressing.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Camping Aid Kit",
+		"All Hallows' Eve Lunchbox",
+		"First Aid Kit",
+		"Emergency Med-Kit",
+		"Ranger Med-Kit"]
+	}],
+	"subGrouping": "Med-Kit",
+	"canDisable": true
+},
+{
+	"name": "Anti-Hemorrhagic Syringe",
+	"image": "Assets/SurvivorAddons/FirstAid_AntiHemorrhagicSyringe.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Camping Aid Kit",
+		"All Hallows' Eve Lunchbox",
+		"First Aid Kit",
+		"Emergency Med-Kit",
+		"Ranger Med-Kit"]
+	}],
+	"subGrouping": "Med-Kit",
+	"canDisable": true
+},
+{
+	"name": "Spring Clamp",
+	"image": "Assets/SurvivorAddons/Toolbox_SpringClamp.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Worn Out Tools",
+		"Toolbox",
+		"Mechanic's Toolbox",
+		"Commodious Toolbox",
+		"Engineer's Toolbox",
+		"Alex's Toolbox"]
+	}],
+	"subGrouping": "Toolbox",
+	"canDisable": true
+},
+{
+	"name": "Scraps",
+	"image": "Assets/SurvivorAddons/Toolbox_Scraps.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Worn Out Tools",
+		"Toolbox",
+		"Mechanic's Toolbox",
+		"Commodious Toolbox",
+		"Engineer's Toolbox",
+		"Alex's Toolbox"]
+	}],
+	"subGrouping": "Toolbox",
+	"canDisable": true
+},
+{
+	"name": "Clean Rag",
+	"image": "Assets/SurvivorAddons/Toolbox_CleanRag.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Worn Out Tools",
+		"Toolbox",
+		"Mechanic's Toolbox",
+		"Commodious Toolbox",
+		"Engineer's Toolbox",
+		"Alex's Toolbox"]
+	}],
+	"subGrouping": "Toolbox",
+	"canDisable": true
+},
+{
+	"name": "Wire Spool",
+	"image": "Assets/SurvivorAddons/Toolbox_WireSpool.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Worn Out Tools",
+		"Toolbox",
+		"Mechanic's Toolbox",
+		"Commodious Toolbox",
+		"Engineer's Toolbox",
+		"Alex's Toolbox"]
+	}],
+	"subGrouping": "Toolbox",
+	"canDisable": true
+},
+{
+	"name": "Socket Swivels",
+	"image": "Assets/SurvivorAddons/Toolbox_SocketSwivels.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Worn Out Tools",
+		"Toolbox",
+		"Mechanic's Toolbox",
+		"Commodious Toolbox",
+		"Engineer's Toolbox",
+		"Alex's Toolbox"]
+	}],
+	"subGrouping": "Toolbox",
+	"canDisable": true
+},
+{
+	"name": "Protective Gloves",
+	"image": "Assets/SurvivorAddons/Toolbox_ProtectiveGloves.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Worn Out Tools",
+		"Toolbox",
+		"Mechanic's Toolbox",
+		"Commodious Toolbox",
+		"Engineer's Toolbox",
+		"Alex's Toolbox"]
+	}],
+	"subGrouping": "Toolbox",
+	"canDisable": true
+},
+{
+	"name": "Instructions",
+	"image": "Assets/SurvivorAddons/Toolbox_Instructions.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Worn Out Tools",
+		"Toolbox",
+		"Mechanic's Toolbox",
+		"Commodious Toolbox",
+		"Engineer's Toolbox",
+		"Alex's Toolbox"]
+	}],
+	"subGrouping": "Toolbox",
+	"canDisable": true
+},
+{
+	"name": "Grip Wrench",
+	"image": "Assets/SurvivorAddons/Toolbox_GripWrench.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Worn Out Tools",
+		"Toolbox",
+		"Mechanic's Toolbox",
+		"Commodious Toolbox",
+		"Engineer's Toolbox",
+		"Alex's Toolbox"]
+	}],
+	"subGrouping": "Toolbox",
+	"canDisable": true
+},
+{
+	"name": "Cutting Wire",
+	"image": "Assets/SurvivorAddons/Toolbox_CuttingWire.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Worn Out Tools",
+		"Toolbox",
+		"Mechanic's Toolbox",
+		"Commodious Toolbox",
+		"Engineer's Toolbox",
+		"Alex's Toolbox"]
+	}],
+	"subGrouping": "Toolbox",
+	"canDisable": true
+},
+{
+	"name": "Hacksaw",
+	"image": "Assets/SurvivorAddons/Toolbox_Hacksaw.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Worn Out Tools",
+		"Toolbox",
+		"Mechanic's Toolbox",
+		"Commodious Toolbox",
+		"Engineer's Toolbox",
+		"Alex's Toolbox"]
+	}],
+	"subGrouping": "Toolbox",
+	"canDisable": true
+},
+{
+	"name": "Brand New Part",
+	"image": "Assets/SurvivorAddons/Toolbox_BrandNewPart.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Item",
+		"requiredValue": ["Worn Out Tools",
+		"Toolbox",
+		"Mechanic's Toolbox",
+		"Commodious Toolbox",
+		"Engineer's Toolbox",
+		"Alex's Toolbox"]
+	}],
+	"subGrouping": "Toolbox",
+	"canDisable": true
+},
+{
+	"name": "No Add-On",
+	"image": "Assets/None.png",
+	"type": "AddOn",
+	"requirements": [],
+	"subGrouping": "",
+	"canDisable": true
+},
+{
+	"name": "No Add-On ",
+	"image": "Assets/None.png",
+	"type": "AddOn",
+	"requirements": [],
+	"subGrouping": "",
+	"canDisable": true
+},
+{
+	"name": "Bog Laurel Sachet",
+	"image": "Assets/Offerings/BogLaurelSachet.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Fresh Bog Laurel",
+	"image": "Assets/Offerings/FreshBogLaurel.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Fragrant Bog Laurel",
+	"image": "Assets/Offerings/FragrantBogLaurel.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Crispleaf Amaranth Sachet",
+	"image": "Assets/Offerings/CrispleafAmaranthSachet.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Fresh Crispleaf Amaranth",
+	"image": "Assets/Offerings/FreshCrispleafAmaranth.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Fragrant Crispleaf Amaranth",
+	"image": "Assets/Offerings/FragrantCrispleafAmaranth.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Primrose Blossom Sachet",
+	"image": "Assets/Offerings/PrimroseBlossomSachet.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Fresh Primrose Blossom",
+	"image": "Assets/Offerings/FreshPrimroseBlossom.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Fragrant Primrose Blossom",
+	"image": "Assets/Offerings/FragrantPrimroseBlossom.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Sweet William Sachet",
+	"image": "Assets/Offerings/SweetWilliamSachet.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Fresh Sweet William",
+	"image": "Assets/Offerings/FreshSweetWilliam.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Fragrant Sweet William",
+	"image": "Assets/Offerings/FragrantSweetWilliam.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Bound Envelope",
+	"image": "Assets/Offerings/BoundEnvelope.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Sealed Envelope",
+	"image": "Assets/Offerings/SealedEnvelope.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Escape Cake",
+	"image": "Assets/Offerings/EscapeCake.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Chalk Pouch",
+	"image": "Assets/Offerings/ChalkPouch.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Cream Chalk Pouch",
+	"image": "Assets/Offerings/CreamChalkPouch.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Ivory Chalk Pouch",
+	"image": "Assets/Offerings/IvoryChalkPouch.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Salt Pouch",
+	"image": "Assets/Offerings/SaltPouch.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Black Salt Statuette",
+	"image": "Assets/Offerings/BlackSaltStatuette.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Vigo's Jar of Salty Lips",
+	"image": "Assets/Offerings/VigosJarOfSaltyLips.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Tarnished Coin",
+	"image": "Assets/Offerings/TarnishedCoin.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Shiny Coin",
+	"image": "Assets/Offerings/ShinyCoin.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Shroud of Union",
+	"image": "Assets/Offerings/ShroudOfUnion.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Vigo's Shroud",
+	"image": "Assets/Offerings/VigosShroud.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Shroud of Binding",
+	"image": "Assets/Offerings/ShroudOfBinding.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Petrified Oak",
+	"image": "Assets/Offerings/PetrifiedOak.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "White Ward",
+	"image": "Assets/Offerings/WhiteWard.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true
+},
+{
+	"name": "Tanager Wreath",
+	"image": "Assets/Offerings/TanagerWreath.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Devout Tanager Wreath",
+	"image": "Assets/Offerings/DevoutTanagerWreath.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Ardent Tanager Wreath",
+	"image": "Assets/Offerings/ArdentTanagerWreath.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Raven Wreath",
+	"image": "Assets/Offerings/RavenWreath.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Devout Raven Wreath",
+	"image": "Assets/Offerings/DevoutRavenWreath.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Ardent Raven Wreath",
+	"image": "Assets/Offerings/ArdentRavenWreath.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Spotted Owl Wreath",
+	"image": "Assets/Offerings/SpottedOwlWreath.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Devout Spotted Owl Wreath",
+	"image": "Assets/Offerings/DevoutSpottedOwlWreath.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Ardent Spotted Owl Wreath",
+	"image": "Assets/Offerings/ArdentSpottedOwlWreath.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Shrike Wreath",
+	"image": "Assets/Offerings/ShrikeWreath.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Devout Shrike Wreath",
+	"image": "Assets/Offerings/DevoutShrikeWreath.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Ardent Shrike Wreath",
+	"image": "Assets/Offerings/ArdentShrikeWreath.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Hollow Shell",
+	"image": "Assets/Offerings/HollowShell.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Survivor Pudding",
+	"image": "Assets/Offerings/SurvivorPudding.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Scratched Coin",
+	"image": "Assets/Offerings/ScratchedCoin.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Cut Coin",
+	"image": "Assets/Offerings/CutCoin.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Moldy Oak",
+	"image": "Assets/Offerings/MoldyOak.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Rotten Oak",
+	"image": "Assets/Offerings/RottenOak.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Putrid Oak",
+	"image": "Assets/Offerings/PutridOak.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Cypress Memento Mori",
+	"image": "Assets/Offerings/CypressMementoMori.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Ivory Memento Mori",
+	"image": "Assets/Offerings/IvoryMementoMori.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Ebony Memento Mori",
+	"image": "Assets/Offerings/EbonyMementoMori.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Shroud of Separation",
+	"image": "Assets/Offerings/ShroudOfSeparation.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Black Ward",
+	"image": "Assets/Offerings/BlackWard.png",
+	"type": "Offering",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer",
+	"canDisable": true
+},
+{
+	"name": "Bloody Party Streamers",
+	"image": "Assets/Offerings/BloodyPartyStreamers.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Clear Reagent",
+	"image": "Assets/Offerings/ClearReagent.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Faint Reagent",
+	"image": "Assets/Offerings/FaintReagent.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Hazy Reagent",
+	"image": "Assets/Offerings/HazyReagent.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Murky Reagent",
+	"image": "Assets/Offerings/MurkyReagent.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "New Moon Bouquet",
+	"image": "Assets/Offerings/NewMoonBouquet.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Crescent Moon Bouquet",
+	"image": "Assets/Offerings/CrescentMoonBouquet.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Quarter Moon Bouquet",
+	"image": "Assets/Offerings/QuarterMoonBouquet.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Full Moon Bouquet",
+	"image": "Assets/Offerings/FullMoonBouquet.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "MacMillan Ledger Page",
+	"image": "Assets/Offerings/MacMillanLedgerPage.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Signed Ledger Page",
+	"image": "Assets/Offerings/SignedLedgerPage.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "MacMillan's Phalanx Bone",
+	"image": "Assets/Offerings/MacMillansPhalanxBone.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Shredded Plate",
+	"image": "Assets/Offerings/ShreddedPlate.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Virginia Plate",
+	"image": "Assets/Offerings/VirginiaPlate.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Azarov's Key",
+	"image": "Assets/Offerings/AzarovsKey.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Cattle Tag 28",
+	"image": "Assets/Offerings/CattleTag28.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Cattle Tag 81",
+	"image": "Assets/Offerings/CattleTag81.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Heart Locket",
+	"image": "Assets/Offerings/HeartLocket.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Lunacy Ticket",
+	"image": "Assets/Offerings/LunacyTicket.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "P. Elliot Lunacy Ticket",
+	"image": "Assets/Offerings/PElliotLunacyTicket.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Charred Wedding Photograph",
+	"image": "Assets/Offerings/CharredWeddingPhotograph.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Harvest Festival Leaflet",
+	"image": "Assets/Offerings/HarvestFestivalLeaflet.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Decrepit Clapboard",
+	"image": "Assets/Offerings/DecrepitClapboard.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Strode Realty Key",
+	"image": "Assets/Offerings/StrodeRealtyKey.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Fuming Cordage",
+	"image": "Assets/Offerings/FumingCordage.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Fuming Welcome Sign",
+	"image": "Assets/Offerings/FumingWelcomeSign.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Granma's Cookbook",
+	"image": "Assets/Offerings/GranmasCookbook.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Emergency Certificate",
+	"image": "Assets/Offerings/EmergencyCertificate.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Psychiatric Assessment Report",
+	"image": "Assets/Offerings/PsychiatricAssessmentReport.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Shattered Glasses",
+	"image": "Assets/Offerings/ShatteredGlasses.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Painted River Rock",
+	"image": "Assets/Offerings/PaintedRiverRock.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "Children's Book",
+	"image": "Assets/Offerings/ChildrensBook.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "The Last Mask",
+	"image": "Assets/Offerings/TheLastMask.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "All",
+	"canDisable": true
+},
+{
+	"name": "No Offering",
+	"image": "Assets/None.png",
+	"type": "Offering",
+	"requirements": [],
+	"subGrouping": "",
+	"canDisable": true
+},
+{
+	"name": "Ace In The Hole",
+	"image": "Assets/SurvivorPerks/Ace_In_The_Hole.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Ace",
+	"canDisable": true
+},
+{
+	"name": "Open Handed",
+	"image": "Assets/SurvivorPerks/Open_Handed.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Ace",
+	"canDisable": true
+},
+{
+	"name": "Up The Ante",
+	"image": "Assets/SurvivorPerks/Up_The_Ante.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Ace",
+	"canDisable": true
+},
+{
+	"name": "Adrenaline",
+	"image": "Assets/SurvivorPerks/Adrenaline.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Meg",
+	"canDisable": true
+},
+{
+	"name": "Sprint Burst",
+	"image": "Assets/SurvivorPerks/Sprint_Burst.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Meg",
+	"canDisable": true
+},
+{
+	"name": "Quick and Quiet",
+	"image": "Assets/SurvivorPerks/Quick_And_Quiet.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Meg",
+	"canDisable": true
+},
+{
+	"name": "Alert",
+	"image": "Assets/SurvivorPerks/Alert.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Feng",
+	"canDisable": true
+},
+{
+	"name": "Lithe",
+	"image": "Assets/SurvivorPerks/Lithe.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Feng",
+	"canDisable": true
+},
+{
+	"name": "Technician",
+	"image": "Assets/SurvivorPerks/Technician.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Feng",
+	"canDisable": true
+},
+{
+	"name": "Balanced Landing",
+	"image": "Assets/SurvivorPerks/Balanced_Landing.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Nea",
+	"canDisable": true
+},
+{
+	"name": "Streetwise",
+	"image": "Assets/SurvivorPerks/Streetwise.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Nea",
+	"canDisable": true
+},
+{
+	"name": "Urban Evasion",
+	"image": "Assets/SurvivorPerks/Urban_Evasion.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Nea",
+	"canDisable": true
+},
+{
+	"name": "Bond",
+	"image": "Assets/SurvivorPerks/Bond.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Dwight",
+	"canDisable": true
+},
+{
+	"name": "Leader",
+	"image": "Assets/SurvivorPerks/Leader.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Dwight",
+	"canDisable": true
+},
+{
+	"name": "Prove Thyself",
+	"image": "Assets/SurvivorPerks/Prove_Thyself.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Dwight",
+	"canDisable": true
+},
+{
+	"name": "Borrowed Time",
+	"image": "Assets/SurvivorPerks/Borrowed_Time.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Bill",
+	"canDisable": true
+},
+{
+	"name": "Left Behind",
+	"image": "Assets/SurvivorPerks/Left_Behind.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Bill",
+	"canDisable": true
+},
+{
+	"name": "Unbreakable",
+	"image": "Assets/SurvivorPerks/Unbreakable.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Bill",
+	"canDisable": true
+},
+{
+	"name": "Botany Knowledge",
+	"image": "Assets/SurvivorPerks/Botany_Knowledge.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Claudette",
+	"canDisable": true
+},
+{
+	"name": "Empathy",
+	"image": "Assets/SurvivorPerks/Empathy.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Claudette",
+	"canDisable": true
+},
+{
+	"name": "Self Care",
+	"image": "Assets/SurvivorPerks/Self_Care.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Claudette",
+	"canDisable": true
+},
+{
+	"name": "Calm Spirit",
+	"image": "Assets/SurvivorPerks/Calm_Spirit.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Jake",
+	"canDisable": true
+},
+{
+	"name": "Iron Will",
+	"image": "Assets/SurvivorPerks/Iron_Will.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Jake",
+	"canDisable": true
+},
+{
+	"name": "Saboteur",
+	"image": "Assets/SurvivorPerks/Saboteur.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Jake",
+	"canDisable": true
+},
+{
+	"name": "Dead Hard",
+	"image": "Assets/SurvivorPerks/Dead_Hard.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "David",
+	"canDisable": true
+},
+{
+	"name": "No Mither",
+	"image": "Assets/SurvivorPerks/No_Mither.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "David",
+	"canDisable": true
+},
+{
+	"name": "We're Gonna Live Forever",
+	"image": "Assets/SurvivorPerks/We're_Gonna_Live_Forever.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "David",
+	"canDisable": true
+},
+{
+	"name": "Decisive Strike",
+	"image": "Assets/SurvivorPerks/Decisive_Strike.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Laurie",
+	"canDisable": true
+},
+{
+	"name": "Object of Obsession",
+	"image": "Assets/SurvivorPerks/Object_Of_Obsession.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Laurie",
+	"canDisable": true
+},
+{
+	"name": "Pharmacy",
+	"image": "Assets/SurvivorPerks/Pharmacy.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Quentin",
+	"canDisable": true
+},
+{
+	"name": "Vigil",
+	"image": "Assets/SurvivorPerks/Vigil.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Quentin",
+	"canDisable": true
+},
+{
+	"name": "Wake Up!",
+	"image": "Assets/SurvivorPerks/Wake_Up.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Quentin",
+	"canDisable": true
+},
+{
+	"name": "Dark Sense",
+	"image": "Assets/SurvivorPerks/Dark_Sense.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor Generic",
+	"canDisable": true
+},
+{
+	"name": "Deja Vu",
+	"image": "Assets/SurvivorPerks/Deja_Vu.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor Generic",
+	"canDisable": true
+},
+{
+	"name": "Hope",
+	"image": "Assets/SurvivorPerks/Hope.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor Generic",
+	"canDisable": true
+},
+{
+	"name": "Kindred",
+	"image": "Assets/SurvivorPerks/Kindred.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor Generic",
+	"canDisable": true
+},
+{
+	"name": "Lightweight",
+	"image": "Assets/SurvivorPerks/Lightweight.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor Generic",
+	"canDisable": true
+},
+{
+	"name": "No One Left Behind",
+	"image": "Assets/SurvivorPerks/No_One_Left_Behind.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor Generic",
+	"canDisable": true
+},
+{
+	"name": "Plunderer's Instinct",
+	"image": "Assets/SurvivorPerks/Plunderer's_Instinct.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor Generic",
+	"canDisable": true
+},
+{
+	"name": "Premonition",
+	"image": "Assets/SurvivorPerks/Premonition.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor Generic",
+	"canDisable": true
+},
+{
+	"name": "Resilience",
+	"image": "Assets/SurvivorPerks/Resilience.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor Generic",
+	"canDisable": true
+},
+{
+	"name": "Slippery Meat",
+	"image": "Assets/SurvivorPerks/Slippery_Meat.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor Generic",
+	"canDisable": true
+},
+{
+	"name": "Small Game",
+	"image": "Assets/SurvivorPerks/Small_Game.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor Generic",
+	"canDisable": true
+},
+{
+	"name": "Sole Survivor",
+	"image": "Assets/SurvivorPerks/Sole_Survivor.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor Generic",
+	"canDisable": true
+},
+{
+	"name": "Spine Chill",
+	"image": "Assets/SurvivorPerks/Spine_Chill.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor Generic",
+	"canDisable": true
+},
+{
+	"name": "This Is Not Happening",
+	"image": "Assets/SurvivorPerks/This_Is_Not_Happening.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor Generic",
+	"canDisable": true
+},
+{
+	"name": "We'll Make It",
+	"image": "Assets/SurvivorPerks/We'll_Make_It.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor Generic",
+	"canDisable": true
+},
+{
+	"name": "A Nurse's Calling",
+	"image": "Assets/KillerPerks/A_Nurse's_Calling.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Nurse",
+	"canDisable": true
+},
+{
+	"name": "Stridor",
+	"image": "Assets/KillerPerks/Stridor.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Nurse",
+	"canDisable": true
+},
+{
+	"name": "Thanatophobia",
+	"image": "Assets/KillerPerks/Thanatophobia.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Nurse",
+	"canDisable": true
+},
+{
+	"name": "Barbecue And Chili",
+	"image": "Assets/KillerPerks/Barbecue_And_Chili.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Cannibal",
+	"canDisable": true
+},
+{
+	"name": "Franklin's Demise",
+	"image": "Assets/KillerPerks/Franklin's_Demise.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Cannibal",
+	"canDisable": true
+},
+{
+	"name": "Knock Out",
+	"image": "Assets/KillerPerks/Knock_Out.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Cannibal",
+	"canDisable": true
+},
+{
+	"name": "Beast Of Prey",
+	"image": "Assets/KillerPerks/Beast_Of_Prey.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Huntress",
+	"canDisable": true
+},
+{
+	"name": "Hex - Huntress Lullaby",
+	"image": "Assets/KillerPerks/Hex_-_Huntress_Lullaby.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Huntress",
+	"canDisable": true
+},
+{
+	"name": "Territorial Imperitive",
+	"image": "Assets/KillerPerks/Territorial_Imperitive.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Huntress",
+	"canDisable": true
+},
+{
+	"name": "Bloodhound",
+	"image": "Assets/KillerPerks/Bloodhound.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Wraith",
+	"canDisable": true
+},
+{
+	"name": "Predator",
+	"image": "Assets/KillerPerks/Predator.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Wraith",
+	"canDisable": true
+},
+{
+	"name": "Shadowborn",
+	"image": "Assets/KillerPerks/Shadowborn.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Wraith",
+	"canDisable": true
+},
+{
+	"name": "Dying Light",
+	"image": "Assets/KillerPerks/Dying_Light.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Shape",
+	"canDisable": true
+},
+{
+	"name": "Play With Your Food",
+	"image": "Assets/KillerPerks/Play_With_Your_Food.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Shape",
+	"canDisable": true
+},
+{
+	"name": "Save The Best For Last",
+	"image": "Assets/KillerPerks/Save_The_Best_For_Last.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Shape",
+	"canDisable": true
+},
+{
+	"name": "Enduring",
+	"image": "Assets/KillerPerks/Enduring.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Hillbilly",
+	"canDisable": true
+},
+{
+	"name": "Lightborn",
+	"image": "Assets/KillerPerks/Lightborn.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Hillbilly",
+	"canDisable": true
+},
+{
+	"name": "Tinkerer",
+	"image": "Assets/KillerPerks/Tinkerer.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Hillbilly",
+	"canDisable": true
+},
+{
+	"name": "Hex - Devour Hope",
+	"image": "Assets/KillerPerks/Hex_-_Devour_Hope.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Hag",
+	"canDisable": true
+},
+{
+	"name": "Hex - Ruin",
+	"image": "Assets/KillerPerks/Hex_-_Ruin.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Hag",
+	"canDisable": true
+},
+{
+	"name": "Hex - The Third Seal",
+	"image": "Assets/KillerPerks/Hex_-_The_Third_Seal.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Hag",
+	"canDisable": true
+},
+{
+	"name": "Monitor And Abuse",
+	"image": "Assets/KillerPerks/Monitor_And_Abuse.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Doctor",
+	"canDisable": true
+},
+{
+	"name": "Overcharge",
+	"image": "Assets/KillerPerks/Overcharge.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Doctor",
+	"canDisable": true
+},
+{
+	"name": "Overwhelming Presence",
+	"image": "Assets/KillerPerks/Overwhelming_Presence.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Doctor",
+	"canDisable": true
+},
+{
+	"name": "Agitation",
+	"image": "Assets/KillerPerks/Agitation.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Trapper",
+	"canDisable": true
+},
+{
+	"name": "Brutal Strength",
+	"image": "Assets/KillerPerks/Brutal_Strength.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Trapper",
+	"canDisable": true
+},
+{
+	"name": "Unnerving Presence",
+	"image": "Assets/KillerPerks/Unnerving_Presence.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Trapper",
+	"canDisable": true
+},
+{
+	"name": "Fire Up",
+	"image": "Assets/KillerPerks/Fire_Up.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Nightmare",
+	"canDisable": true
+},
+{
+	"name": "Remember Me",
+	"image": "Assets/KillerPerks/Remember_Me.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Nightmare",
+	"canDisable": true
+},
+{
+	"name": "Blood Warden",
+	"image": "Assets/KillerPerks/Blood_Warden.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Nightmare",
+	"canDisable": true
+},
+{
+	"name": "Bitter Murmur",
+	"image": "Assets/KillerPerks/Bitter_Murmur.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer Generic",
+	"canDisable": true
+},
+{
+	"name": "Deerstalker",
+	"image": "Assets/KillerPerks/Deerstalker.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer Generic",
+	"canDisable": true
+},
+{
+	"name": "Distressing",
+	"image": "Assets/KillerPerks/Distressing.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer Generic",
+	"canDisable": true
+},
+{
+	"name": "Hex - No One Escapes Death",
+	"image": "Assets/KillerPerks/Hex_-_No_One_Escapes_Death.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer Generic",
+	"canDisable": true
+},
+{
+	"name": "Hex - Thrill Of The Hunt",
+	"image": "Assets/KillerPerks/Hex_-_Thrill_Of_The_Hunt.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer Generic",
+	"canDisable": true
+},
+{
+	"name": "Insidious",
+	"image": "Assets/KillerPerks/Insidious.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer Generic",
+	"canDisable": true
+},
+{
+	"name": "Iron Grasp",
+	"image": "Assets/KillerPerks/Iron_Grasp.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer Generic",
+	"canDisable": true
+},
+{
+	"name": "Monstrous Shrine",
+	"image": "Assets/KillerPerks/Monstrous_Shrine.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer Generic",
+	"canDisable": true
+},
+{
+	"name": "Sloppy Butcher",
+	"image": "Assets/KillerPerks/Sloppy_Butcher.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer Generic",
+	"canDisable": true
+},
+{
+	"name": "Spies From The Shadows",
+	"image": "Assets/KillerPerks/Spies_From_The_Shadows.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer Generic",
+	"canDisable": true
+},
+{
+	"name": "Unrelenting",
+	"image": "Assets/KillerPerks/Unrelenting.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer Generic",
+	"canDisable": true
+},
+{
+	"name": "Whispers",
+	"image": "Assets/KillerPerks/Whispers.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Killer Generic",
+	"canDisable": true
+},
+{
+	"name": "No Perk",
+	"image": "Assets/None.png",
+	"type": "Perk",
+	"requirements": [],
+	"subGrouping": "",
+	"canDisable": true
+},
+{
+	"name": "No Perk ",
+	"image": "Assets/None.png",
+	"type": "Perk",
+	"requirements": [],
+	"subGrouping": "",
+	"canDisable": true
+},
+{
+	"name": "No Perk  ",
+	"image": "Assets/None.png",
+	"type": "Perk",
+	"requirements": [],
+	"subGrouping": "",
+	"canDisable": true
+},
+{
+	"name": "No Perk   ",
+	"image": "Assets/None.png",
+	"type": "Perk",
+	"requirements": [],
+	"subGrouping": "",
+	"canDisable": true
+}]
