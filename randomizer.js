@@ -33,6 +33,17 @@ Array.prototype.randomElement = function () {
       vm.Initialize = function() {
         $http.get('./allitems.json').then(function (data) {
           vm.allItems = data.data;
+          
+          // Add all groups
+          for (let i = 0; i < vm.allItems.length; i++) {
+            let type = vm.allItems[i].type;
+            if(vm.groups[type] === undefined) {
+              vm.groups[type] = [];
+              vm.groupNames.push(type);
+            }
+            
+            vm.groups[type].push(vm.allItems[i]);
+          }
         });
       }
 
