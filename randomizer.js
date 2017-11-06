@@ -10,8 +10,8 @@ Array.prototype.randomElement = function () {
   "use strict";
   let app = angular.module("randomizerApp", []);
 
-  app.controller("randomizer", [ '$scope',  
-    function($scope) {
+  app.controller("randomizer", [ '$http',  
+    function($http) {
       let vm = this;
 
       // For internal use, contains objects
@@ -31,9 +31,8 @@ Array.prototype.randomElement = function () {
       }
       
       vm.Initialize = function() {
-        $.getJSON("./allitems.json", function (data) {
-          vm.allItems = data;
-          $scope.$apply();
+        $http.get('./allitems.json').then(function (data) {
+          vm.allItems = data.data;
         });
       }
 
