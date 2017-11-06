@@ -44,10 +44,36 @@
                 </div>
                 <div id="collapse{{$index}}" class="panel-collapse collapse">
                   <div class="panel-body">
-                    <button ng-click="r.TurnOffAll(groupName)">Disable all</button>
-                    <button ng-click="r.TurnOnAll(groupName)">Enable all</button>
-                    <div ng-repeat="item in r.groups[groupName]">
+                    <button ng-click="r.TurnOffAll(groupName)">Disable all {{groupName}}s</button>
+                    <button ng-click="r.TurnOnAll(groupName)">Enable all {{groupName}}s</button>
+                    <br /><br />
+                    <!--<div ng-repeat="item in r.groups[groupName]">
                       <label><img src="{{item.image}}" />{{item.name}}: <input type="checkbox" ng-model="item.enabled" ng-disabled="!item.canDisable" ng-change="r.ItemToggled(item)"></label>
+                    </div>-->
+                    <!-- Items without a subgrouping -->
+                    <div ng-repeat="item in r.GetItemsInSubGroupForType(groupName, '')">
+                      <label><img src="{{item.image}}" />{{item.name}}: <input type="checkbox" ng-model="item.enabled" ng-disabled="!item.canDisable" ng-change="r.ItemToggled(item)"></label>
+                    </div>
+                    
+                    <!-- Items with a subgrouping -->
+                    <div class="panel-group dark" id="{{groupName}}-accordion">
+                      <div ng-repeat="subgroupName in r.GetSubGroupsForType(groupName)" class="panel panel-default">
+                        <div class="panel-heading">
+                          <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#{{groupName}}-accordion" href="#collapse{{groupName}}{{$index}}">{{subgroupName}}</a>
+                          </h4>
+                        </div>
+                        <div id="collapse{{groupName}}{{$index}}" class="panel-collapse collapse">
+                          <div class="panel-body">
+                            <button ng-click="r.TurnOffAllInSubgroup(groupName, subgroupName)">Disable all in {{subgroupName}}</button>
+                            <button ng-click="r.TurnOnAllInSubgroup(groupName, subgroupName)">Enable all in {{subgroupName}}</button>
+                            
+                            <div ng-repeat="item in r.GetItemsInSubGroupForType(groupName, subgroupName)">
+                              <label><img src="{{item.image}}" />{{item.name}}: <input type="checkbox" ng-model="item.enabled" ng-disabled="!item.canDisable" ng-change="r.ItemToggled(item)"></label>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
