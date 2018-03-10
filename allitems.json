@@ -280,14 +280,14 @@
 },
 {
 	"name": "Pig",
-	"image": "Assets/KillerItems/Pig.jpg",
-	"type": "Item",
+	"image": "Assets/Killer/Pig.jpg",
+	"type": "Character",
 	"requirements": [{
-		"requiredName": "Character",
-		"requiredValue": ["Trapper"]
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
 	}],
-	"subGrouping": "Killer Items",
-	"canDisable": false,
+	"subGrouping": "Killer",
+	"canDisable": true,
   "enabled" : true
 },
 {
