@@ -5992,7 +5992,7 @@
 	"requirements": [],
 	"subGrouping": "",
 	"canDisable": true,
-  "enabled" : true
+  "enabled" : false
 },
 {
 	"name": "No Perk ",
@@ -6001,7 +6001,7 @@
 	"requirements": [],
 	"subGrouping": "",
 	"canDisable": true,
-  "enabled" : true
+  "enabled" : false
 },
 {
 	"name": "No Perk  ",
@@ -6010,7 +6010,7 @@
 	"requirements": [],
 	"subGrouping": "",
 	"canDisable": true,
-  "enabled" : true
+  "enabled" : false
 },
 {
 	"name": "No Perk   ",
@@ -6019,5 +6019,5 @@
 	"requirements": [],
 	"subGrouping": "",
 	"canDisable": true,
-  "enabled" : true
+  "enabled" : false
 }]
