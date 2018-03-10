@@ -123,7 +123,7 @@
   "enabled" : true
 },
 {
-	"name": "David",
+	"name": "David King",
 	"image": "Assets/Survivor/David.jpg",
 	"type": "Character",
 	"requirements": [{
@@ -137,6 +137,18 @@
 {
 	"name": "Quentin",
 	"image": "Assets/Survivor/Quentin.jpg",
+	"type": "Character",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "Survivor",
+	"canDisable": true,
+  "enabled" : true
+},
+{
+	"name": "David Tapp",
+	"image": "Assets/Survivor/DavidT.jpg",
 	"type": "Character",
 	"requirements": [{
 		"requiredName": "Role",
@@ -264,6 +276,18 @@
 	}],
 	"subGrouping": "Killer",
 	"canDisable": true,
+  "enabled" : true
+},
+{
+	"name": "Pig",
+	"image": "Assets/KillerItems/Pig.jpg",
+	"type": "Item",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Trapper"]
+	}],
+	"subGrouping": "Killer Items",
+	"canDisable": false,
   "enabled" : true
 },
 {
@@ -2837,6 +2861,210 @@
   "enabled" : true
 },
 {
+	"name": "Combat Straps",
+	"image": "Assets/KillerAddons/Pig_CombatStraps.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Pig"]
+	}],
+	"subGrouping": "Pig",
+	"canDisable": true,
+  "enabled" : true
+},
+{
+	"name": "Crate of Gears",
+	"image": "Assets/KillerAddons/Pig_CrateOfGears.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Pig"]
+	}],
+	"subGrouping": "Pig",
+	"canDisable": true,
+  "enabled" : true
+},
+{
+	"name": "Face Mask",
+	"image": "Assets/KillerAddons/Pig_FaceMask.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Pig"]
+	}],
+	"subGrouping": "Pig",
+	"canDisable": true,
+  "enabled" : true
+},
+{
+	"name": "Interlocking Razor",
+	"image": "Assets/KillerAddons/Pig_InterlockingRazor.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Pig"]
+	}],
+	"subGrouping": "Pig",
+	"canDisable": true,
+  "enabled" : true
+},
+{
+	"name": "Jigsaw's Annotated Plan",
+	"image": "Assets/KillerAddons/Pig_JigsawsAnnotatedPlan.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Pig"]
+	}],
+	"subGrouping": "Pig",
+	"canDisable": true,
+  "enabled" : true
+},
+{
+	"name": "Jigsaw's Sketch",
+	"image": "Assets/KillerAddons/Pig_JigsawsSketch.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Pig"]
+	}],
+	"subGrouping": "Pig",
+	"canDisable": true,
+  "enabled" : true
+},
+{
+	"name": "John's Medical File",
+	"image": "Assets/KillerAddons/Pig_JohnsMedicalFile.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Pig"]
+	}],
+	"subGrouping": "Pig",
+	"canDisable": true,
+  "enabled" : true
+},
+{
+	"name": "Last Will",
+	"image": "Assets/KillerAddons/Pig_LastWill.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Pig"]
+	}],
+	"subGrouping": "Pig",
+	"canDisable": true,
+  "enabled" : true
+},
+{
+	"name": "Razor Wires",
+	"image": "Assets/KillerAddons/Pig_RazorWires.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Pig"]
+	}],
+	"subGrouping": "Pig",
+	"canDisable": true,
+  "enabled" : true
+},
+{
+	"name": "Rules Set No. 2",
+	"image": "Assets/KillerAddons/Pig_RulesSetNo2.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Pig"]
+	}],
+	"subGrouping": "Pig",
+	"canDisable": true,
+  "enabled" : true
+},
+{
+	"name": "Rusty Attachments",
+	"image": "Assets/KillerAddons/Pig_RustyAttachments.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Pig"]
+	}],
+	"subGrouping": "Pig",
+	"canDisable": true,
+  "enabled" : true
+},
+{
+	"name": "Shattered Syringe",
+	"image": "Assets/KillerAddons/Pig_ShatteredSyringe.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Pig"]
+	}],
+	"subGrouping": "Pig",
+	"canDisable": true,
+  "enabled" : true
+},
+{
+	"name": "Slow-Release Toxin",
+	"image": "Assets/KillerAddons/Pig_SlowReleaseToxin.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Pig"]
+	}],
+	"subGrouping": "Pig",
+	"canDisable": true,
+  "enabled" : true
+},
+{
+	"name": "Tampered Timer",
+	"image": "Assets/KillerAddons/Pig_TamperedTimer.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Pig"]
+	}],
+	"subGrouping": "Pig",
+	"canDisable": true,
+  "enabled" : true
+},
+{
+	"name": "Utility Blades",
+	"image": "Assets/KillerAddons/Pig_UtilityBlades.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Pig"]
+	}],
+	"subGrouping": "Pig",
+	"canDisable": true,
+  "enabled" : true
+},
+{
+	"name": "Video Tape",
+	"image": "Assets/KillerAddons/Pig_VideoTape.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Pig"]
+	}],
+	"subGrouping": "Pig",
+	"canDisable": true,
+  "enabled" : true
+},
+{
+	"name": "Workshop Grease",
+	"image": "Assets/KillerAddons/Pig_WorkshopGrease.png",
+	"type": "AddOn",
+	"requirements": [{
+		"requiredName": "Character",
+		"requiredValue": ["Pig"]
+	}],
+	"subGrouping": "Pig",
+	"canDisable": true,
+  "enabled" : true
+},
+{
 	"name": "Wide Lens",
 	"image": "Assets/SurvivorAddons/Flashlight_WideLens.png",
 	"type": "AddOn",
@@ -5168,6 +5396,42 @@
   "enabled" : true
 },
 {
+	"name": "Tenacity",
+	"image": "Assets/SurvivorPerks/Tenacity.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "David Tapp",
+	"canDisable": true,
+  "enabled" : true
+},
+{
+	"name": "Stake Out",
+	"image": "Assets/SurvivorPerks/Stake_Out.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "David Tapp",
+	"canDisable": true,
+  "enabled" : true
+},
+{
+	"name": "Detective's Hunch",
+	"image": "Assets/SurvivorPerks/Detectives_Hunch.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Survivor"]
+	}],
+	"subGrouping": "David Tapp",
+	"canDisable": true,
+  "enabled" : true
+},
+{
 	"name": "A Nurse's Calling",
 	"image": "Assets/KillerPerks/A_Nurse's_Calling.png",
 	"type": "Perk",
@@ -5668,6 +5932,54 @@
 		"requiredValue": ["Killer"]
 	}],
 	"subGrouping": "Killer Generic",
+	"canDisable": true,
+  "enabled" : true
+},
+{
+	"name": "Hangman's Trick",
+	"image": "Assets/KillerPerks/Hangmans_Trick.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Pig",
+	"canDisable": true,
+  "enabled" : true
+},
+{
+	"name": "Hangman's Trick",
+	"image": "Assets/KillerPerks/Hangmans_Trick.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Pig",
+	"canDisable": true,
+  "enabled" : true
+},
+{
+	"name": "Surveillance",
+	"image": "Assets/KillerPerks/Surveillance.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Pig",
+	"canDisable": true,
+  "enabled" : true
+},
+{
+	"name": "Make Your Choice",
+	"image": "Assets/KillerPerks/Make_Your_Choice.png",
+	"type": "Perk",
+	"requirements": [{
+		"requiredName": "Role",
+		"requiredValue": ["Killer"]
+	}],
+	"subGrouping": "Pig",
 	"canDisable": true,
   "enabled" : true
 },
