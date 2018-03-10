@@ -4,6 +4,7 @@
 	"type": "Role",
 	"requirements": [],
 	"subGrouping": "",
+  "canDisable": true,
   "enabled" : true
 },
 {
@@ -12,6 +13,7 @@
 	"type": "Role",
 	"requirements": [],
 	"subGrouping": "",
+  "canDisable": true,
   "enabled" : true
 },
 {
